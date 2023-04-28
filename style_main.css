@@ -1,89 +1,217 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
 
 
 body{
-    width: 100%  ; 
-    background-color: #001e44;
-    background-image: linear-gradient(to bottom, #001024, #001e44);
-    background-repeat: no-repeat;
+  width: 100%  ; 
+  background-color: #001e44;
+  background-image: linear-gradient(to bottom, #001024, #001e44);
+  background-repeat: no-repeat;
 }  
 
-.logo{  
-    width: 320px;
-    height: 200px;
-    margin: auto;
-    /* display: flex;  */
-    /* background-image: url(logobranca.png);  */
-    background-repeat: no-repeat  ;
-    top: 2px;
+.cabecalho{
+width: 100vw;
+height: 30px;
+display: flex;
 }
 
-    
+.ajuda{
+padding:45px;
+/* margin: auto; */
+text-align: left;
+color: #FF6100;
+nav-up: auto;
+}
+
+.ajuda a{
+color: #FF6100;
+}
+
+.espaço{
+padding:400px;
+margin: auto;
+text-align: left;
+}
+
+.sobre{
+padding: 45px;
+/* margin: auto; */
+text-align: right;
+text-decoration: #FF6100;
+}
+
+.sobre a{
+color: #FF6100;
+}
+
+
+.logo{  
+  width: 440px;
+  height: 290px;
+  margin: auto;
+  /* display: flex;  */
+  /* background-image: url(logobranca.png);  */
+  background-repeat: no-repeat  ;
+  top: 0px;
+}
+  
 .div_busca{
-        background-color: white;
-        color: white;
-        border:solid 20px;
-        border-radius:100px;
-        width:500px;
-        height: 8px;
-        margin: auto;
-        margin-top: -100px;
-        top: 120px;
-        position:relative;
-  }
-      #txt_Busca{
-        background-color: transparent;
-        font-style:italic;
-        font-size:13px;
-        border: 1px;
-        border-color: transparent;
-        border-radius:50px;
-        width:250px;
-        height:14px;
-        padding-left: 2%;
-        /* padding: 10px; */
-        /* margin-top: 100px; */
-        display: flex;
-        margin: auto;
-        display: flow-root;
-        top: -10px;
-        float:left;
-      }
+      background-color: white;
+      color: white;
+      border:solid 20px;
+      border-radius:100px;
+      width:500px;
+      height: 12px;
+      margin: auto;
+      margin-top: -110px;
+      top: 150px;
+      position:relative;
+}
+    #txt_Busca{
+      background-color: transparent;
+      font-style:italic;
+      font-size:14px;
+      border: 2px;
+      border-color: transparent;
+      border-radius:50px;
+      width:250px;
+      height:14px;
+      padding-left: 2%;
+      display: flex;
+      margin: auto;
+      display: flow-root;
+      top: -10px;
+      float:left;
+    }
 
-      .search-icon{
+    .search-icon{
+      position: absolute;
+      /* float: right; */
+      width: 23px;
+      height: 23px;
+      /* margin: auto; */
+      top: -15px; 
+      background-color: #FF6100;
+      left: 355px;
+      padding: 8px;
+      border-radius: 100%;
+      color: #FF6100;
+    }
+
+    .carrinho_icon{
         position: absolute;
-        /* float: right; */
-        width: 23px;
-        height: 23px;
-        /* margin: auto; */
-        top: -15px; 
-        background-color: #FF6100;
-        left: 355px;
-        padding: 8px;
-        border-radius: 100%;
-        color: #FF6100;
-      }
-
-      .carrinho_icon{
-          position: absolute;
-          width: 42.9px;
-          height: 42.9px;
-          top: -16.9px;
-          left: 404px;
-          display: flex;
-          background: transparent;  
-        }
-
-      .conta_icon {
-        position: absolute;
-        width: 39px;
-        height: 39px;
-        left: 455px;
+        width: 42.9px;
+        height: 42.9px;
+        top: -16.9px;
+        left: 404px;
         display: flex;
-        top: -15px;
-        ;
+        background: transparent;  
       }
+
+    .conta_icon {
+      position: absolute;
+      width: 39px;
+      height: 39px;
+      left: 455px;
+      display: flex;
+      top: -15px;
+    }
+
+    
+    .inputs{
+      width: 100vw;
+      display: flex;
+      height: 202px;
+    }
+    
+    .imagensbotao{
+      display: flex;
+      width: 100vw;
+      position: absolute;
+      margin: auto;
+    }
+
+    .img1{
+      width: 475px;
+      height: 475px;
+      opacity: 50%;
+      display: block;
+    }
+
+    .div_img1{
+      width: 475px;
+      height: 475px;
+      margin: 2px;
+    }
+
+    .botao1{
+      position: absolute;
+      /* float: right; */
+      width: 23px;
+      height: 23px;
+      /* margin: auto; */
+      background-color: #FF6100;
+      /* left: 355px; */
+      padding: 8px;
+      border-radius: 100%;
+      color: #FF6100;
+    }
+
+    .img2{
+      width: 475px;
+      height: 475px;
+      opacity: 50%;
+      margin: 2px;
+    }
+
+    .div_img2{
+      width: 475px;
+      height: 475px;
+      margin: 2px;
+    }
+
+    .botao2{
+      display: flex;
+    }
+
+    .img3{
+      width: 475px;
+      height: 475px;
+      opacity: 50%;
+      margin: 2px;
+
+    }
+
+    .div_img3{
+      width: 475px;
+      height: 475px;
+      margin: 2px;
+
+    }
+
+    .botao3{
+      display: flex;
+    }
+
+    .img4{
+      width: 475px;
+      height: 475px;
+      opacity: 50%;
+      margin: 2px;
+
+    }
+
+    .div_img4{
+      width: 477px;
+      height: 477px;
+      margin-right: 5px;
+      margin: 2px;
+
+    }
+
+    .botao4{
+      display: flex;
+    }
