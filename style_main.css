@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    width: 100%  ; 
+    background-color: #001e44;
+    background-image: linear-gradient(to bottom, #001024, #001e44);
+    background-repeat: no-repeat;
+}  
+
+.logo{  
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    /* display: flex;  */
+    /* background-image: url(logobranca.png);  */
+    background-repeat: no-repeat  ;
+    top: 2px;
+}
+
+    
+.div_busca{
+        background-color: white;
+        color: white;
+        border:solid 20px;
+        border-radius:100px;
+        width:500px;
+        height: 8px;
+        margin: auto;
+        margin-top: -100px;
+        top: 120px;
+        position:relative;
+  }
+      #txt_Busca{
+        background-color: transparent;
+        font-style:italic;
+        font-size:13px;
+        border: 1px;
+        border-color: transparent;
+        border-radius:50px;
+        width:250px;
+        height:14px;
+        padding-left: 2%;
+        /* padding: 10px; */
+        /* margin-top: 100px; */
+        display: flex;
+        margin: auto;
+        display: flow-root;
+        top: -10px;
+        float:left;
+      }
+
+      .search-icon{
+        position: absolute;
+        /* float: right; */
+        width: 23px;
+        height: 23px;
+        /* margin: auto; */
+        top: -15px; 
+        background-color: #FF6100;
+        left: 355px;
+        padding: 8px;
+        border-radius: 100%;
+        color: #FF6100;
+      }
+
+      .carrinho_icon{
+          position: absolute;
+          width: 42.9px;
+          height: 42.9px;
+          top: -16.9px;
+          left: 404px;
+          display: flex;
+          background: transparent;  
+        }
+
+      .conta_icon {
+        position: absolute;
+        width: 39px;
+        height: 39px;
+        left: 455px;
+        display: flex;
+        top: -15px;
+        ;
+      }

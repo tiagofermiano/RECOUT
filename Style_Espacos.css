@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    width: 100vw; 
+    height: 100vh;  
+    background-color: #002658;
+    background-image: linear-gradient(to bottom, #001024, #002658);
+    margin: auto;
+    background-repeat: no-repeat;
+    
+/* CABEÇALHOS (BARRAS) DO TOP */
+/* CABEÇALHOS (BARRAS) DO TOP */
+/* CABEÇALHOS (BARRAS) DO TOP */
+
+} 
+
+    .cabecalho{
+        width: 100vw;
+        height: 80px;
+        background-color: white;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .cabecalho_2{
+        width: 100vw;
+        height: 45px;
+        background-color: #D9D9D9;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .logo{
+        width: 62px;
+        height: 62px;
+        position: relative;
+        left: 80%;
+        /* top: 20px; */ 
+        /* position: absolute; */
+    }
+
+    .conta{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        left: 1200px;
+        /* top: 20px; */ 
+        /* position: absolute; */
+    }
+
+/* TEXTOS DA BARRA BRANCA */
+/* TEXTOS DA BARRA BRANCA */
+/* TEXTOS DA BARRA BRANCA */
+
+    .txt_espaco{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        transition: 300ms linear;
+        font-size: 9px;
+        color: #FF6100;
+        left: 22%;
+        /* top: 2%; */
+    }
+
+    .txt_espaco:hover {
+        opacity: 0.5;
+        transform: scale(1.05);
+      }
+
+      .linha_espaco {
+        position: absolute;
+        left: 15%;
+        top: 40px;
+        width: 52px;
+        height: 2px;
+        background-color: #FF6100;
+      }
+
+
+    .txt_profissionais{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        transition: 300ms linear;
+        font-size: 9px;
+        left: 34%;
+        /* top: 2%; */
+    }
+
+    .txt_profissionais:hover {
+        opacity: 0.5;
+        transform: scale(0.95);
+      }
+
+    .txt_planos{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        transition: 300ms linear;
+        font-size: 9px;
+        left: 48%;
+        /* top: 2%; */
+    }
+
+    .txt_planos:hover {
+        opacity: 0.5;
+        transform: scale(0.95);
+      }
+
+    .txt_equipamentos{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        transition: 300ms linear;
+        font-size: 9px;
+        left: 58%;
+        /* top: 2%; */
+    }
+
+    .txt_equipamentos:hover {
+        opacity: 0.5;
+        transform: scale(0.95);
+      }
+
+/* TEXTOS DA BARRA CINZA */
+/* TEXTOS DA BARRA CINZA */
+/* TEXTOS DA BARRA CINZA */
+
+    .txt_geral{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        left: 24%;
+    }
+
+    .txt_podcast{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        left: 34%;
+    }
+
+    .txt_musical{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        left: 46%;
+    }
+
+    .txt_videos{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        left: 57%;
+    }
+
+    .txt_streaming{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        left: 68%;
+    }
+
+    .ghost{
+        width: 100vw;
+        height: 45px;
+        background-color: transparent;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }

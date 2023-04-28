@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%; 
+    background-color: #001e44;
+    background-image: linear-gradient(to bottom, #001024, #001e44);
+    background-repeat: no-repeat;
+    }
+
+    .cabecalho{
+        width: 100vw;
+        height: 80px;
+        background-color: white;
+        align-items: center;
+        text-align: center;
+        display: flex;
+            }
+    .txt_espaço{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        /* font-weight: 100; */
+        font-size: 9px ;
+        left: 22%;
+        /* top: 2%; */
+            }
+        
+    .txt_profissionais{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 34%;
+        /* top: 2%; */
+            }
+        
+    .txt_planos{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 48%;
+        /* top: 2%; */
+            }
+        
+    .txt_equipamentos{
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 58%;
+            }
+
+    .logo{
+        width: 62px;
+        height: 62px;
+        position: relative;
+        left: 80%;
+        /* top: 20px; */ 
+        /* position: absolute; */
+            }
+
+    .conta{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        left: 1200px;
+        }   
+
+    .busca{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 1050px;
+        color: #FF6100;
+    }
+        
