@@ -21,7 +21,7 @@ body{
         text-align: center;
         display: flex;
             }
-    .txt_espaço{
+    .txt_espacos{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
@@ -29,6 +29,12 @@ body{
         font-size: 9px ;
         left: 22%;
         /* top: 2%; */
+            }
+
+            .txt_espacos:hover {
+                 opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
             }
         
     .txt_profissionais{
@@ -39,6 +45,13 @@ body{
         left: 34%;
         /* top: 2%; */
             }
+
+            .txt_profissionais:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
         
     .txt_planos{
         display: block;
@@ -48,6 +61,13 @@ body{
         left: 48%;
         /* top: 2%; */
             }
+
+            .txt_planos:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
         
     .txt_equipamentos{
         display: block;
@@ -57,13 +77,26 @@ body{
         left: 58%;
             }
 
+            .txt_equipamentos:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
+
     .logo{
         width: 62px;
         height: 62px;
         position: relative;
-        left: 80%;
+        left: 160%;
+        top: 4px;
         /* top: 20px; */ 
         /* position: absolute; */
+            }
+
+            .logo:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
             }
 
     .conta{
@@ -74,6 +107,11 @@ body{
         left: 1700px;
         }   
 
+            .conta:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
+
     .busca{
         display: block;
         width: 35px;
@@ -82,6 +120,11 @@ body{
         left: 1550px;
         color: #FF6100;
     }
+
+            .busca:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
 
     .logoforms{
         position: relative;
@@ -213,6 +256,14 @@ body{
         line-height: 1.5;
       }
 
+      .divisoria{
+        display: block;
+        border: 1px solid;
+        color: #e0e0e0 ;
+        width: 400px;
+        height: 0px;
+      }
+
       .textooutros{
         display: block;
         position: relative;
@@ -232,6 +283,12 @@ body{
          left: 75px;
       }
 
+            .linkedinlogin:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
+
+
       .googlelogin{
         position: relative;
         width: 60px;
@@ -240,12 +297,24 @@ body{
 
      }
 
+            .googlelogin:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }   
+
+
      .outlooklogin{
         position: relative;
         width: 60px;
         height: 60px;
         left: 125px
      }
+
+            .outlooklogin:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
+
       
  
 
@@ -285,11 +354,6 @@ body{
         -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
         -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
         -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-      }
-      
-
-      .logoforms{
-        
       }
       
       /*------------------------------------------------------------------
@@ -479,6 +543,7 @@ body{
         border-radius: 25px;
         overflow: hidden;
         margin: 0 auto;
+        padding: 1px;
       }
       
       .login100-form-bgbtn {
