@@ -8,11 +8,12 @@ body{
     margin: auto;
     background-repeat: no-repeat;
     
+}
+
 /* CABEÇALHOS (BARRAS) DO TOP */
 /* CABEÇALHOS (BARRAS) DO TOP */
 /* CABEÇALHOS (BARRAS) DO TOP */
 
-} 
 
     .cabecalho{
         width: 100vw;
@@ -33,21 +34,48 @@ body{
     }
 
     .logo{
+        display: block;
+        transition: 100ms linear;
         width: 62px;
         height: 62px;
         position: relative;
         left: 80%;
-        /* top: 20px; */ 
-        /* position: absolute; */
+        color: #FF6100;
+    }
+
+    .logo:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
     }
 
     .conta{
+        display: block;
+        transition: 100ms linear;
         width: 45px;
         height: 45px;
         position: relative;
         left: 1200px;
-        /* top: 20px; */ 
-        /* position: absolute; */
+        color: #FF6100;
+    }
+
+    .conta:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+
+    .busca{
+        display: block;
+        transition: 100ms linear;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 1100px;
+        color: #FF6100;
+    }
+
+    .busca:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
     }
 
 /* TEXTOS DA BARRA BRANCA */
@@ -57,15 +85,14 @@ body{
     .txt_espaco{
         position: absolute;
         font-family: 'Raleway', sans-serif;
-        transition: 300ms linear;
+        transition: 100ms linear;
         font-size: 9px;
         color: #FF6100;
         left: 22%;
-        /* top: 2%; */
     }
 
     .txt_espaco:hover {
-        opacity: 0.5;
+        opacity: 0.8;
         transform: scale(1.05);
       }
 
@@ -82,43 +109,40 @@ body{
     .txt_profissionais{
         position: absolute;
         font-family: 'Raleway', sans-serif;
-        transition: 300ms linear;
+        transition: 100ms linear;
         font-size: 9px;
-        left: 34%;
-        /* top: 2%; */
+        left: 34%; 
     }
 
     .txt_profissionais:hover {
-        opacity: 0.5;
-        transform: scale(0.95);
+        opacity: 0.68;
+        transform: scale(0.98);
       }
 
     .txt_planos{
         position: absolute;
         font-family: 'Raleway', sans-serif;
-        transition: 300ms linear;
+        transition: 100ms linear;
         font-size: 9px;
         left: 48%;
-        /* top: 2%; */
     }
 
     .txt_planos:hover {
-        opacity: 0.5;
-        transform: scale(0.95);
+        opacity: 0.68;
+        transform: scale(0.98);
       }
 
     .txt_equipamentos{
         position: absolute;
         font-family: 'Raleway', sans-serif;
-        transition: 300ms linear;
+        transition: 100ms linear;
         font-size: 9px;
         left: 58%;
-        /* top: 2%; */
     }
 
     .txt_equipamentos:hover {
-        opacity: 0.5;
-        transform: scale(0.95);
+        opacity: 0.68;
+        transform: scale(0.98);
       }
 
 /* TEXTOS DA BARRA CINZA */
