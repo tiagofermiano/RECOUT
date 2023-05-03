@@ -151,40 +151,36 @@ body{
 /* TEXTOS DA BARRA CINZA */
 
     .txt_geral{
+        display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 24%;
     }
 
     .txt_podcast{
+        display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 34%;
     }
 
     .txt_musical{
+        display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 46%;
     }
 
     .txt_videos{
+        display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 57%;
     }
 
     .txt_streaming{
+        display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 68%;
-    }
-
-    .ghost{
-        width: 100vw;
-        height: 45px;
-        background-color: transparent;
-        align-items: center;
-        text-align: center;
-        display: flex;
     }
