@@ -118,13 +118,26 @@ body{
         height: 35px;
         position: relative;
         left: 1550px;
-        color: #FF6100;
+        color: #011E44;
     }
 
             .busca:hover {
                 opacity: 2.5;
                 transform: scale(1.1);
             }
+
+    .caixinha{
+      display: block;
+      width: 50px;
+      height: 40px;
+      position: relative;
+      left: 1730px;
+    }
+
+            .caixinha:hover {
+              opacity: 2.5;
+              transform: scale(1.1);
+              }    
 
     .logoforms{
         position: relative;
