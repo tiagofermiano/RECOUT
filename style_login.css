@@ -101,10 +101,10 @@ body{
 
     .conta{
         display: block;
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
         position: relative;
-        left: 1700px;
+        left: 79vw;
         }   
 
             .conta:hover {
@@ -114,10 +114,10 @@ body{
 
     .busca{
         display: block;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         position: relative;
-        left: 1550px;
+        left: 70vw;
         color: #011E44;
     }
 
@@ -128,10 +128,10 @@ body{
 
     .caixinha{
       display: block;
-      width: 50px;
-      height: 40px;
+      width: 45px;
+      height: 35  px;
       position: relative;
-      left: 1730px;
+      left: 81vw;
     }
 
             .caixinha:hover {
