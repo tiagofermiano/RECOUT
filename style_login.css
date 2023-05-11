@@ -351,7 +351,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  /* left: 75px; */
+  left: 60%;
 }
 
 .linkedinlogin:hover {
@@ -364,7 +364,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  left:30%;
+  left:31%;
 
 }
 
@@ -378,7 +378,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  /* left: 125px */
+  left:2%;
 }
 
 .outlooklogin:hover {
@@ -469,10 +469,11 @@ iframe {
       [ Input ]*/
 
 .wrap-input100 {
-  width: 100%;
+  width: 70%;
   position: relative;
   border-bottom: 2px solid #adadad;
-  margin-bottom: 37px;
+  margin-bottom: 100px;
+  margin: 0 auto;
 }
 
 .input100 {
@@ -482,10 +483,10 @@ iframe {
   line-height: 1.2;
 
   display: block;
-  width: 100%;
+  width: 70%;
   height: 45px;
   background: transparent;
-  padding: 0 5px;
+
 }
 
 /*---------------------------------------------*/
@@ -611,13 +612,13 @@ iframe {
 }
 
 .wrap-login100-form-btn {
-  width: 100%;
+  width: 70%;
   display: block;
   position: relative;
   z-index: 1;
   border-radius: 25px;
   overflow: hidden;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 1px;
 }
 
