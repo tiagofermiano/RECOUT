@@ -157,12 +157,22 @@ body{
         left: 24%;
     }
 
+        .txt_geral:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        }
+
     .txt_podcast{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 34%;
     }
+
+        .txt_podcast:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        }
 
     .txt_musical{
         display: block;
@@ -171,6 +181,11 @@ body{
         left: 46%;
     }
 
+        .txt_musical:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        }
+
     .txt_videos{
         display: block;
         position: absolute;
@@ -178,9 +193,19 @@ body{
         left: 57%;
     }
 
+        .txt_videos:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        }
+
     .txt_streaming{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 68%;
     }
+
+        .txt_streaming:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+        }
