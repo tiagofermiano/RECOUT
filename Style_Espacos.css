@@ -16,12 +16,12 @@ body{
 
 
     .cabecalho{
-        width: 100vw;
+        width: 100%;
         height: 80px;
         background-color: white;
         align-items: center;
         text-align: center;
-        display: grid;
+        display: flex;
     }
 
     .cabecalho_2{
@@ -33,118 +33,123 @@ body{
         display: flex;
     }
 
-    .logo{
+        .txt_espacos{
         display: block;
-        transition: 100ms linear;
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        /* font-weight: 100; */
+        font-size: 9px ;
+        left: 22%;
+        /* top: 2%; */
+            }
+
+            .txt_espacos:hover {
+                 opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+            }
+        
+    .txt_profissionais{
+        display: block;
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 34%;
+        /* top: 2%; */
+            }
+
+            .txt_profissionais:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
+        
+    .txt_planos{
+        display: block;
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 48%;
+        /* top: 2%; */
+            }
+
+            .txt_planos:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
+        
+    .txt_equipamentos{
+        display: block;
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9px ;
+        left: 58%;
+            }
+
+            .txt_equipamentos:hover {
+                opacity: 0.5;
+                transform: scale(0.95);
+                color:#FF6100 ;
+
+             }
+
+    .logo{
         width: 62px;
         height: 62px;
-        left: 5%;
-        position: absolute;
-        color: #FF6100;
-    }
+        position: relative;
+        left: 160%;
+        top: 4px;
+        /* top: 20px; */ 
+        /* position: absolute; */
+            }
 
-    .logo:hover {
-        opacity: 0.8;
-        transform: scale(1.05);
-    }
+            .logo:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
 
     .conta{
         display: block;
-        transition: 100ms linear;
-        width: 45px;
-        height: 45px;
-        right: 3%;
-        position: absolute;
-        color: #FF6100;
-    }
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: 79.2vw;
+        }   
 
-    .conta:hover {
-        opacity: 0.8;
-        transform: scale(1.05);
-    }
+            .conta:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
 
     .busca{
         display: block;
-        transition: 100ms linear;
-        width: 35px;
-        height: 35px;
-        right: 10%;
-        /* top: 3%;
-        position: absolute; */
-        color: #FF6100;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: 70vw;
+        color: #011E44;
     }
 
-    .busca:hover {
-        opacity: 0.8;
-        transform: scale(1.05);
+            .busca:hover {
+                opacity: 2.5;
+                transform: scale(1.1);
+            }
+
+    .caixinha{
+      display: block;
+      width: 45px;
+      height: 35  px;
+      position: relative;
+      left: 81vw;
     }
 
-/* TEXTOS DA BARRA BRANCA */
-/* TEXTOS DA BARRA BRANCA */
-/* TEXTOS DA BARRA BRANCA */
-
-    .txt_espaco{
-        position: absolute;
-        font-family: 'Raleway', sans-serif;
-        transition: 100ms linear;
-        font-size: 9px;
-        color: #FF6100;
-        left: 22%;
-    }
-
-    .txt_espaco:hover {
-        opacity: 0.8;
-        transform: scale(1.05);
-      }
-
-      .linha_espaco {
-        position: absolute;
-        left: 15%;
-        top: 40px;
-        width: 52px;
-        height: 2px;
-        background-color: #FF6100;
-      }
-
-
-    .txt_profissionais{
-        position: absolute;
-        font-family: 'Raleway', sans-serif;
-        transition: 100ms linear;
-        font-size: 9px;
-        left: 34%; 
-    }
-
-    .txt_profissionais:hover {
-        opacity: 0.68;
-        transform: scale(0.98);
-      }
-
-    .txt_planos{
-        position: absolute;
-        font-family: 'Raleway', sans-serif;
-        transition: 100ms linear;
-        font-size: 9px;
-        left: 48%;
-    }
-
-    .txt_planos:hover {
-        opacity: 0.68;
-        transform: scale(0.98);
-      }
-
-    .txt_equipamentos{
-        position: absolute;
-        font-family: 'Raleway', sans-serif;
-        transition: 100ms linear;
-        font-size: 9px;
-        left: 58%;
-    }
-
-    .txt_equipamentos:hover {
-        opacity: 0.68;
-        transform: scale(0.98);
-      }
+            .caixinha:hover {
+              opacity: 2.5;
+              transform: scale(1.1);
+              }    
 
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
