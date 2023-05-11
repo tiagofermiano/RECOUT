@@ -37,10 +37,12 @@ text-align: left;
 }
 
 .sobre{
-padding: 45px;
+padding: 40px;
 /* margin: auto; */
 text-align: right;
 text-decoration: #FF6100;
+width: 10vw;
+
 }
 
 .sobre a{
@@ -135,15 +137,15 @@ color: #FF6100;
     }
 
     .img1{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       opacity: 50%;
       display: block;
     }
 
     .div_img1{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       margin: 2px;
     }
 
@@ -161,15 +163,15 @@ color: #FF6100;
     }
 
     .img2{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       opacity: 50%;
       margin: 2px;
     }
 
     .div_img2{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       margin: 2px;
     }
 
@@ -178,16 +180,16 @@ color: #FF6100;
     }
 
     .img3{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       opacity: 50%;
       margin: 2px;
 
     }
 
     .div_img3{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       margin: 2px;
 
     }
@@ -197,16 +199,16 @@ color: #FF6100;
     }
 
     .img4{
-      width: 30vw;
-      height: 45vh;
+      width: 24vw;
+      height: 40vh;
       opacity: 50%;
       margin: 2px;
 
     }
 
     .div_img4{
-      width: 30vw;
-      height: 45vh; 
+      width: 24vw;
+      height: 40vh;
       margin-right: 5px;
       margin: 2px;
 
