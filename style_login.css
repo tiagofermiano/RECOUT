@@ -10,7 +10,6 @@ body {
   height: 100vh;
   background-color: #002658;
   background-image: linear-gradient(to bottom, #001024, #002658);
-  /* margin: auto; */
   background-repeat: no-repeat;
 
 }
@@ -346,7 +345,6 @@ iframe {
   margin: center;
   position: relative;
   align-items: auto;
-  m
 }
 
 .linkedinlogin {
