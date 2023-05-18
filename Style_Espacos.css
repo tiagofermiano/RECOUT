@@ -40,14 +40,26 @@ body{
         /* font-weight: 100; */
         font-size: 9px ;
         left: 22%;
+        color: #FF6100;
         /* top: 2%; */
             }
 
             .txt_espacos:hover {
                  opacity: 0.5;
                 transform: scale(0.95);
-                color:#FF6100 ;
+                color:#FF6100 ; 
             }
+
+        .barra_seletora{
+            display: block;
+            position: relative;
+            border: 1.5px solid;
+            color:#FF6100;
+            width: 68.8px;
+            height: 0px;
+            left: 22%;
+            top: 38.5px;
+        }
         
     .txt_profissionais{
         display: block;
@@ -100,8 +112,8 @@ body{
         width: 62px;
         height: 62px;
         position: relative;
-        left: 160%;
-        top: 4px;
+        left: 45%;
+        top: 2px;
         /* top: 20px; */ 
         /* position: absolute; */
             }
