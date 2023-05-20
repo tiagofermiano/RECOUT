@@ -352,7 +352,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 60%;
+  left: 59.5%;
   margin-bottom: 2%;
 
 }
@@ -367,7 +367,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 31%;
+  left: 27%;
   margin-bottom: 2%;
 
 }
@@ -382,7 +382,7 @@ iframe {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 2%;
+  right: 5%;
   margin-bottom: 2%;
 
 }
@@ -1130,10 +1130,8 @@ iframe {
 .alternativa {
   position: relative;
   display: flex;
-  padding: 5px;
   top: 10px;
   left: 26%;
-  margin-bottom: 2%;
 }
 
 /*------------------------------------------------------------------
