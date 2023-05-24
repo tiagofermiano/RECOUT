@@ -345,49 +345,49 @@ iframe {
   margin: center;
   position: relative;
   align-items: auto;
-  
+
 }
 
-.linkedinlogin {
+.linkedincadastro {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 60%;
+  left: 59.5%;
   margin-bottom: 2%;
 
 }
 
-.linkedinlogin:hover {
+.linkedincadastro:hover {
   opacity: 2.5;
   transform: scale(1.1);
 }
 
 
-.googlelogin {
+.googlecadastro {
   position: relative;
   width: 60px;
   height: 60px;
-  left:31%;
+  left: 27%;
   margin-bottom: 2%;
 
 }
 
-.googlelogin:hover {
+.googlecadastro:hover {
   opacity: 2.5;
   transform: scale(1.1);
 }
 
 
-.outlooklogin {
+.outlookcadastro {
   position: relative;
   width: 60px;
   height: 60px;
-  left:2%;
+  right: 5%;
   margin-bottom: 2%;
 
 }
 
-.outlooklogin:hover {
+.outlookcadastro:hover {
   opacity: 2.5;
   transform: scale(1.1);
 }
@@ -397,34 +397,28 @@ iframe {
 
 
 /*//////////////////////////////////////////////////////////////////
-      [ login ]*/
+      [ cadastro ]*/
 
 .limiter {
   width: 100%;
   margin: 0 auto;
 }
 
-.container-login100 {
+.containercadastro {
   width: 100%;
   min-height: 80vh;
   display: -webkit-box;
   display: -webkit-flex;
-  /* display: -moz-box; */
-  /* display: -ms-flexbox; */
-  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* padding: 15px; */
-  /* background: #f2f2f2; */
 }
 
-.wrap-login100 {
-  width: 500px;
+.backgroundcadastro {
+  width: 425px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  /* padding: 45px 55px 50px 65px; */
   margin-top: 15px;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -439,11 +433,11 @@ iframe {
 /*------------------------------------------------------------------
       [ Form ]*/
 
-.login100-form {
+.cadastro100-form {
   width: 100%;
 }
 
-.login100-form-title {
+.cadastro100-form-title {
   display: block;
   position: relative;
   padding: 0px;
@@ -456,11 +450,11 @@ iframe {
 
 }
 
-.login100-form-title i {
+.cadastro100-form-title i {
   font-size: 60px;
 }
 
-.login100-formsec {
+.cadastro100-formsec {
   display: block;
   padding: 20px;
   font-family: Raleway;
@@ -482,7 +476,87 @@ iframe {
   margin: 0 auto;
 }
 
+.wrap-input101 {
+  width: 70%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
+.wrap-input102 {
+  width: 70%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
+.wrap-input103 {
+  width: 70%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
+.wrap-input104 {
+  width: 70%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
+.wrap-input105 {
+  width: 70%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
 .input100 {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 70%;
+  height: 45px;
+  background: transparent;
+  margin-top: 8%;
+
+}
+
+.input101 {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 70%;
+  height: 45px;
+  background: transparent;
+  margin-top: 8%;
+}
+
+.input102 {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 70%;
+  height: 45px;
+  background: transparent;
+  margin-top: 8%;
+}
+
+.input103 {
   font-family: Raleway;
   font-size: 15px;
   color: #555555;
@@ -496,7 +570,22 @@ iframe {
 
 }
 
-.input101{
+.input104 {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+  margin-top: 2%;
+
+  display: block;
+  width: 70%;
+  height: 45px;
+  background: transparent;
+  margin-top: 8%;
+
+}
+
+.input105 {
   font-family: Raleway;
   font-size: 15px;
   color: #555555;
@@ -507,6 +596,7 @@ iframe {
   height: 45px;
   background: transparent;
   margin-top: 8%;
+
 }
 
 /*---------------------------------------------*/
@@ -520,7 +610,7 @@ iframe {
   pointer-events: none;
 }
 
-.focus-input101{
+.focus-input101 {
   position: absolute;
   display: block;
   width: 100%;
@@ -529,6 +619,47 @@ iframe {
   left: 0;
   pointer-events: none;
 }
+
+.focus-input102 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input103 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input104 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input105 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
 
 .focus-input100::before {
   content: "";
@@ -551,7 +682,7 @@ iframe {
   background: linear-gradient(left, #001e44, #FF6100);
 }
 
-.focus-input101::before{
+.focus-input101::before {
   content: "";
   display: block;
   position: absolute;
@@ -573,6 +704,92 @@ iframe {
 
 }
 
+.focus-input102::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #001e44, #FF6100);
+  background: -o-linear-gradient(left, #001e44, #FF6100);
+  background: -moz-linear-gradient(left, #001e44, #FF6100);
+  background: linear-gradient(left, #001e44, #FF6100);
+}
+
+.focus-input103::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #001e44, #FF6100);
+  background: -o-linear-gradient(left, #001e44, #FF6100);
+  background: -moz-linear-gradient(left, #001e44, #FF6100);
+  background: linear-gradient(left, #001e44, #FF6100);
+
+}
+
+.focus-input104::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #001e44, #FF6100);
+  background: -o-linear-gradient(left, #001e44, #FF6100);
+  background: -moz-linear-gradient(left, #001e44, #FF6100);
+  background: linear-gradient(left, #001e44, #FF6100);
+}
+
+.focus-input105::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #001e44, #FF6100);
+  background: -o-linear-gradient(left, #001e44, #FF6100);
+  background: -moz-linear-gradient(left, #001e44, #FF6100);
+  background: linear-gradient(left, #001e44, #FF6100);
+}
+
+
 .focus-input100::after {
   font-family: Raleway;
   font-size: 15px;
@@ -593,7 +810,87 @@ iframe {
   transition: all 0.4s;
 }
 
-.focus-input101::after{
+.focus-input101::after {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.focus-input102::after {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.focus-input103::after {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.focus-input104::after {
+  font-family: Raleway;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.focus-input105::after {
   font-family: Raleway;
   font-size: 15px;
   color: #999999;
@@ -628,6 +925,7 @@ iframe {
 .has-val.input100+.focus-input100::before {
   width: 100%;
 }
+
 /* --------------- */
 
 .input101:focus+.focus-input101::after {
@@ -646,7 +944,79 @@ iframe {
   width: 100%;
 }
 
+/* --------------- */
+
+.input102:focus+.focus-input102::after {
+  top: -15px;
+}
+
+.input102:focus+.focus-input102::before {
+  width: 100%;
+}
+
+.has-val.input102+.focus-input102::after {
+  top: -15px;
+}
+
+.has-val.input102+.focus-input102::before {
+  width: 100%;
+}
+
 /*---------------------------------------------*/
+
+.input103:focus+.focus-input103::after {
+  top: -15px;
+}
+
+.input103:focus+.focus-input103::before {
+  width: 100%;
+}
+
+.has-val.input103+.focus-input103::after {
+  top: -15px;
+}
+
+.has-val.input103+.focus-input103::before {
+  width: 100%;
+}
+
+/* --------------- */
+
+.input104:focus+.focus-input104::after {
+  top: -15px;
+}
+
+.input104:focus+.focus-input104::before {
+  width: 100%;
+}
+
+.has-val.input104+.focus-input104::after {
+  top: -15px;
+}
+
+.has-val.input104+.focus-input104::before {
+  width: 100%;
+}
+
+/* --------------- */
+
+.input105:focus+.focus-input105::after {
+  top: -15px;
+}
+
+.input105:focus+.focus-input105::before {
+  width: 100%;
+}
+
+.has-val.input105+.focus-input105::after {
+  top: -15px;
+}
+
+.has-val.input105+.focus-input105::before {
+  width: 100%;
+}
+
+/* --------------- */
 .btn-show-pass {
   font-size: 15px;
   color: #999999;
@@ -689,7 +1059,7 @@ iframe {
 
 /*------------------------------------------------------------------
       [ Button ]*/
-.container-login100-form-btn {
+.container-cadastro100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -702,7 +1072,7 @@ iframe {
   margin-bottom: 1%;
 }
 
-.wrap-login100-form-btn {
+.wrap-cadastro100-form-btn {
   width: 70%;
   display: block;
   position: relative;
@@ -713,7 +1083,7 @@ iframe {
   padding: 1px;
 }
 
-.login100-form-bgbtn {
+.cadastro100-form-bgbtn {
   position: absolute;
   z-index: -1;
   width: 300%;
@@ -732,7 +1102,7 @@ iframe {
   transition: all 1.5s;
 }
 
-.login100-form-btn {
+.cadastro100-form-btn {
   font-family: Raleway;
   font-size: 15px;
   color: #fff;
@@ -751,7 +1121,7 @@ iframe {
   height: 50px;
 }
 
-.wrap-login100-form-btn:hover .login100-form-bgbtn {
+.wrap-cadastro100-form-btn:hover .cadastro100-form-bgbtn {
   left: 0;
 }
 
@@ -760,17 +1130,15 @@ iframe {
 .alternativa {
   position: relative;
   display: flex;
-  padding: 5px;
   top: 10px;
   left: 26%;
-  margin-bottom: 2%;
 }
 
 /*------------------------------------------------------------------
       [ Responsive ]*/
 
 @media (max-width: 576px) {
-  .wrap-login100 {
+  .wrap-cadastro100 {
     padding: 77px 15px 33px 15px;
   }
 }
