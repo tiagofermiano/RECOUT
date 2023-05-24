@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     width: 100vw; 
     height: 100vh;  
     background-color: #002658;
     background-image: linear-gradient(to bottom, #001024, #002658);
-    margin: auto;
+    /* margin: auto; */
     background-repeat: no-repeat;
     
 }
@@ -40,7 +45,7 @@ body{
         /* font-weight: 100; */
         font-size: 9px ;
         left: 22%;
-        color: #FF6100;
+        color:#001024;
         /* top: 2%; */
             }
 
@@ -67,6 +72,7 @@ body{
         font-family: 'Raleway', sans-serif;
         font-size: 9px ;
         left: 34%;
+        color: #FF6100;
         /* top: 2%; */
             }
 
@@ -76,6 +82,17 @@ body{
                 color:#FF6100 ;
 
              }
+
+             .barra_seletora{
+                /* display: block; */
+                position: relative;
+                border: 1.5px solid;
+                color:#FF6100;
+                width: 68.8px;
+                height: 0px;
+                left: 34.8%;
+                top: 38.5px;
+            }
         
     .txt_planos{
         display: block;
@@ -112,7 +129,7 @@ body{
         width: 62px;
         height: 62px;
         position: relative;
-        left: 45%;
+        left: 160%;
         top: 2px;
         /* top: 20px; */ 
         /* position: absolute; */
@@ -167,6 +184,10 @@ body{
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
 
+    .cabecalho_2{
+        width: 100%;
+    }
+
     .txt_geral{
         display: block;
         position: absolute;
@@ -179,50 +200,76 @@ body{
         transform: scale(1.05);
         }
 
-    .txt_podcast{
+    .txt_audio{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 34%;
     }
 
-        .txt_podcast:hover {
+        .txt_audio:hover {
         opacity: 0.8;
         transform: scale(1.05);
         }
 
-    .txt_musical{
+    .txt_estetica{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 46%;
     }
 
-        .txt_musical:hover {
+    .txt_estetica:hover {
         opacity: 0.8;
         transform: scale(1.05);
         }
 
-    .txt_videos{
+    .txt_edicao{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 57%;
     }
 
-        .txt_videos:hover {
+        .txt_edicao:hover {
         opacity: 0.8;
         transform: scale(1.05);
         }
 
-    .txt_streaming{
+    .txt_gravacao{
         display: block;
         position: absolute;
         font-family: 'Raleway', sans-serif;
         left: 68%;
     }
 
-        .txt_streaming:hover {
+        .txt_gravacao:hover {
         opacity: 0.8;
         transform: scale(1.05);
         }
+
+/* INICIO DAS FOTOS DO CATALOGO */
+/* INICIO DAS FOTOS DO CATALOGO */
+/* INICIO DAS FOTOS DO CATALOGO */
+
+
+        .grid_cabecalho{
+            display: grid;
+            margin: auto;
+            padding-top: 25px;
+            width: 90vw;
+            height: 100%;
+            border: red solid 1px;
+        }
+
+    .imgE1{
+        display: grid;
+        width: 350px;
+        height: 350px;
+    }
+
+    .imgE2{
+        display: grid;
+        width: 350px;
+        height: 350px;
+    }
