@@ -265,12 +265,70 @@ body{
         margin: auto;
         margin-top:1%;
         margin-bottom:1%;
+        display: flex;
     }
 
     .img_profissional1{
-        width: 160px;
-        height: 160px;
-        margin-top:0.4%;
+        width: 155px;
+        height: 155px;
+        margin-top:0.1%;
         margin-left: 1%;
         display: flex;
+    }
+
+    .nome_profissional1{
+        margin-top: 1.5%;
+        margin-left: 1%;
+        color:#D9D9D9;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-bottom: 4%;
+    }
+
+    .categoria1{
+        display: block;
+        position: relative;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
+    .txt_categoria1{
+        color: #A6A6A6;
+        display: flex;
+        position: absolute;
+        font-size: 20px;
+        
+
+    }
+    
+    .nome_categoria1{
+        color:#FF6100;
+        display: flex;
+        position: relative;
+        font-size: 20px;
+        left: 30%;
+    }
+
+    .valor1{
+        display: block;
+        position: relative;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
+    .txt_valor1{
+        color: #A6A6A6;
+        display: flex;
+        position: absolute;
+        font-size: 20px;
+        
+
+    }
+    
+    .num_valor1{
+        color:#FF6100;
+        display: flex;
+        position: relative;
+        font-size: 20px;
+        left: 43%;
     }
