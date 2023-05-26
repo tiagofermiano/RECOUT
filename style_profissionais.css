@@ -319,6 +319,7 @@ body{
         display: flex;
         position: absolute;
         font-size: 20px;
+
     }
     
     .nome_categoria1{
@@ -328,6 +329,22 @@ body{
         font-size: 20px;
         left: 30%;
     }
+
+    .nome_categoria2{
+        color:#FF6100;
+        display: flex;
+        position: relative;
+        font-size: 20px;
+        left: 41%;
+    } 
+    
+    .nome_categoria3{
+        color:#FF6100;
+        display: flex;
+        position: relative;
+        font-size: 20px;
+        left: 58%;
+    }   
 
     .valor1{
         display: block;
@@ -351,6 +368,23 @@ body{
         left: 43%;
     }
 
+    .num_valor2{
+        color:#FF6100;
+        display: flex;
+        position: absolute;
+        font-size: 20px;
+        left: 58%;
+    }
+
+
+    .num_valor3{
+        color:#FF6100;
+        display: flex;
+        position: absolute;
+        font-size: 20px;
+        left: 33.5%;
+    }
+
     .estrelas_avaliacao1{
         width: 10%;
         height: 10%;  
@@ -362,12 +396,12 @@ body{
     .botao_contratar1{
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
-        position: absolute;
+        position: relative;
         display: block;
-        width: 13%;
-        height: 6%;
-        left : 73.5%;
-        top: 34%;
+        width: 15%;
+        height: 24%;
+        left : 39%;
+        top: 60%;
         background-color: #001024;
         color: #D9D9D9;
         border-radius: 30px 30px 30px 30px  ;
@@ -381,103 +415,15 @@ body{
         color: #001024;
     }
 
-    /* PROFISSIONAL2 */
-    /* PROFISSIONAL2 */
-    /* PROFISSIONAL2 */
-    /* PROFISSIONAL2 */
-
-    .profissional2{
-        width: 90%;
-        height: 26%;
-        border: #03295B solid 3px;
-        background-color: #03295B;
-        border-radius: 30px 30px 30px 30px ;
-        margin: auto;
-        margin-top:1%;
-        margin-bottom:1%;
-        display: flex;
-    }
-
-    .img_profissional2{
-        width: 15%;
-        height: 95%;
-        margin-top:0.38%;
-        margin-left: 1%;
-        display: flex;
-    }
-
-    .nome_profissional2{
-        margin-top: 1.5%;
-        margin-left: 1%;
-        color:#D9D9D9;
-        font-family: 'Raleway', sans-serif;
-        font-size: 30px;
-        margin-bottom: 4%;
-        max-width: 50%;
-        max-height: 15%;
-    }
-
-    .categoria2{
-        display: block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 4%;
-    }
-
-    .txt_categoria2{
-        color: #A6A6A6;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    .nome_categoria2{
-        color:#FF6100;
-        display: flex;
-        position: relative;
-        font-size: 20px;
-        left: 30%;
-    }
-
-    .valor2{
-        display: block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 3%;
-    }
-
-    .txt_valor2{
-        color: #A6A6A6;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    .num_valor2{
-        color:#FF6100;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        left: 43%;
-    }
-
-    .estrelas_avaliacao2{
-        width: 10%;
-        height: 10%;  
-        left : 75%;
-        position: absolute;
-        display: block;
-    }
-
     .botao_contratar2{
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
-        position: absolute;
+        position: relative;
         display: block;
-        width: 13%;
-        height: 6%;
-        left : 73.5%;
-        top: 62%;
+        width: 15%;
+        height: 24%;
+        left : 44.7%;
+        top: 60%;
         background-color: #001024;
         color: #D9D9D9;
         border-radius: 30px 30px 30px 30px  ;
@@ -485,109 +431,21 @@ body{
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
     }
-    
+
     .botao_contratar2:hover {
         background-color:#FF6100;
         color: #001024;
     }
 
-    /* PROFISSIONAL3 */
-    /* PROFISSIONAL3 */
-    /* PROFISSIONAL3 */
-    /* PROFISSIONAL3 */
-
-    .profissional3{
-        width: 90%;
-        height: 26%;
-        border: #03295B solid 3px;
-        background-color: #03295B;
-        border-radius: 30px 30px 30px 30px ;
-        margin: auto;
-        margin-top:1%;
-        margin-bottom:1%;
-        display: flex;
-    }
-
-    .img_profissional3{
-        width: 15%;
-        height: 95%;
-        margin-top:0.38%;
-        margin-left: 1%;
-        display: flex;
-    }
-
-    .nome_profissional3{
-        margin-top: 1.5%;
-        margin-left: 1%;
-        color:#D9D9D9;
-        font-family: 'Raleway', sans-serif;
-        font-size: 30px;
-        margin-bottom: 4%;
-        max-width: 50%;
-        max-height: 15%;
-    }
-
-    .categoria3{
-        display: block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 4%;
-    }
-
-    .txt_categoria3{
-        color: #A6A6A6;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    .nome_categoria3{
-        color:#FF6100;
-        display: flex;
-        position: relative;
-        font-size: 20px;
-        left: 42%;
-    }
-
-    .valor3{
-        display: block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 3%;
-    }
-
-    .txt_valor3{
-        color: #A6A6A6;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    .num_valor3{
-        color:#FF6100;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        left: 58%;
-    }
-
-    .estrelas_avaliacao3{
-        width: 10%;
-        height: 10%;  
-        left : 75%;
-        position: absolute;
-        display: block;
-    }
-
     .botao_contratar3{
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
-        position: absolute;
+        position: relative;
         display: block;
-        width: 13%;
-        height: 6%;
-        left : 73.5%;
-        top: 89%;
+        width: 15%;
+        height: 24%;
+        left : 49.5%;
+        top: 60%;
         background-color: #001024;
         color: #D9D9D9;
         border-radius: 30px 30px 30px 30px  ;
@@ -595,7 +453,7 @@ body{
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
     }
-    
+
     .botao_contratar3:hover {
         background-color:#FF6100;
         color: #001024;
