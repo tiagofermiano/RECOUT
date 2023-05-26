@@ -27,9 +27,6 @@ body {
     min-height: 100vh;
 } */
 
-.cabecalho_geral {
-    justify-content: center;
-}
 
 .cabecalho {
     width: 100%;
@@ -40,21 +37,13 @@ body {
     display: flex;
 }
 
-.cabecalho2_cor {
-    width: 100vw;
-    height: 7vh;
-    background-color: #D9D9D9;
-
-}
-
 .cabecalho_2 {
     width: 100vw;
-    height: 7vh;
+    height: 45px;
     background-color: #D9D9D9;
     align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    display: flex;
 }
 
 .txt_espacos {
@@ -66,23 +55,15 @@ body {
     left: 22%;
     color: #001024;
     /* top: 2%; */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .txt_espacos:hover {
     opacity: 0.5;
     transform: scale(0.95);
     color: #FF6100;
-}
-
-.barra_seletora {
-    display: block;
-    position: relative;
-    border: 1.5px solid;
-    color: #FF6100;
-    width: 68.8px;
-    height: 0px;
-    left: 22%;
-    top: 38.5px;
 }
 
 .txt_profissionais {
@@ -93,11 +74,14 @@ body {
     left: 34%;
     color: #FF6100;
     /* top: 2%; */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .txt_profissionais:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
+    opacity: 1.5;
+    transform: scale(1.03);
     color: #FF6100;
 
 }
@@ -120,6 +104,9 @@ body {
     font-size: 9px;
     left: 48%;
     /* top: 2%; */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .txt_planos:hover {
@@ -135,6 +122,9 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 58%;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .txt_equipamentos:hover {
@@ -152,6 +142,9 @@ body {
     top: 2px;
     /* top: 20px; */
     /* position: absolute; */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .logo:hover {
@@ -165,6 +158,9 @@ body {
     height: 40px;
     position: relative;
     left: 79.2vw;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .conta:hover {
@@ -179,6 +175,9 @@ body {
     position: relative;
     left: 70vw;
     color: #011E44;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .busca:hover {
@@ -192,6 +191,9 @@ body {
     height: 35 px;
     position: relative;
     left: 81vw;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .caixinha:hover {
@@ -203,11 +205,18 @@ body {
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
 
+.cabecalho_2 {
+    width: 100%;
+}
+
 .txt_geral {
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 24%;
+    color: #FF6100;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .txt_geral:hover {
@@ -216,10 +225,12 @@ body {
 }
 
 .txt_audio {
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 34%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .txt_audio:hover {
@@ -228,10 +239,12 @@ body {
 }
 
 .txt_estetica {
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 46%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .txt_estetica:hover {
@@ -240,10 +253,12 @@ body {
 }
 
 .txt_edicao {
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 57%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .txt_edicao:hover {
@@ -252,10 +267,12 @@ body {
 }
 
 .txt_gravacao {
-    display: flex;
+    display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     left: 68%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .txt_gravacao:hover {
@@ -277,7 +294,7 @@ body {
     grid-column-gap: 30px;
     width: 80%;
     height: 100%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     justify-content: center;
     padding-top: 2%;
 }
@@ -292,6 +309,7 @@ body {
     border-radius: 20px 20px;
     background-color: #002658;
     align-items: center;
+    padding-top: 13.5%;
 }
 
 /* IMAGENS DOS BLOCOS GERAIS */
@@ -300,9 +318,8 @@ body {
     display: block;
     width: 175px;
     height: 175px;
-    border-radius: 10px 25px;
+    border-radius: 10px 25px 10px 25px;
     margin: auto;
     justify-content: center;
     align-items: center;
-    
 }
