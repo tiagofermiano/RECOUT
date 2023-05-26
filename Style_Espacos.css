@@ -6,8 +6,8 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: #001e44;
     background-image: linear-gradient(to bottom, #001024, #001e44);
     /* margin: auto; */
@@ -53,7 +53,7 @@ body {
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
-    color: #001024;
+    color: #FF6100;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -72,7 +72,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 34%;
-    color: #FF6100;
+    color: #001024;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -288,11 +288,11 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
-    width: 80%;
+    grid-row-gap: 50px;
+    grid-column-gap: 70px;
+    width: 60%;
     height: 100%;
     border: red solid 1px;
     justify-content: center;
@@ -311,35 +311,35 @@ body {
     padding: 20px 1px;
     margin: 10px 0;
     position: relative;
-    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
     border-radius: 10px;
     background-color: #2a2b41;
     background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
     font-family: 'Raleway', sans-serif;
-  }
-  
-  .textos {
+}
+
+.textos {
     padding-bottom: 20px;
-  }
-  
-  .textos .preço {
+}
+
+.textos .preço {
     color: white;
     font-weight: 800;
     font-size: 40px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
     text-align: center;
-  }
-  
-  .textos .descrição {
+}
+
+.textos .descrição {
     color: rgba(255, 255, 255, 0.6);
     margin-top: 10px;
     font-size: 12px;
     line-height: 20px;
     padding-left: 15px;
     padding-right: 15px
-  }
-  
-  .textos .titulo {
+}
+
+.textos .titulo {
     font-weight: 800;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.64);
@@ -347,9 +347,9 @@ body {
     font-size: 15px;
     letter-spacing: 1px;
     text-align: center;
-  }
-  
-  botão {
+}
+
+botão {
     color: rgb(255 255 255);
     text-transform: uppercase;
     font-weight: 700;
@@ -361,9 +361,9 @@ body {
     text-shadow: 0px 4px 18px #2c3442;
     cursor: pointer;
     text-align: center;
-  }
-  
-  
+}
+
+
 /* BLOCOS GERAIS */
 
 /* .bloco_1 {
