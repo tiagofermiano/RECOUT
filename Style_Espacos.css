@@ -8,8 +8,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #002658;
-    background-image: linear-gradient(to bottom, #001024, #002658);
+    background-color: #001e44;
+    background-image: linear-gradient(to bottom, #001024, #001e44);
     /* margin: auto; */
     background-repeat: no-repeat;
 
@@ -27,7 +27,7 @@ body {
     min-height: 100vh;
 } */
 
-.cabecalho_geral{
+.cabecalho_geral {
     justify-content: center;
 }
 
@@ -40,12 +40,13 @@ body {
     display: flex;
 }
 
-.cabecalho2_cor{
+.cabecalho2_cor {
     width: 100vw;
     height: 7vh;
     background-color: #D9D9D9;
 
 }
+
 .cabecalho_2 {
     width: 100vw;
     height: 7vh;
@@ -266,28 +267,42 @@ body {
 /* INICIO DAS FOTOS DO CATALOGO */
 /* INICIO DAS FOTOS DO CATALOGO */
 
+/* GRID DE TODOS DOS BLOCOS */
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: auto;
-    padding-top: 45px;
-    padding-bottom: 25px;
-    width: 90vw;
-    height: 120vh;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width: 80%;
+    height: 100%;
     border: red solid 1px;
     justify-content: center;
+    padding-top: 2%;
 }
+
+/* BLOCOS GERAIS */
+
+.bloco_1 {
+
+    display: block;
+    width: 250px;
+    height: 325px;
+    border-radius: 20px 20px;
+    background-color: #002658;
+    align-items: center;
+}
+
+/* IMAGENS DOS BLOCOS GERAIS */
 
 .imgE1 {
-    display: grid;
-    width: 275px;
-    height: 275px;
-    border-radius: 10px 20px;
-    /* justify-content: space-between; */
-    /* max-width: 40%;
-    min-width: 40%;
-    max-height: 60%;
-    max-height: 60%; */
+    display: block;
+    width: 175px;
+    height: 175px;
+    border-radius: 10px 25px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
 }
-
