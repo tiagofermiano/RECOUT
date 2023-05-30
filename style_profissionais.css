@@ -6,8 +6,8 @@
   }
 
 body{
-    width: 100vw; 
-    height: 100vh;  
+    width: 100%;
+    min-height: 100vh;  
     background-color: #002658;
     background-image: linear-gradient(to bottom, #001024, #002658);
     /* margin: auto; */

@@ -6,8 +6,8 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: #001e44;
     background-image: linear-gradient(to bottom, #001024, #001e44);
     /* margin: auto; */
@@ -53,7 +53,7 @@ body {
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
-    color: #001024;
+    color: #FF6100;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -72,7 +72,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 34%;
-    color: #FF6100;
+    color: #001024;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -288,38 +288,178 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
-    width: 80%;
+    grid-row-gap: 50px;
+    grid-column-gap: 70px;
+    width: 60%;
     height: 100%;
-    /* border: red solid 1px; */
+    border: red solid 1px;
     justify-content: center;
     padding-top: 2%;
 }
 
+/* CARDS GERAIS DO CATALOGO */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 325px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    border-radius: 10px;
+    background-color: #2a2b41;
+    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.textos {
+    padding-bottom: 20px;
+}
+
+.textos .preço {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+    text-align: center;
+}
+
+.textos .descrição {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.textos .titulo {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+botão {
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(33 150 243);
+    border-radius: 0.5rem;
+    width: 50%;
+    text-shadow: 0px 4px 18px #2c3442;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* ANIMAÇÕES CARDS */
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 325px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.frontSide,
+.frontSide::before {
+    background-color: #2a2b41;
+    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+}
+
+.backSide,
+.backSide::before {
+    background-color: #2a2b41;
+    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 250px;
+  height: 325px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(20px);
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+
 /* BLOCOS GERAIS */
 
-.bloco_1 {
+/* .bloco_1 {
 
     display: block;
     width: 250px;
-    height: 325px;
+    height: 375px;
     border-radius: 20px 20px;
     background-color: #002658;
     align-items: center;
-    padding-top: 13.5%;
-}
+    padding-top: 6.5%;
+} */
 
 /* IMAGENS DOS BLOCOS GERAIS */
 
 .imgE1 {
     display: block;
-    width: 175px;
-    height: 175px;
+    width: 215px;
+    height: 230px;
     border-radius: 10px 25px 10px 25px;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
+
+/* .txt_bloco1{
+    display: block;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    left: 2%;
+    color: white;
+} */

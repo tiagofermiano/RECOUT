@@ -6,7 +6,8 @@
 
 
 body{
-  width: 100%  ; 
+  width: 100%;
+  min-height: 100vh; 
   background-color: #001e44;
   background-image: linear-gradient(to bottom, #001024, #001e44);
   background-repeat: no-repeat;

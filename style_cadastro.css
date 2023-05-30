@@ -6,8 +6,8 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
   background-color: #002658;
   background-image: linear-gradient(to bottom, #001024, #002658);
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
 }
 
 .cabecalho {
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background-color: white;
   align-items: center;
