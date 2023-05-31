@@ -290,7 +290,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-    grid-row-gap: 50px;
+    grid-row-gap: 170px;
     grid-column-gap: 70px;
     width: 60%;
     height: 100%;
@@ -301,7 +301,7 @@ body {
 
 /* CARDS GERAIS DO CATALOGO */
 
-.card {
+/* .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -316,7 +316,82 @@ body {
     background-color: #2a2b41;
     background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
     font-family: 'Raleway', sans-serif;
-}
+} */
+
+.flip-card {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 250px;
+    height: 325px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 325px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 325px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    border-radius: 10px;
+    background-color: #2a2b41;
+    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+    font-family: 'Raleway', sans-serif;
+    width: 250px;
+    height: 325px;
+  }
+  
+  .flip-card-back {
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 325px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    border-radius: 10px;
+    background-color: #2a2b41;
+    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
+    font-family: 'Raleway', sans-serif;
+    transform: rotateY(180deg);
+  }
+
+  /* FIM DO CARD */
 
 .textos {
     padding-bottom: 20px;
@@ -362,72 +437,6 @@ botão {
     cursor: pointer;
     text-align: center;
 }
-
-/* ANIMAÇÕES CARDS */
-
-.frontSide,
-.backSide {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 250px;
-  height: 325px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 1rem;
-  color: white;
-  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
-  font-weight: 700;
-}
-
-.frontSide,
-.frontSide::before {
-    background-color: #2a2b41;
-    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
-}
-
-.backSide,
-.backSide::before {
-    background-color: #2a2b41;
-    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
-}
-
-.backSide {
-  transform: rotateY(180deg);
-}
-
-.frontSide::before,
-.backSide::before {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  content: '';
-  width: 250px;
-  height: 325px;
-  position: absolute;
-  z-index: -1;
-  border-radius: 1em;
-  filter: blur(20px);
-  animation: animate 5s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0.3;
-  }
-
-  80% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0.3;
-  }
-}
-
 
 /* BLOCOS GERAIS */
 
