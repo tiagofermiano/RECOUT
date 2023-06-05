@@ -245,6 +245,17 @@ body {
 }
 
 
+.barra_divisoria{
+    /* display: block; */
+    position: relative;
+    border: 1.5px solid;
+    color: #FF6100;
+    width: 68.8px;
+    height: 0px;
+    left: 34.8%;
+    top: 38.5px;
+}
+
 .titulo_caixinha{
     border-radius: 30px 30px 30px 30px;
     border: #03295B solid 1px;
