@@ -195,7 +195,7 @@ body {
 
 .box_pagamento{
     display: flex;
-    height: 58% ;
+    height: 60% ;
     width: 500px;
     left: 60%;
 }
@@ -326,7 +326,7 @@ body {
     transform: translateY(0);
    }
 
-.titulo_caixinha{
+.titulo_pagamento{
     border-radius: 30px 30px 30px 30px;
     border: #03295B solid 1px;
     width: 15%;
@@ -339,12 +339,11 @@ body {
     padding: 6px;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 
 
-.item1 {
+.box_icones{
     width: 50%;
     height: 70%;
     border: #03295B solid 3px;
