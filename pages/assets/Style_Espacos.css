@@ -375,6 +375,12 @@ body {
     width: 250px;
     height: 325px;
   }
+
+.imgE1 {
+    display: inline-flex;
+    width: 250px;
+    height: 325px;
+}
   
   .flip-card-back {
     align-items: center;
