@@ -15,7 +15,7 @@ const connection = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
   password: 'root',
-  database: 'bd-node',
+  database: 'recout',
 });
 
 connection.connect(function (err) {
@@ -31,10 +31,10 @@ app.get('/', (req, res) => {
 })
  
 app.post('/login', (req, res) => {
-  let username = req.body.username;
+  let email = req.body.email;
   let password = req.body.password;
   
-  connection.query("SELECT * FROM usuario where email = '" + username + "'" , function (err, rows, fields) {
+  connection.query("SELECT * FROM usuario where email = '" + email + "'" , function (err, rows, fields) {
     console.log("Results:", rows);
     if (!err) {
       if (rows.length > 0) {
