@@ -40,6 +40,7 @@ body {
 
 .txt_espacos {
     display: block;
+    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     /* font-weight: 100; */
@@ -53,18 +54,41 @@ body {
 }
 
 .txt_espacos:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
     transform: scale(0.95);
     color: #FF6100;
 }
 
+a.link_espacos:link {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_espacos:visited {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_espacos:hover {
+    color:#FF6100;
+    opacity: 0.5;
+    transform: scale(0.95);
+    text-decoration: none;
+  }
+  a.link_espacos:active {
+    color:#FF6100;
+    text-decoration: none;
+  }
+
+
 .txt_profissionais {
     display: block;
+    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 34%;
-    color: #FF6100;
+    color: #001024;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -72,25 +96,34 @@ body {
 }
 
 .txt_profissionais:hover {
-    opacity: 1.5;
-    transform: scale(1.03);
+    transform: scale(0.95);
     color: #FF6100;
-
 }
 
-.barra_seletora {
-    /* display: block; */
-    position: relative;
-    border: 1.5px solid;
-    color: #FF6100;
-    width: 68.8px;
-    height: 0px;
-    left: 34.8%;
-    top: 38.5px;
-}
+a.link_profissionais:link {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_profissionais:visited {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_profissionais:hover {
+    color:#FF6100;
+    opacity: 0.5;
+    transform: scale(0.95);
+    text-decoration: none;
+  }
+  a.link_profissionais:active {
+    color:#FF6100;
+    text-decoration: none;
+  }
 
 .txt_planos {
     display: block;
+    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
@@ -110,6 +143,7 @@ body {
 
 .txt_equipamentos {
     display: block;
+    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
@@ -130,6 +164,7 @@ body {
     width: 62px;
     height: 62px;
     position: relative;
+    cursor: pointer;
     left: 160%;
     top: 2px;
     /* top: 20px; */
@@ -140,12 +175,13 @@ body {
 }
 
 .logo:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
+    opacity: 0.5;
+    transform: scale(0.95);
 }
 
 .conta {
     display: block;
+    cursor: pointer;
     width: 40px;
     height: 40px;
     position: relative;
@@ -156,12 +192,13 @@ body {
 }
 
 .conta:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
+    opacity: 0.5;
+    transform: scale(0.95);
 }
 
 .busca {
     display: block;
+    cursor: pointer;
     width: 30px;
     height: 30px;
     position: relative;
@@ -173,12 +210,13 @@ body {
 }
 
 .busca:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
+    opacity: 0.5;
+    transform: scale(0.95);
 }
 
 .caixinha {
     display: block;
+    cursor: pointer;
     width: 45px;
     height: 35 px;
     position: relative;
@@ -189,8 +227,8 @@ body {
 }
 
 .caixinha:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
+    opacity: 0.5;
+    transform: scale(0.95);
 }
 
 .box_pagamento{
@@ -286,10 +324,10 @@ body {
 .botao_continuar {
     appearance: none;
     background-color: transparent;
-    border: 1px solid #001024;
+    border: 3px solid #FF6100;
     border-radius: 30px 30px 30px 30px;
     box-sizing: border-box;
-    color: #D9D9D9;
+    color: #FF6100;
     background-color: #001024 ;
     cursor: pointer;
     display: block;
@@ -310,7 +348,7 @@ body {
     touch-action: manipulation;
     will-change: transform;
    }
-   
+
    .botao_continuar:disabled {
     pointer-events: none;
    }
@@ -321,11 +359,41 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
+
+   /* ANIMAÇÃO DO LINK */
+   /* ANIMAÇÃO DO LINK */
+   /* ANIMAÇÃO DO LINK */
    
    .botao_continuar:active {
     box-shadow: none;
     transform: translateY(0);
    }
+   
+   a.link_continuar:link {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_continuar:visited {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_continuar:hover {
+    color: #001024;
+    background-color:#FF6100;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+  a.link_continuar:active {
+    box-shadow: none;
+    transform: translateY(0);
+    text-decoration: none;
+  }
+
+
+  /* --------------------------------------------- */
 
 .titulo_caixinha{
     border-radius: 30px 30px 30px 30px;
@@ -352,7 +420,7 @@ body {
 .item1{
     max-width: 50%;
     height: 18%;
-    border: #011E44 solid 3px;
+    border:#011E44 solid 10px;
     background-color: #011E44;
     border-radius: 30px 30px 30px 30px;
     margin-left: 3%;
@@ -362,7 +430,7 @@ body {
 }
 
 .img_item1 {
-    width: 15%;
+    width: 20%;
     height: 95%;
     margin-top: 0.38%;
     margin-left: 1%;
@@ -393,7 +461,7 @@ body {
     color: #A6A6A6;
     display: flex;
     position: absolute;
-    font-size: 13px;
+    font-size: 16px;
 
 }
 
@@ -401,7 +469,7 @@ body {
     color: #FF6100;
     display: flex;
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
     left: 20%;
     top: 20%;
 }
@@ -417,20 +485,19 @@ body {
     color: #A6A6A6;
     display: flex;
     position: absolute;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .num_valor1{
     color:#FF6100;
     display: flex;
     position: absolute;
-    font-size: 15px;
-    left: 20%;
+    font-size: 16px;
+    left: 23%;
 
 }
 
 .botao_remover{
-    width: 5000px; 
     left : 75%;
     position: relative;
     display: block;
@@ -448,10 +515,10 @@ body {
 .botao_veritem1 {
     appearance: none;
     background-color: transparent;
-    border: 1px solid #001024;
+    border: 3px solid #FF6100;
     border-radius: 30px 30px 30px 30px;
     box-sizing: border-box;
-    color: #D9D9D9;
+    color: #FF6100;
     background-color: #001024 ;
     cursor: pointer;
     display: block;
@@ -480,7 +547,6 @@ body {
    .botao_veritem1:hover {
     color: #001024;
     background-color:#FF6100;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
@@ -506,7 +572,7 @@ body {
 }
 
 .img_item2 {
-    width: 15%;
+    width: 20%;
     height: 95%;
     margin-top: 0.38%;
     margin-left: 1%;
@@ -578,6 +644,7 @@ body {
     width: 10%; 
     left : 75%;
     position: relative;
+    cursor: pointer;
     display: block;
     margin-top: 5%;
     margin-right: 3%;
@@ -593,10 +660,10 @@ body {
 .botao_veritem2 {
     appearance: none;
     background-color: transparent;
-    border: 1px solid #001024;
+    border: 3px solid #FF6100;
     border-radius: 30px 30px 30px 30px;
     box-sizing: border-box;
-    color: #D9D9D9;
+    color: #FF6100;
     background-color: #001024 ;
     cursor: pointer;
     display: block;
@@ -626,7 +693,6 @@ body {
    .botao_veritem2:hover {
     color: #001024;
     background-color:#FF6100;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
