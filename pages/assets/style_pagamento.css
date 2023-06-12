@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #8B8B8B;
     /* background-image: linear-gradient(to bottom, #001024, #002658); */
@@ -54,10 +54,32 @@ body {
 }
 
 .txt_espacos:hover {
-    opacity: 0.5;
+    /* opacity: 0.5; */
     transform: scale(0.95);
     color: #FF6100;
 }
+
+a.link_espacos:link {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_espacos:visited {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_espacos:hover {
+    color:#FF6100;
+    opacity: 0.5;
+    transform: scale(0.95);
+    text-decoration: none;
+  }
+  a.link_espacos:active {
+    color:#FF6100;
+    text-decoration: none;
+  }
+
 
 .txt_profissionais {
     display: block;
@@ -74,10 +96,30 @@ body {
 }
 
 .txt_profissionais:hover {
-    opacity: 0.5;
     transform: scale(0.95);
     color: #FF6100;
 }
+
+a.link_profissionais:link {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_profissionais:visited {
+    color:#001024;
+    text-decoration:none;
+  }
+
+  a.link_profissionais:hover {
+    color:#FF6100;
+    opacity: 0.5;
+    transform: scale(0.95);
+    text-decoration: none;
+  }
+  a.link_profissionais:active {
+    color:#FF6100;
+    text-decoration: none;
+  }
 
 .txt_planos {
     display: block;
@@ -249,12 +291,12 @@ body {
     cursor: pointer;
     display: block;
     font-family:'Raleway'; 
-    font-size: 22px;
+    font-size: 120%;
     margin: auto;
     margin-top: 8%;
     margin-bottom: 3%;
-    min-height: 15%;
-    min-width: 40%;
+    height: 15%;
+    width: 50%;
     outline: none;
     padding: 17px;
     text-align: center;
@@ -287,7 +329,7 @@ body {
     border: #011E44 solid 1px;
     width: 15%;
     font-family: 'Raleway', bold;
-    font-size: 40px;
+    font-size: 200%;
     color:#FF6100;
     background-color: #011E44;
     margin-left: 3%;
@@ -323,7 +365,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4%;
+    margin-top: 3%;
     padding: 1%;
 }
 
@@ -331,7 +373,7 @@ body {
     color: #D9D9D9;
     margin: center;
     margin-top: 3%;
-    font-size: 30px;
+    font-size: 140%;
     margin-left: 3%;
     font-family:  'Raleway' ;
     /* display: block; */
@@ -441,14 +483,14 @@ body {
     cursor: pointer;
     display: block;
     font-family:'Raleway'; 
-    font-size: 22px;
+    font-size: 100%;
     margin: auto;
     /* margin-top: %; */
     margin-bottom: 3%;
-    min-height: 15%;
-    min-width: 40%;
+    height: 17%;
+    width: 45%;
     outline: none;
-    padding: 17px;
+    /* padding: 0px; */
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
