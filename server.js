@@ -18,6 +18,8 @@ const connection = mysql.createConnection({
   database: 'recout',
 });
 
+console.log (connection)
+
 connection.connect(function (err) {
   if (!err){
     console.log("Conexão como o Banco realizada com sucesso!!!");
@@ -27,7 +29,7 @@ connection.connect(function (err) {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/recout_main.html')
+  res.sendFile(__dirname + '/recout_login.html')
 })
  
 app.post('/login', (req, res) => {
