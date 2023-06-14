@@ -348,7 +348,7 @@ body {
   }
   
   .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2); */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -368,9 +368,9 @@ body {
     height: 325px;
     padding: 20px 1px;
     margin: 10px 0;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    /* box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4); */
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #D9D9D9;
     /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
     font-family: 'Raleway', sans-serif;
     width: 250px;
@@ -391,9 +391,9 @@ body {
     height: 325px;
     padding: 20px 1px;
     margin: 10px 0;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    /* box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4); */
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #D9D9D9;
     color: #001024;
     /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
     font-family: 'Raleway', sans-serif;
@@ -410,7 +410,7 @@ body {
     color: #001024;
     font-weight: 800;
     font-size: 40px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+    /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42); */
     text-align: center;
 }
 
@@ -467,12 +467,13 @@ body {
    .botao:hover {
     color: #001024;
     background-color:#FF6100;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
     transform: translateY(-2px);
+    font-weight: bold
    }
    
    .botao:active {
-    box-shadow: none;
+    /* box-shadow: none; */
     transform: translateY(0);
    }
 
