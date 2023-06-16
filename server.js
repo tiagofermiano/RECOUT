@@ -6,10 +6,9 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
 const path = require('path')
-app.use('/assets', express.static('assets'))
-app.use('/images', express.static('images'))
-app.use('/pages', express.static('pages'))
-app.use('/icones', express.static('icones'))
+app.use('/assets/', express.static('assets'))
+app.use('/images/', express.static('images'))
+app.use('/icones/', express.static('icones'))
 
 const connection = mysql.createConnection({
   host: '127.0.0.1',
@@ -29,7 +28,11 @@ connection.connect(function (err) {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/recout_login.html')
+  res.sendFile(__dirname + '/pages/recout_main.html')
+})
+
+app.get('/login', (req, res) => {
+  res.sendFile(__dirname + '/pages/recout_login.html')
 })
  
 app.post('/login', (req, res) => {
