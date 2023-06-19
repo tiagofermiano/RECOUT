@@ -121,7 +121,7 @@ a.link_profissionais:link {
     text-decoration: none;
   }
 
-.txt_planos {
+.txt_combos {
     display: block;
     cursor: pointer;
     position: absolute;
@@ -134,7 +134,7 @@ a.link_profissionais:link {
     transition-duration: 0.4s;
 }
 
-.txt_planos:hover {
+.txt_combos:hover {
     opacity: 0.5;
     transform: scale(0.95);
     color: #FF6100;

@@ -97,7 +97,7 @@ body {
     top: 38.5px;
 }
 
-.txt_planos {
+.txt_combos {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -109,7 +109,7 @@ body {
     transition-duration: 0.4s;
 }
 
-.txt_planos:hover {
+.txt_combos:hover {
     opacity: 0.5;
     transform: scale(0.95);
     color: #FF6100;

@@ -55,7 +55,7 @@ body {
 
 }
 
-.txt_planos {
+.txt_combos {
   display: block;
   position: absolute;
   font-family: 'Raleway', sans-serif;
@@ -64,7 +64,7 @@ body {
   /* top: 2%; */
 }
 
-.txt_planos:hover {
+.txt_combos:hover {
   opacity: 0.5;
   transform: scale(0.95);
   color: #FF6100;
