@@ -50,19 +50,22 @@ body {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
+    /* text-align: center; */
+    align-items: center;
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
     color: #FF6100;
-    /* top: 2%; */
+    top: 4.5%;
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+    text-decoration: none;
 }
 
 .txt_espacos:hover {
     opacity: 0.5;
-    transform: scale(0.95);
+    transform: scale(1.05);
     color: #FF6100;
 }
 
@@ -77,11 +80,14 @@ body {
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+    top: 4.5%;
+    align-items: center;
+    text-decoration: none;
 }
 
 .txt_profissionais:hover {
-    opacity: 1.5;
-    transform: scale(1.03);
+    opacity: 0.5;
+    transform: scale(0.95);
     color: #FF6100;
 
 }
@@ -104,9 +110,13 @@ body {
     font-size: 9px;
     left: 48%;
     /* top: 2%; */
+    color: #001024;
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+    top: 4.5%;
+    align-items: center;
+    text-decoration: none;
 }
 
 .txt_combos:hover {
@@ -124,7 +134,11 @@ body {
     left: 58%;
     -webkit-transition-duration: 0.4s;
     /* Safari */
+    color: #001024;
     transition-duration: 0.4s;
+    top: 4.5%;
+    align-items: center;
+    text-decoration: none;
 }
 
 .txt_equipamentos:hover {
