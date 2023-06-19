@@ -40,13 +40,12 @@ body {
 
 .txt_espacos {
     display: block;
-    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
-    color: #001024;
+    color: #FF6100;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -54,36 +53,13 @@ body {
 }
 
 .txt_espacos:hover {
-    /* opacity: 0.5; */
+    opacity: 0.5;
     transform: scale(0.95);
     color: #FF6100;
 }
 
-a.link_espacos:link {
-    color:#001024;
-    text-decoration:none;
-  }
-
-  a.link_espacos:visited {
-    color:#001024;
-    text-decoration:none;
-  }
-
-  a.link_espacos:hover {
-    color:#FF6100;
-    opacity: 0.5;
-    transform: scale(0.95);
-    text-decoration: none;
-  }
-  a.link_espacos:active {
-    color:#FF6100;
-    text-decoration: none;
-  }
-
-
 .txt_profissionais {
     display: block;
-    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
@@ -96,34 +72,25 @@ a.link_espacos:link {
 }
 
 .txt_profissionais:hover {
-    transform: scale(0.95);
+    opacity: 1.5;
+    transform: scale(1.03);
     color: #FF6100;
+
 }
 
-a.link_profissionais:link {
-    color:#001024;
-    text-decoration:none;
-  }
-
-  a.link_profissionais:visited {
-    color:#001024;
-    text-decoration:none;
-  }
-
-  a.link_profissionais:hover {
-    color:#FF6100;
-    opacity: 0.5;
-    transform: scale(0.95);
-    text-decoration: none;
-  }
-  a.link_profissionais:active {
-    color:#FF6100;
-    text-decoration: none;
-  }
+.barra_seletora {
+    /* display: block; */
+    position: relative;
+    border: 1.5px solid;
+    color: #FF6100;
+    width: 68.8px;
+    height: 0px;
+    left: 34.8%;
+    top: 38.5px;
+}
 
 .txt_combos {
     display: block;
-    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
@@ -143,7 +110,6 @@ a.link_profissionais:link {
 
 .txt_equipamentos {
     display: block;
-    cursor: pointer;
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
@@ -164,7 +130,6 @@ a.link_profissionais:link {
     width: 62px;
     height: 62px;
     position: relative;
-    cursor: pointer;
     left: 160%;
     top: 2px;
     /* top: 20px; */
@@ -175,13 +140,12 @@ a.link_profissionais:link {
 }
 
 .logo:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
+    opacity: 2.5;
+    transform: scale(1.1);
 }
 
 .conta {
     display: block;
-    cursor: pointer;
     width: 40px;
     height: 40px;
     position: relative;
@@ -192,17 +156,16 @@ a.link_profissionais:link {
 }
 
 .conta:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
+    opacity: 2.5;
+    transform: scale(1.1);
 }
 
 .busca {
     display: block;
-    cursor: pointer;
     width: 30px;
     height: 30px;
     position: relative;
-    left: 72vw;
+    left: 70vw;
     color: #011E44;
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -210,13 +173,12 @@ a.link_profissionais:link {
 }
 
 .busca:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
+    opacity: 2.5;
+    transform: scale(1.1);
 }
 
 .caixinha {
     display: block;
-    cursor: pointer;
     width: 45px;
     height: 35 px;
     position: relative;
@@ -227,8 +189,8 @@ a.link_profissionais:link {
 }
 
 .caixinha:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
+    opacity: 2.5;
+    transform: scale(1.1);
 }
 
 .box_pagamento{

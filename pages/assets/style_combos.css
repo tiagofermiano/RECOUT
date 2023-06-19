@@ -53,7 +53,7 @@ body {
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
-    color: #001024;
+    color: #FF6100;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -102,7 +102,6 @@ body {
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
-    color: #FF6100;
     left: 48%;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
