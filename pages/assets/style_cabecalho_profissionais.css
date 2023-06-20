@@ -32,7 +32,7 @@
     /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
-    color: #FF6100;
+    color: #001024;
     top: 4.5%;
     -webkit-transition-duration: 0.4s;
     /* Safari */
@@ -42,7 +42,7 @@
 
 .txt_espacos:hover {
     opacity: 0.5;
-    transform: scale(1.05);
+    transform: scale(0.95);
     color: #FF6100;
 }
 
@@ -52,7 +52,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 34%;
-    color: #001024;
+    color: #FF6100;
     /* top: 2%; */
     -webkit-transition-duration: 0.4s;
     /* Safari */
