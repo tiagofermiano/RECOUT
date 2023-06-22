@@ -55,50 +55,77 @@ body {
 } */
 
 .card {
-  width: 190px;
-  height: 254px;
+  width: 200px;
+  height: 300px;
   border-radius: 20px;
-  background: #f5f5f5;
+  background: #D9D9D9;
   position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
+  font-family: 'Raleway', sans-serif;
+  padding: 25px;
+  border: 2px solid white;
   transition: 0.5s ease-out;
   overflow: visible;
  }
  
  .card-details {
-  color: black;
+  color: #011E44;
   height: 100%;
   gap: .5em;
   display: grid;
-  place-content: center;
+  /* place-content: center; */
+  margin-bottom: 20%;
  }
  
  .card-button {
   transform: translate(-50%, 125%);
   width: 60%;
-  border-radius: 1rem;
+  height: 10%;
+  border-radius: 30px 30px 30px 30px;
   border: none;
   background-color: #FF6100;
   color: #fff;
-  font-size: 1rem;
-  padding: .5rem 1rem;
+  font-size: 16px ;
+  font-family: 'Raleway', sans-serif;
   position: absolute;
   left: 50%;
   bottom: 0;
   opacity: 0;
   transition: 0.3s ease-out;
  }
+
+.preco{
+    display: flex;
+}
+
+.img_produto{
+    width: 99%;
+}
  
- .text-body {
-  color: rgb(134, 134, 134);
+ .txt_preco1 {
+  color: #FF6100;
+  font-size: 33px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  width: 60%;
+
  }
+
+ .txt_preco2 {
+    color: #8f8f8f;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    display: flex;
+   }
  
  /*Text*/
- .text-title {
-  font-family: ;
-  font-size: 1.5em;
-  font-weight: bold;
+ .txt_titulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  top: 0%;
+  position: relative;
  }
  
  /*Hover*/
