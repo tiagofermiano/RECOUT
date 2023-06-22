@@ -47,7 +47,6 @@ body {
     grid-column-gap: 70px;
     width: 66%;
     height: 100%;
-    border: red solid 1px;
     justify-content: center;
     padding-top: 2%;
 }
