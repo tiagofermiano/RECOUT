@@ -15,6 +15,23 @@ body {
 
 }
 
+.titulo_combos{
+  color: #D9D9D9;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;   
+  font-size: 38px;
+}
+
+.subtitulo_combos{
+  color: #D9D9D9;
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+
 /* INICIO DAS FOTOS DO CATALOGO */
 /* INICIO DAS FOTOS DO CATALOGO */
 /* INICIO DAS FOTOS DO CATALOGO */

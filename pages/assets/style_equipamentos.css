@@ -15,6 +15,23 @@ body {
 
 }
 
+.titulo_equipamentos{
+    color: #D9D9D9;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;   
+    font-size: 38px;
+}
+
+.subtitulo_equipamentos{
+    color: #D9D9D9;
+    text-align: center;
+    margin-top: 0.5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
 /* INICIO DAS FOTOS DO CATALOGO */
 /* INICIO DAS FOTOS DO CATALOGO */
 /* INICIO DAS FOTOS DO CATALOGO */
@@ -30,7 +47,6 @@ body {
     grid-column-gap: 70px;
     width: 60%;
     height: 100%;
-    /* border: red solid 1px; linha pra medir os lados da pagina*/ 
     justify-content: center;
     padding-top: 3%;
 }
