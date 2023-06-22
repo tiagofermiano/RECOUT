@@ -42,11 +42,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
+    margin-bottom: 15%;
     grid-row-gap: 170px;
     grid-column-gap: 70px;
     width: 60%;
     height: 100%;
-    /* border: red solid 1px; linha pra medir os lados da pagina*/ 
     justify-content: center;
     padding-top: 2%;
 }
@@ -105,7 +105,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 250px;
-    height: 325px;
+    height: 300px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border: 1px solid linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
@@ -116,7 +116,7 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 250px;
-    height: 325px;
+    height: 300px;
     padding: 20px 1px;
     margin: 10px 0;
     border-radius: 20px;
@@ -153,7 +153,7 @@ body {
   /* FIM DO CARD */
 
 .textos {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .textos .preço {

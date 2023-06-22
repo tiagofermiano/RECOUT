@@ -5,12 +5,18 @@
     padding: 0;
 }
 
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
 
 .cabecalho_2 {
-    width: 100%;
+    width: 100vw;
 }
 
 .txt_geral {
@@ -28,7 +34,7 @@
     transform: scale(1.05);
 }
 
-.txt_audio {
+.txt_podcast {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -37,12 +43,12 @@
     transition-duration: 0.4s;
 }
 
-.txt_audio:hover {
+.txt_podcast:hover {
     opacity: 0.8;
     transform: scale(1.05);
 }
 
-.txt_estetica {
+.txt_musical {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -51,12 +57,12 @@
     transition-duration: 0.4s;
 }
 
-.txt_estetica:hover {
+.txt_musical:hover {
     opacity: 0.8;
     transform: scale(1.05);
 }
 
-.txt_edicao {
+.txt_videos {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -65,12 +71,12 @@
     transition-duration: 0.4s;
 }
 
-.txt_edicao:hover {
+.txt_videos:hover {
     opacity: 0.8;
     transform: scale(1.05);
 }
 
-.txt_gravacao {
+.txt_streaming {
     display: block;
     position: absolute;
     font-family: 'Raleway', sans-serif;
@@ -79,7 +85,7 @@
     transition-duration: 0.4s;
 }
 
-.txt_gravacao:hover {
+.txt_streaming:hover {
     opacity: 0.8;
     transform: scale(1.05);
 }
