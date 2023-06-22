@@ -43,40 +43,22 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     margin-bottom: 12%;
-    grid-row-gap: 170px;
+    grid-row-gap: 100px;
     grid-column-gap: 70px;
-    width: 60%;
+    width: 66%;
     height: 100%;
-    /* border: red solid 1px; linha pra medir os lados da pagina*/ 
+    border: red solid 1px;
     justify-content: center;
     padding-top: 2%;
 }
 
-/* CARDS GERAIS DO CATALOGO */
-
-/* .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 250px;
-    height: 325px;
-    padding: 20px 1px;
-    margin: 10px 0;
-    position: relative;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
-    border-radius: 10px;
-    background-color: #2a2b41;
-    background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%);
-    font-family: 'Raleway', sans-serif;
-} */
-
 .flip-card {
     background-color: transparent;
-    width: 190px;
-    height: 254px;
+    width: 250px;
+    height: 325px;
     perspective: 1000px;
     font-family: sans-serif;
+    margin: auto;
   }
   
   .title {
@@ -116,16 +98,12 @@ body {
   .flip-card-front {
     align-items: center;
     justify-content: space-around;
-    width: 250px;
-    height: 325px;
-    padding: 20px 1px;
-    margin: 10px 0;
-    /* box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4); */
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 20px;
     background-color: #D9D9D9;
     /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
     font-family: 'Raleway', sans-serif;
-    width: 250px;
+    width: 200px;
     height: 325px;
     color: #001024;
   }
@@ -142,8 +120,6 @@ body {
     width: 250px;
     height: 325px;
     padding: 20px 1px;
-    margin: 10px 0;
-    /* box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4); */
     border-radius: 10px;
     background-color: #D9D9D9;
     color: #001024;
