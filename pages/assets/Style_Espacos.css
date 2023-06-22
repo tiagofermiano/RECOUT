@@ -119,7 +119,6 @@ body {
     height: 325px;
     padding: 20px 1px;
     margin: 10px 0;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
     border-radius: 20px;
     border: white 2px solid;
     background-color: #D9D9D9 ;
@@ -143,8 +142,8 @@ body {
     height: 325px;
     padding: 20px 1px;
     margin: 10px 0;
-    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
     border-radius: 20px;
+    border: #FF6100 2px solid;
     background-color: #D9D9D9;
     /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
     font-family: 'Raleway', sans-serif;
@@ -161,27 +160,16 @@ body {
     color: #001024;
     font-weight: 800;
     font-size: 40px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
     text-align: center;
 }
 
 .textos .descrição {
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 10px;
-    font-size: 12px;
+    color: #001024;
+    margin-top: 5%;
+    font-size: 15px;
     line-height: 20px;
     padding-left: 15px;
     padding-right: 15px
-}
-
-.textos .titulo {
-    font-weight: 800;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.64);
-    margin-top: 8px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
 .botao {
@@ -196,8 +184,7 @@ body {
     display: block;
     font-family:'Raleway'; 
     font-size: 16px;
-    margin-left: 35%;
-    margin-top: 10%;
+    /* margin-left: 35%; */
     min-height: 15%;
     min-width: 150px;
     outline: none;
@@ -218,7 +205,6 @@ body {
    .botao:hover {
     color: #001024;
     background-color:#FF6100;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
