@@ -291,12 +291,35 @@ body{
 /* //FIM DO CABECALHO */
 /* //FIM DO CABECALHO */
 
+.titulo_profissionais {
+    color: #D9D9D9;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+  }
+  
+  .subtitulo_profissionais {
+    color: #D9D9D9;
+    text-align: center;
+    margin-top: 0.5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+  }
 
-    .catalogo_profissionais{
-        width: 92%;
-        /* height: 70%; */
-        margin: auto;
-        margin-top: 1.5%;   
+
+    .wrapper{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: auto;
+            margin-bottom: 12%;
+            grid-row-gap: 30px;
+            grid-column-gap: 0px;
+            width: 65%;
+            height: 100vh;
+            justify-content: center;
+            padding-top: 3%;
     }
 
     /* PROFISSIONAL1 */
@@ -304,27 +327,26 @@ body{
     /* PROFISSIONAL1 */
     /* PROFISSIONAL1 */
 
-    .profissional1{
-        width: 90%;
-        height: 26%;
+    .profissional{
+        width: 100%;
+        height: 100%;
         border: #03295B solid 3px;
         background-color: #03295B;
         border-radius: 30px 30px 30px 30px ;
         margin: auto;
-        margin-top:1%;
-        margin-bottom:1%;
         display: flex;
+        position: relative;
     }
 
-    .img_profissional1{
-        width: 15%;
-        height: 95%;
-        margin-top:0.38%;
-        margin-left: 1%;
+    .img_profissional{
+        width: 20%;
+        height: 85%;
+        padding: 2%;
         display: flex;
+        position: relative;
     }
 
-    .nome_profissional1{
+    .nome_profissional{
         margin-top: 1.5%;
         margin-left: 1%;
         color:#D9D9D9;
@@ -333,156 +355,76 @@ body{
         margin-bottom: 4%;
         max-width: 50%;
         max-height: 15%;
+        position: relative;
+        display: inline-block;
     }
 
-    .categoria1{
-        display: block;
+    .categoria{
+        display: inline-block;
         position: relative;
         margin-left: 1%;
         margin-top: 4%;
     }
 
-    .txt_categoria1{
+    .txt_categoria{
+        color: #A6A6A6;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+    }
+    
+    .nome_categoria{
+        color:#FF6100;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .valor{
+        display: block;
+        position: relative;
+    }
+
+    .txt_valor{
         color: #A6A6A6;
         display: flex;
-        position: absolute;
+        position: relative;
         font-size: 20px;
-
     }
     
-    .nome_categoria1{
+    .num_valor{
         color:#FF6100;
         display: flex;
         position: relative;
         font-size: 20px;
-        left: 30%;
     }
 
-    .nome_categoria2{
-        color:#FF6100;
-        display: flex;
+    .estrelas_avaliacao{
+        width: 18%;
+        height: 40%; 
         position: relative;
-        font-size: 20px;
-        left: 41%;
-    } 
-    
-    .nome_categoria3{
-        color:#FF6100;
-        display: flex;
-        position: relative;
-        font-size: 20px;
-        left: 58%;
-    }   
-
-    .valor1{
         display: block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 3%;
+        left: 5%;
+        bottom: 5%;
     }
 
-    .txt_valor1{
-        color: #A6A6A6;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-    }
-    
-    .num_valor1{
-        color:#FF6100;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        left: 43%;
-    }
-
-    .num_valor2{
-        color:#FF6100;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        left: 58%;
-    }
-
-
-    .num_valor3{
-        color:#FF6100;
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        left: 33.5%;
-    }
-
-    .estrelas_avaliacao1{
-        width: 10%;
-        height: 10%;  
-        left : 75%;
-        position: absolute;
-        display: block;
-    }
-
-    .botao_contratar1{
+    .botao_contratar{
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         position: relative;
         display: block;
-        width: 15%;
+        width: 45%;
         height: 24%;
-        left : 39%;
-        top: 60%;
+        margin-top: auto;
         background-color: #001024;
         color: #D9D9D9;
-        border-radius: 30px 30px 30px 30px  ;
+        border-radius: 30px 30px 30px 30px;
         border-color: #001024;
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
     }
     
-    .botao_contratar1:hover {
-        background-color:#FF6100;
-        color: #001024;
-    }
-
-    .botao_contratar2{
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        position: relative;
-        display: block;
-        width: 15%;
-        height: 24%;
-        left : 44.7%;
-        top: 60%;
-        background-color: #001024;
-        color: #D9D9D9;
-        border-radius: 30px 30px 30px 30px  ;
-        border-color: #001024;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-    }
-
-    .botao_contratar2:hover {
-        background-color:#FF6100;
-        color: #001024;
-    }
-
-    .botao_contratar3{
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        position: relative;
-        display: block;
-        width: 15%;
-        height: 24%;
-        left : 49.5%;
-        top: 60%;
-        background-color: #001024;
-        color: #D9D9D9;
-        border-radius: 30px 30px 30px 30px  ;
-        border-color: #001024;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-    }
-
-    .botao_contratar3:hover {
+    .botao_contratar:hover {
         background-color:#FF6100;
         color: #001024;
     }
