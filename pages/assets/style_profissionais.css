@@ -327,103 +327,87 @@ body{
     /* PROFISSIONAL1 */
     /* PROFISSIONAL1 */
 
-    .profissional{
-        width: 100%;
-        height: 30%;
-        border: #03295B solid 3px;
-        background-color: #03295B;
-        border-radius: 30px 30px 30px 30px ;
-        display: flex;
+    .card {
+        width: 750px;
+        height: 150px;
+        border-radius: 20px;
+        background: #D9D9D9;
         position: relative;
-    }
-
-    .img_profissional{
-        width: 20%;
-        height: 85%;
-        padding: 2%;
-        display: block;
-        position: relative;
-    }
-
-    .nome_profissional{
-        margin-top: 1.5%;
-        margin-left: 1%;
-        color:#D9D9D9;
         font-family: 'Raleway', sans-serif;
-        font-size: 30px;
-        margin-bottom: 4%;
-        max-width: 50%;
-        max-height: 15%;
-        position: relative;
-        display: inline-block;
-    }
-
-    .categoria{
-        display: inline-block;
-        position: relative;
-        margin-left: 1%;
-        margin-top: 4%;
-    }
-
-    .txt_categoria{
-        color: #A6A6A6;
-        display: inline-block;
-        position: relative;
-        font-size: 20px;
-    }
-    
-    .nome_categoria{
-        color:#FF6100;
-        display: inline-block;
-        position: relative;
-        font-size: 20px;
-    }
-
-    .valor{
-        display: block;
-        position: relative;
-    }
-
-    .txt_valor{
-        color: #A6A6A6;
-        display: flex;
-        position: relative;
-        font-size: 20px;
-    }
-    
-    .num_valor{
-        color:#FF6100;
-        display: flex;
-        position: relative;
-        font-size: 20px;
-    }
-
-    .estrelas_avaliacao{
-        width: 18%;
-        height: 40%; 
-        position: relative;
-        display: block;
-        left: 5%;
-        bottom: 5%;
-    }
-
-    .botao_contratar{
-        font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        position: relative;
-        display: block;
-        width: 45%;
-        height: 24%;
-        margin-top: auto;
-        background-color: #001024;
-        color: #D9D9D9;
+        padding: 25px;
+        border: 2px solid white;
+        transition: 0.5s ease-out;
+        overflow: visible;
+       }
+       
+       .card-details {
+        color: #011E44;
+        height: 100%;
+        gap: .5em;
+        display: grid;
+        /* place-content: center; */
+        margin-bottom: 20%;
+       }
+       
+       .card-button {
+        transform: translate(-50%, 125%);
+        width: 60%;
+        height: 10%;
         border-radius: 30px 30px 30px 30px;
-        border-color: #001024;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-    }
-    
-    .botao_contratar:hover {
-        background-color:#FF6100;
-        color: #001024;
-    }
+        border: none;
+        background-color: #FF6100;
+        color: #fff;
+        font-size: 16px ;
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        opacity: 0;
+        transition: 0.3s ease-out;
+       }
+      
+      .preco{
+          display: flex;
+      }
+      
+      .img_produto{
+          width: 20%;
+      }
+       
+       .txt_preco1 {
+        color: #FF6100;
+        font-size: 33px;
+        font-weight: bold;
+        position: relative;
+        display: flex;
+        width: 60%;
+      
+       }
+      
+       .txt_preco2 {
+          color: #8f8f8f;
+          font-size: 20px;
+          position: relative;
+          top: 20%;
+          text-align: center;
+          display: flex;
+         }
+       
+       /*Text*/
+       .txt_titulo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        top: 0%;
+        position: relative;
+       }
+       
+       /*Hover*/
+       .card:hover {
+        border-color: #FF6100;
+        box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+       }
+       
+       .card:hover .card-button {
+        transform: translate(-50%, 50%);
+        opacity: 1;
+       }  
