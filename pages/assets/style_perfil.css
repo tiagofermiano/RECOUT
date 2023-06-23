@@ -205,23 +205,24 @@ body {
 .itens_cima{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* margin-left: 4%; */
+    /* left: 4%; */
     grid-row-gap: 15px;
-    grid-column-gap: 120px;
-    width: 100vw;
+    grid-column-gap: 350px;
+    width: 100%;
     height: 100%;
     justify-content: center;
     padding-top: 3%;
 }
 
 .itens_esquerda{
-    margin-left: 4%;
-    width: 100%;
+    margin-left: 15%;
+    width: 70%;
 
 }
 
 .itens_direita{
     display: flex;
+    margin-left: 15%;
 }
 
 .box_usuario{
