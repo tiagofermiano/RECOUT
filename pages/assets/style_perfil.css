@@ -15,9 +15,76 @@ body {
 
 }
 
-.itens_esquerda{
-    margin-left: 5%;
+.itens_cima{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 4%;
+    grid-row-gap: 15px;
+    grid-column-gap: 120px;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    padding-top: 3%;
 }
+
+.itens_esquerda{
+    margin-left: 4%;
+    width: 100%;
+
+}
+
+.itens_direita{
+    display: flex;
+}
+
+.box_usuario{
+    width: 300px;
+    height: 90px;
+    border-radius: 20px;
+    background: #011E44;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    padding: 22px;
+    /* border: 2px solid ; */
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-top: 3%;
+   }
+   
+   .box_details {
+    color: #011E44;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    /* place-content: center; */
+    margin-bottom: 20%;
+   }
+  
+  
+  .img_perfil{
+      width: 20%;
+  }
+   
+   .txt_descricao {
+    color: #001024;
+    font-size: 15px;
+    /* font-weight: bold; */
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin-top: 1%;
+  
+   }
+   
+   /*Nome*/
+   .txt_nome {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: relative;
+    font-weight: 500;
+    color: #FF6100;
+   }
+  
 
 .titulo_perfil{
     color: #FF6100;
