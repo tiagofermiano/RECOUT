@@ -207,7 +207,7 @@ body {
     grid-template-columns: 1fr 1fr;
     /* left: 4%; */
     grid-row-gap: 15px;
-    grid-column-gap: 350px;
+    grid-column-gap: 490px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -222,12 +222,11 @@ body {
 
 .itens_direita{
     display: flex;
-    margin-left: 15%;
-}
-
-.box_usuario{
+    /* margin-left: 15%; */
     width: 300px;
-    height: 90px;
+    height: 50px;
+    justify-content: center;
+    padding-top: 3%;
     border-radius: 20px;
     background: #011E44;
     position: relative;
@@ -237,10 +236,21 @@ body {
     transition: 0.5s ease-out;
     overflow: visible;
     margin-top: 3%;
+    
+}
+
+.box_usuario{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* left: 4%; */
+  grid-row-gap: 15px;
+  grid-column-gap: 40px;
+  
+
    }
    
    .box_details {
-    color: #011E44;
+    color: #797979;
     height: 100%;
     gap: .5em;
     display: grid;
@@ -250,7 +260,9 @@ body {
   
   
   .img_perfil{
-      width: 20%;
+      width: 18%;
+      margin-left: 12%;
+      /* display: flex; */
   }
    
    .txt_descricao {
@@ -259,7 +271,7 @@ body {
     /* font-weight: bold; */
     position: relative;
     display: flex;
-    width: 60%;
+    width: 100%;
     margin-top: 1%;
   
    }
@@ -270,7 +282,8 @@ body {
     font-size: 20px;
     position: relative;
     font-weight: 500;
-    color: #FF6100;
+    color: #D9D9D9;
+    width: 100%;
    }
   
 
@@ -280,7 +293,7 @@ body {
     margin-top: 4%;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;   
-    font-size: 38px;
+    font-size: 40px;
 }
 
 .subtitulo_perfil{
@@ -288,7 +301,11 @@ body {
     /* text-align: center; */
     margin-top: 0.5%;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.wrapper_unidos{
+  display: block;
 }
 
 /* INICIO DO CATALOGO */
@@ -298,19 +315,20 @@ body {
 /* GRID DE TODOS DOS BLOCOS */
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 5%;
-    margin-bottom: 12%;
-    grid-row-gap: 15px;
-    grid-column-gap: 70px;
-    width: 30%;
-    height: 100%;
-    justify-content: center;
-    padding-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 5%;
+  margin-bottom: 12%;
+  grid-row-gap: 15px;
+  grid-column-gap: 70px;
+  height: 100%;
+  max-width: 25%;
+  justify-content: center;
+  padding-top: 2%;
 }
 
 .card {
+  display: flex;
   width: 300px;
   height: 120px;
   border-radius: 20px;
@@ -327,7 +345,6 @@ body {
   color: #011E44;
   height: 100%;
   gap: .5em;
-  display: grid;
   /* place-content: center; */
   margin-bottom: 20%;
  }
@@ -351,11 +368,12 @@ body {
  /*Text*/
  .txt_titulo {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
   font-weight: 500;
   color: #FF6100;
  }
+
  
  /*Hover*/
  .card:hover {
@@ -364,4 +382,68 @@ body {
  }
 
   /* FIM DO CARD */
+  /* FIM DO CARD */
+  /* FIM DO CARD */
+
+   .wrapper_historico {
+    display: flex;
+    position: absolute;
+    /* display: grid; */
+    /* grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-bottom: 12%;
+    grid-row-gap: 15px;
+    grid-column-gap: 70px;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2%; */
+}
+
+.box_historico {  
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  padding: 22px;
+  border: 2px solid white;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .historico_details {
+  color: #011E44;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  /* place-content: center; */
+  margin-bottom: 20%;
+ }
+
+
+.img_item{
+    width: 20%;
+}
+ 
+ .txt_descricaoitem {
+  color: #001024;
+  font-size: 15px;
+  /* font-weight: bold; */
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+
+ }
+ 
+ /*Text*/
+ .txt_nomeitem {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  position: relative;
+  font-weight: 500;
+  color: #FF6100;
+ }
 
