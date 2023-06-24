@@ -444,11 +444,10 @@ body {
   color: #D9D9D9;
   background-color: #001024;
   cursor: pointer;
-  display: block;
+  /* display: block; */
   font-family: 'Raleway';
   font-size: 16px;
-  /* margin-left: 35%; */
-  /* margin-top: 10%; */
+  max-block-size: 10px;
   min-height: 15%;
   min-width: 150px;
   outline: none;
