@@ -24,9 +24,25 @@ body {
   background-color: white;
   align-items: center;
   text-align: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.8fr 0.8fr;
 }
 
+.logo {
+  display: flex;
+  position: relative;
+  width: 62px;
+  height: 62px;
+  top: 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+.logo:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
 
 .txt_espacos {
   display: flex;
@@ -34,12 +50,13 @@ body {
   font-family: 'Raleway', sans-serif;
   align-items: center;
   font-size: 9px;
-  left: 22%;
+
   color: #001024;
   top: 4.5%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   text-decoration: none;
+  margin: auto;
 }
 
 .txt_espacos:hover {
@@ -53,13 +70,13 @@ body {
   position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
-  left: 34%;
   color: #001024;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   top: 4.5%;
   align-items: center;
   text-decoration: none;
+  margin: auto;
 }
 
 .txt_profissionais:hover {
@@ -74,13 +91,13 @@ body {
   position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
-  left: 48%;
   color: #001024;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   top: 4.5%;
   align-items: center;
   text-decoration: none;
+  margin: auto;
 }
 
 .txt_combos:hover {
@@ -95,13 +112,13 @@ body {
   position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
-  left: 58%;
   -webkit-transition-duration: 0.4s;
   color: #001024;
   transition-duration: 0.4s;
   top: 4.5%;
   align-items: center;
   text-decoration: none;
+  margin: auto;
 }
 
 .txt_equipamentos:hover {
@@ -111,30 +128,14 @@ body {
 
 }
 
-.logo {
-  width: 62px;
-  height: 62px;
-  position: relative;
-  left: 160%;
-  top: 2px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-.logo:hover {
-  opacity: 2.5;
-  transform: scale(1.1);
-}
-
 .conta {
-  display: block;
+  display: flex;
+  position: relative;
   width: 40px;
   height: 40px;
-  position: relative;
-  left: 79.2vw;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
+  margin-left: auto;
 }
 
 .conta:hover {
@@ -142,31 +143,13 @@ body {
   transform: scale(1.1);
 }
 
-.busca {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  left: 70vw;
-  color: #011E44;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-}
-
-.busca:hover {
-  opacity: 2.5;
-  transform: scale(1.1);
-}
-
 .caixinha {
-  display: block;
-  width: 45px;
-  height: 35 px;
+  display: flex;
   position: relative;
-  left: 81vw;
+  margin: auto;
+  width: 45px;
+  height: 35px;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
 }
 

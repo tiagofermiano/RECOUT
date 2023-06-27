@@ -14,193 +14,162 @@ body {
     background-repeat: no-repeat;
 
 }
+/* CABECALHO */
+/* CABECALHO */
+/* CABECALHO */
 
 .cabecalho {
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    align-items: center;
-    text-align: center;
-    display: flex;
-  }
-  
-  .cabecalho_2 {
-    width: 100vw;
-    height: 45px;
-    background-color: #D9D9D9;
-    align-items: center;
-    text-align: center;
-    display: flex;
-  }
-  
-  .txt_espacos {
-    display: block;
-    position: absolute;
-    font-family: 'Raleway', sans-serif;
-    /* text-align: center; */
-    align-items: center;
-    /* font-weight: 100; */
-    font-size: 9px;
-    left: 22%;
-    color: #FF6100;
-    top: 4.5%;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-  }
-  
-  .txt_espacos:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
-    color: #FF6100;
-  }
-  
-  .txt_profissionais {
-    display: block;
-    position: absolute;
-    font-family: 'Raleway', sans-serif;
-    font-size: 9px;
-    left: 34%;
-    color: #001024;
-    /* top: 2%; */
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    top: 4.5%;
-    align-items: center;
-    text-decoration: none;
-  }
-  
-  .txt_profissionais:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
-    color: #FF6100;
-  
-  }
-  
-  .barra_seletora {
-    /* display: block; */
-    position: relative;
-    border: 1.5px solid;
-    color: #FF6100;
-    width: 68.8px;
-    height: 0px;
-    left: 34.8%;
-    top: 38.5px;
-  }
-  
-  .txt_combos {
-    display: block;
-    position: absolute;
-    font-family: 'Raleway', sans-serif;
-    font-size: 9px;
-    left: 48%;
-    /* top: 2%; */
-    color: #001024;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    top: 4.5%;
-    align-items: center;
-    text-decoration: none;
-  }
-  
-  .txt_combos:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
-    color: #FF6100;
-  
-  }
-  
-  .txt_equipamentos {
-    display: block;
-    position: absolute;
-    font-family: 'Raleway', sans-serif;
-    font-size: 9px;
-    left: 58%;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    color: #001024;
-    transition-duration: 0.4s;
-    top: 4.5%;
-    align-items: center;
-    text-decoration: none;
-  }
-  
-  .txt_equipamentos:hover {
-    opacity: 0.5;
-    transform: scale(0.95);
-    color: #FF6100;
-  
-  }
-  
-  .logo {
-    width: 62px;
-    height: 62px;
-    position: relative;
-    left: 160%;
-    top: 2px;
-    /* top: 20px; */
-    /* position: absolute; */
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .logo:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
-  }
-  
-  .conta {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    left: 79.2vw;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .conta:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
-  }
-  
-  .busca {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    left: 70vw;
-    color: #011E44;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .busca:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
-  }
-  
-  .caixinha {
-    display: block;
-    width: 45px;
-    height: 35 px;
-    position: relative;
-    left: 81vw;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-  }
-  
-  .caixinha:hover {
-    opacity: 2.5;
-    transform: scale(1.1);
-  }
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.8fr 0.8fr;
+}
+
+.cabecalho_2 {
+  width: 100vw;
+  height: 45px;
+  background-color: #D9D9D9;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  width: 62px;
+  height: 62px;
+  top: 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+.logo:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+.txt_espacos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+  font-size: 9px;
+
+  color: #001024;
+  top: 4.5%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_espacos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+}
+
+.txt_profissionais {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  color: #001024;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_profissionais:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.txt_combos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  color: #001024;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_combos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.txt_equipamentos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  -webkit-transition-duration: 0.4s;
+  color: #001024;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_equipamentos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.conta {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-left: auto;
+}
+
+.conta:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+.caixinha {
+  display: flex;
+  position: relative;
+  margin: auto;
+  width: 45px;
+  height: 35px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.caixinha:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+/* FIM CABECALHO */
+/* FIM CABECALHO */
+/* FIM CABECALHO */
 
 .itens_cima{
     display: grid;
