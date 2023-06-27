@@ -1,31 +1,40 @@
-const imgs = document.getElementById("img");
+var carousel = document.querySelector('.carrossel');
+var images = carousel.getElementsByTagName('img');
+var currentIndex = 0;
+var interval = 8000; // Tempo de exibição de cada imagem (em milissegundos)
+var btnPrev = document.getElementById('botao_anterior');
+var btnNext = document.getElementById('botao_proximo');
 
-const img = document.querySelectorAll("#img img");
-
- 
-
-let idx = 0;
-
- 
-
-function carrossel(){
-
-    idx++;
-
- 
-
-    if(idx > img.length - 1){
-
-        idx = 0;
-
+function showImage(img) {
+    for (var i = 0; i < images.length; i++) {
+        if (i === img) {
+            images[i].style.display = 'block';
+        } else {
+            images[i].style.display = 'none';
+        }
     }
-
- 
-
-    img.style.transform = 'translateX(${-idx * 500}px)';
-
 }
 
- 
+function nextImage() {
+    currentIndex++;
+    if (currentIndex >= images.length) {
+        currentIndex = 0;
+    }
+    showImage(currentIndex);
+}
 
-setInterval(carrossel, 1800);
+function prevImage() {
+    currentIndex--;
+    if (currentIndex < 0) {
+        currentIndex = images.length - 1;
+    }
+    showImage(currentIndex);
+}
+
+// Inicia o carrossel
+showImage(currentIndex);
+setInterval(nextImage, interval);
+
+// Adiciona eventos aos botões
+btnPrev.addEventListener('click', prevImage);
+btnNext.addEventListener('click', nextImage);
