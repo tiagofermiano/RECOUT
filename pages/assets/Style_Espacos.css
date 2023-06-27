@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
   background-color: #001e44;
   background-image: linear-gradient(to bottom, #001024, #001e44);
-  /* margin: auto; */
   background-repeat: no-repeat;
 
 }
@@ -26,6 +25,7 @@ body {
   align-items: center;
   text-align: center;
   display: flex;
+  justify-content: flex-start;
 }
 
 .cabecalho_2 {
@@ -38,18 +38,15 @@ body {
 }
 
 .txt_espacos {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
-  /* text-align: center; */
   align-items: center;
-  /* font-weight: 100; */
   font-size: 9px;
   left: 22%;
   color: #FF6100;
   top: 4.5%;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
 }
@@ -61,15 +58,13 @@ body {
 }
 
 .txt_profissionais {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
   left: 34%;
   color: #001024;
-  /* top: 2%; */
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
   top: 4.5%;
   align-items: center;
@@ -83,27 +78,14 @@ body {
 
 }
 
-.barra_seletora {
-  /* display: block; */
-  position: relative;
-  border: 1.5px solid;
-  color: #FF6100;
-  width: 68.8px;
-  height: 0px;
-  left: 34.8%;
-  top: 38.5px;
-}
-
 .txt_combos {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
   left: 48%;
-  /* top: 2%; */
   color: #001024;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
   top: 4.5%;
   align-items: center;
@@ -118,13 +100,12 @@ body {
 }
 
 .txt_equipamentos {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
   left: 58%;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   color: #001024;
   transition-duration: 0.4s;
   top: 4.5%;
@@ -140,15 +121,13 @@ body {
 }
 
 .logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 0;
   width: 62px;
   height: 62px;
-  position: relative;
-  left: 160%;
-  top: 2px;
-  /* top: 20px; */
-  /* position: absolute; */
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
 }
 
@@ -158,13 +137,12 @@ body {
 }
 
 .conta {
-  display: block;
+  display: flex;
+  position: relative;
   width: 40px;
   height: 40px;
-  position: relative;
   left: 79.2vw;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
 }
 
@@ -174,14 +152,13 @@ body {
 }
 
 .busca {
-  display: block;
+  display: flex;
+  position: relative;
   width: 30px;
   height: 30px;
-  position: relative;
   left: 70vw;
   color: #011E44;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
 }
 
@@ -191,13 +168,12 @@ body {
 }
 
 .caixinha {
-  display: block;
+  display: flex;
+  position: relative;
   width: 45px;
   height: 35 px;
-  position: relative;
   left: 81vw;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
 }
 
@@ -215,8 +191,8 @@ body {
 }
 
 .txt_geral {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   left: 24%;
   color: #FF6100;
@@ -230,8 +206,8 @@ body {
 }
 
 .txt_podcast {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   left: 34%;
   -webkit-transition-duration: 0.4s;
@@ -244,8 +220,8 @@ body {
 }
 
 .txt_musical {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   left: 46%;
   -webkit-transition-duration: 0.4s;
@@ -258,8 +234,8 @@ body {
 }
 
 .txt_videos {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   left: 57%;
   -webkit-transition-duration: 0.4s;
@@ -272,8 +248,8 @@ body {
 }
 
 .txt_streaming {
-  display: block;
-  position: absolute;
+  display: flex;
+  position: relative;
   font-family: 'Raleway', sans-serif;
   left: 68%;
   -webkit-transition-duration: 0.4s;

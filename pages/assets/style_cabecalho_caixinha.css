@@ -24,18 +24,14 @@
 }
 
 .txt_espacos {
-    display: block;
-    position: absolute;
+    display: flex;
+    position: relative;
     font-family: 'Raleway', sans-serif;
-    /* text-align: center; */
     align-items: center;
-    /* font-weight: 100; */
     font-size: 9px;
     left: 22%;
     color: #001024;
     top: 4.5%;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
 }
@@ -47,15 +43,13 @@
 }
 
 .txt_profissionais {
-    display: block;
-    position: absolute;
+    display: flex;
+    position: relative;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 34%;
     color: #001024;
-    /* top: 2%; */
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
     top: 4.5%;
     align-items: center;
@@ -69,27 +63,14 @@
 
 }
 
-.barra_seletora {
-    /* display: block; */
-    position: relative;
-    border: 1.5px solid;
-    color: #FF6100;
-    width: 68.8px;
-    height: 0px;
-    left: 34.8%;
-    top: 38.5px;
-}
-
 .txt_combos {
-    display: block;
-    position: absolute;
+    display: flex;
+    position: relative;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 48%;
-    /* top: 2%; */
     color: #001024;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
     top: 4.5%;
     align-items: center;
@@ -104,13 +85,12 @@
 }
 
 .txt_equipamentos {
-    display: block;
-    position: absolute;
+    display: flex;
+    position: relative;
     font-family: 'Raleway', sans-serif;
     font-size: 9px;
     left: 58%;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     color: #001024;
     transition-duration: 0.4s;
     top: 4.5%;
