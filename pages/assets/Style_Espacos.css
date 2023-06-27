@@ -161,19 +161,31 @@ body {
 /* FIM CABECALHO */
 /* FIM CABECALHO */
 /* FIM CABECALHO */
+
+
 /* BARRA CINZA */
 /* BARRA CINZA */
 /* BARRA CINZA */
 
-.cabecalho_2 {
+.cabecalho2_cor{
   width: 100%;
+  background-color: #D9D9D9;
+}
+
+.cabecalho_2 {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* padding-inline: 20px; */
+  margin: auto;
+  height: 40px;
+  background-color: #D9D9D9;
 }
 
 .txt_geral {
-  display: flex;
   position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 24%;
   color: #FF6100;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -185,10 +197,9 @@ body {
 }
 
 .txt_podcast {
-  display: flex;
   position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 34%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
@@ -199,10 +210,9 @@ body {
 }
 
 .txt_musical {
-  display: flex;
   position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 46%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
@@ -213,10 +223,10 @@ body {
 }
 
 .txt_videos {
-  display: flex;
   position: relative;
+  margin: auto;
+  font-size: ;
   font-family: 'Raleway', sans-serif;
-  left: 57%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
@@ -227,10 +237,9 @@ body {
 }
 
 .txt_streaming {
-  display: flex;
   position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 68%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
