@@ -37,9 +37,9 @@ app.get('/login', (req, res) => {
  
 app.post('/login', (req, res) => {
   let email = req.body.email;
-  let password = req.body.password;
+  let password = req.body.pass;
   
-  connection.query("SELECT * FROM usuario where email = '" + email + "'" , function (err, rows, fields) {
+  connection.query("SELECT * FROM cliente where email = '" + email + "'" , function (err, rows, fields) {
     console.log("Results:", rows);
     if (!err) {
       if (rows.length > 0) {
