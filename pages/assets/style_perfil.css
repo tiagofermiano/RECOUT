@@ -215,7 +215,7 @@ body {
 }
 
 .itens_esquerda{
-    margin-left: 15%;
+    margin-left: 25%;
     width: 70%;
 
 }
@@ -260,7 +260,7 @@ body {
   
   
   .img_perfil{
-      width: 18%;
+      width: 17%;
       margin-left: 12%;
       /* display: flex; */
   }
@@ -372,6 +372,9 @@ body {
   position: relative;
   font-weight: 500;
   color: #FF6100;
+  grid-area: span 1 / 2;
+  margin: auto;
+  /* margin-left: 1%; */
  }
 
  
@@ -391,7 +394,7 @@ body {
 }
 
 .box_historico {  
-  height: 90%;
+  height: auto;
   border-radius: 20px;
   background: #D9D9D9;
   position: relative;
@@ -401,44 +404,157 @@ body {
   overflow: visible;
  }
 
- .header_box{
+ .header_detailshistorico {
+  color: #FF6100;
+  height: 100%;
   display: grid;
-  grid-template-columns: 1fr;
- }
-
- .titulo_historico{  
+  grid-template-columns: 1fr 4fr;
+  width: 500px;
  }
 
  .img_historico{
-  width: 22%;
+  width: 80%;
+  margin: auto;
  }
 
- .txt_historico{
-grid-area: span 4 / 2 / 2;
-text-align: center;
- }
-
-.img_item{
-    width: 20%;
-}
- 
- .txt_descricaoitem {
-  color: #001024;
-  font-size: 15px;
-  /* font-weight: bold; */
-  position: relative;
-  display: flex;
-  width: 100%;
-  margin-top: 1%;
-
- }
- 
- /*Text*/
- .txt_nomeitem {
+ .txt_historico {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   position: relative;
   font-weight: 500;
   color: #FF6100;
+  grid-area: span 1 / 2;
+  margin: auto;
+  margin-left: 2%;
  }
 
+/* INICIO GRID DE ITENS */
+/* INICIO GRID DE ITENS */
+/* INICIO GRID DE ITENS */
+
+.grid_itens{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 1%;
+  grid-row-gap: 10px;
+  grid-column-gap: 40px;
+  width: 50%;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.itens{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: 185%;
+  height: 120px;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom:1%;
+  border-radius: 20px;
+  background: #B6B6B6;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  padding: 22px;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.itens_details{
+  color: #011E44;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.img_itens{
+    width:85%;
+    max-width: 120px;
+    margin-left: 2%;
+   }
+
+.textos_itens{
+  align-items: center;
+  max-height: 50px;
+}
+
+.status_itens{
+    color: #FF6100;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    position: relative;
+    font-weight: 700;
+    grid-area: span 1 / 2;
+    margin-top: 1%;
+   }
+
+.txt_data{
+  margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  color: #001e44;
+}
+
+.txt_descricaoitens{
+    margin-top: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    position: relative;
+    font-weight: 400;
+    color: #001e44;
+   }
+
+  .txt_preco{
+    margin-top: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    position: relative;
+    font-weight: 600;
+    color: #001e44;
+  }
+
+  .botao_veritem{
+    position: relative;
+    appearance: none;
+    background-color: transparent;
+    border: 3px solid #001024;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    color: #D9D9D9;
+    background-color: #001024;
+    cursor: pointer;
+    display: block;
+    font-family: 'Raleway';
+    font-size: 15px;
+    height: 40%;
+    margin-top: 50%;
+    max-width: 120px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  
+  .botao_veritem:disabled {
+    pointer-events: none;
+  }
+  
+  .botao_veritem:hover {
+    color: #001024;
+    background-color: #FF6100;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
+    transform: translateY(-2px);
+    font-weight: bold
+  }
+  
+  .botao_veritem:disabled:active {
+    /* box-shadow: none; */
+    transform: translateY(0);
+  }
