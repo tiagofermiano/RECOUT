@@ -92,7 +92,7 @@ body {
   position: relative;
   font-family: 'Raleway', sans-serif;
   font-size: 9px;
-  color: #001024;
+  color: #FF6100;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   top: 4.5%;
@@ -163,19 +163,29 @@ body {
 /* FIM CABECALHO */
 /* FIM CABECALHO */
 
-/* TEXTOS DA BARRA CINZA */
-/* TEXTOS DA BARRA CINZA */
-/* TEXTOS DA BARRA CINZA */
+/* BARRA CINZA */
+/* BARRA CINZA */
+/* BARRA CINZA */
+
+.cabecalho2_cor {
+  width: 100%;
+  background-color: #D9D9D9;
+}
 
 .cabecalho_2 {
-  width: 100%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* padding-inline: 20px; */
+  margin: auto;
+  height: 40px;
+  background-color: #D9D9D9;
 }
 
 .txt_geral {
-  display: block;
-  position: absolute;
+  position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 24%;
   color: #FF6100;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -186,65 +196,61 @@ body {
   transform: scale(1.05);
 }
 
-.txt_audio {
-  display: block;
-  position: absolute;
+.txt_podcast {
+  position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 34%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-.txt_audio:hover {
+.txt_podcast:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_estetica {
-  display: block;
-  position: absolute;
+.txt_musical {
+  position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 46%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-.txt_estetica:hover {
+.txt_musical:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_edicao {
-  display: block;
-  position: absolute;
+.txt_videos {
+  position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 57%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-.txt_edicao:hover {
+.txt_videos:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_gravacao {
-  display: block;
-  position: absolute;
+.txt_streaming {
+  position: relative;
+  margin: auto;
   font-family: 'Raleway', sans-serif;
-  left: 68%;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
-.txt_gravacao:hover {
+.txt_streaming:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-/* FIM DO CABECALHO */
-/* FIM DO CABECALHO */
-/* FIM DO CABECALHO */
+/* FIM DA CABECALHO */
+/* FIM DA CABECALHO */
+/* FIM DA CABECALHO */
 
 .titulo_combos {
   color: #D9D9D9;

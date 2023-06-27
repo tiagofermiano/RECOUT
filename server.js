@@ -6,9 +6,14 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
 const path = require('path')
-app.use('/assets/', express.static('assets'))
-app.use('/images/', express.static('images'))
-app.use('/icones/', express.static('icones'))
+
+app.use(express.static('pages'));
+
+app.use('/assets/', express.static('assets')) /* parte do tiago */
+app.use('/images/', express.static('images')) /* parte do tiago */
+app.use('/icones/', express.static('icones')) /* parte do tiago */
+
+
 
 const connection = mysql.createConnection({
   host: '127.0.0.1',
@@ -16,8 +21,6 @@ const connection = mysql.createConnection({
   password: 'root',
   database: 'recout',
 });
-
-console.log (connection)
 
 connection.connect(function (err) {
   if (!err){
@@ -31,15 +34,13 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/pages/recout_main.html')
 })
 
-app.get('/login', (req, res) => {
-  res.sendFile(__dirname + '/pages/recout_login.html')
-})
+
  
 app.post('/login', (req, res) => {
-  let email = req.body.email;
-  let password = req.body.pass;
+  let username = req.body.username;
+  let password = req.body.password;
   
-  connection.query("SELECT * FROM cliente where email = '" + email + "'" , function (err, rows, fields) {
+  connection.query("SELECT * FROM cliente where email = '" + username + "'" , function (err, rows, fields) {
     console.log("Results:", rows);
     if (!err) {
       if (rows.length > 0) {
@@ -59,6 +60,26 @@ app.post('/login', (req, res) => {
     }
   });
 });
+
+app.post('/cadastro', (req, res) => {
+  let nome = req.body.nome;
+  let sobrenome =req.body.sobrenome;
+  let cpf =req.body.cpf;
+  let email = req.body.email;
+  let password = req.body.password;
+  
+  connection.query( "INSERT INTO `cliente`(`nome`, `sobrenome`, `cpf`, `email`,`senha`) VALUES  ('" + nome + "','" + sobrenome + "','" + cpf + "','" + email + "','" + password + "')", function (err, rows, fields) {
+    console.log("Results:", rows);
+    if (!err) {
+      console.log("Cadastro feito com sucesso!!");
+      res.sendFile(__dirname + '/pages/recout_login.html')
+    } else {
+      console.log("Erro: Consulta não realizada", err);
+      res.send('Login failed');
+    }
+  });
+});
+
 app.listen(3000, () => {
   console.log('Servidor rodando na porta 3000!')
 })
