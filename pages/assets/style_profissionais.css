@@ -197,7 +197,7 @@ body {
   transform: scale(1.05);
 }
 
-.txt_podcast {
+.txt_audio {
   position: relative;
   margin: auto;
   font-family: 'Raleway', sans-serif;
@@ -205,12 +205,12 @@ body {
   transition-duration: 0.4s;
 }
 
-.txt_podcast:hover {
+.txt_audio:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_musical {
+.txt_estetica {
   position: relative;
   margin: auto;
   font-family: 'Raleway', sans-serif;
@@ -218,12 +218,12 @@ body {
   transition-duration: 0.4s;
 }
 
-.txt_musical:hover {
+.txt_estetica:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_videos {
+.txt_edicao {
   position: relative;
   margin: auto;
   font-family: 'Raleway', sans-serif;
@@ -231,12 +231,12 @@ body {
   transition-duration: 0.4s;
 }
 
-.txt_videos:hover {
+.txt_edicao:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
 
-.txt_streaming {
+.txt_gravacao {
   position: relative;
   margin: auto;
   font-family: 'Raleway', sans-serif;
@@ -244,7 +244,7 @@ body {
   transition-duration: 0.4s;
 }
 
-.txt_streaming:hover {
+.txt_:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }
@@ -339,7 +339,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16.5px;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
   color: #001e44;
 }
 
@@ -349,7 +349,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16.5px;
   position: relative;
-  font-weight: 500;
+  font-weight: 600;
   color: #FF6100;
 
 }
@@ -365,7 +365,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16.5px;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
   color: #001e44;
 }
 
@@ -375,7 +375,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16.5px;
   position: relative;
-  font-weight: 500;
+  font-weight: 600;
   color: #FF6100;
 }
 
