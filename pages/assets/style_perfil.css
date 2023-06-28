@@ -285,7 +285,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   margin-left: 25%;
   margin-bottom: 12%;
   grid-row-gap: 15px;
