@@ -63,7 +63,7 @@
 
                 <!-- TITULO -->
 
-                <form class="cadastro100-form validate-form">
+                <form class="cadastro100-form validate-form" action="/cadastro" method="post">
                     <span class="cadastro100-form-title p-b-26">
                         Cadastre-se
                     </span>
@@ -79,23 +79,23 @@
 
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Digite seu Nome e Sobrenome">
 
-                        <input class="input103" type="text" name="Nome e Sobrenome">
-                        <span class="focus-input103" data-placeholder="Nome e Sobrenome"></span>
+                        <input class="input103" type="text" name="nome">
+                        <span class="focus-input103" data-placeholder="Nome e Sobrenome" required></span>
                     </div>
                     <!-- input NOME DE USUARIO -->
 
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Digite seu CPF">
 
-                        <input class="input104" type="text" name="CPF">
-                        <span class="focus-input104" data-placeholder="CPF"></span>
+                        <input class="input104" type="text" name="cpf">
+                        <span class="focus-input104" data-placeholder="CPF" required></span>
                     </div>
 
                     <!-- input NUMERO DE CONTATO -->
 
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Digite seu Número de contato">
 
-                        <input class="input105" type="text" name="Número de contato">
-                        <span class="focus-input105" data-placeholder="Número de contato"></span>
+                        <input class="input105" type="text" name="numero">
+                        <span class="focus-input105" data-placeholder="Número de contato" required></span>
                     </div>
 
                     <!-- input EMAIL -->
@@ -103,15 +103,15 @@
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Email válido: a@b.c">
 
                         <input class="input100" type="text" name="email">
-                        <span class="focus-input100" data-placeholder="Email"></span>
+                        <span class="focus-input100" data-placeholder="Email" required></span>
                     </div>
 
                     <!-- input SENHA -->
 
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Digite sua senha">
                         <span class="btn-show-pass"><i class="zmdi zmdi-eye"></i></span>
-                        <input class="input101" type="password" name="pass">
-                        <span class="focus-input101" data-placeholder="Senha"></span>
+                        <input class="input101" type="password" name="senha">
+                        <span class="focus-input101" data-placeholder="Senha" required></span>
                     </div>
 
                     <!-- input CONFIRMAR SENHA -->
@@ -119,7 +119,7 @@
                     <div class="wrap-input100 BOX DO INPUT" data-validate="Confirme sua senha">
                         <span class="btn-show-pass"><i class="zmdi zmdi-eye"></i></span>
                         <input class="input102" type="password" name="pass">
-                        <span class="focus-input102" data-placeholder="Confirmar senha"></span>
+                        <span class="focus-input102" data-placeholder="Confirmar senha" required></span>
                     </div>
 
                     <!-- ==================== -->
@@ -130,7 +130,7 @@
 
                             <!-- BOTAO DE CONFIRMAÇÃO CADASTRA-SE -->
 
-                            <button class="cadastro100-form-btn">
+                            <button class="cadastro100-form-btn" type="submit" value="Registre-se agora">
                                 Cadastre-se
                             </button>
                         </div>
