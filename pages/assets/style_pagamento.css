@@ -149,8 +149,7 @@ body {
     display: flex;
     position: relative;
     margin: auto;
-    width: 45px;
-    height: 35px;
+    width: 48px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
   }
