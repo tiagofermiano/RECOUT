@@ -281,7 +281,7 @@ body {
   margin-bottom: 1%;
   grid-row-gap: 10px;
   grid-column-gap: 40px;
-  width: 50%;
+  width: 55%;
   justify-content: center;
   padding-top: 2%;
 }
@@ -290,36 +290,41 @@ body {
   display: grid;
   margin: auto;
   grid-template-columns: 0.5fr 1fr 1fr;
-  width: 750px;
-  height: 125px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   background: #D9D9D9;
   position: relative;
   font-family: 'Raleway', sans-serif;
-  padding: 22px;
   transition: 0.5s ease-out;
   overflow: visible;
+  /* padding: 15px; */
 }
 
 .img_profi {
-  width: 85%;
-  max-width: 120px;
-  margin-left: 2%;
+  display: block;
+  position: relative;
+  width: 90%;
+  max-width: 150px;
+  padding: 18px;
 }
 
 .textos_card {
   align-items: center;
   max-height: 50px;
+  padding: 15px;
+
 }
 
 .txt_nomeprof {
-  color: #FF6100;
+  color: #001e44;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   position: relative;
   font-weight: 700;
-  grid-area: span 1 / 2;
   margin-top: 1%;
+  padding-bottom: 25px;
+  
 }
 
 .grid_categoria {
@@ -329,20 +334,23 @@ body {
 
 .txt_categoria {
   margin-top: 2%;
+  padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 16.5px;
   position: relative;
   font-weight: 600;
   color: #001e44;
 }
 
 .txt_categoria_nome {
-  margin-top: 2%;
+  margin-top: 1%;
+  padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 16.5px;
   position: relative;
-  font-weight: 400;
-  color: #001e44;
+  font-weight: 500;
+  color: #FF6100;
+
 }
 
 .grid_custovalor {
@@ -352,8 +360,9 @@ body {
 
 .txt_custo {
   margin-top: 1%;
+  padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 16.5px;
   position: relative;
   font-weight: 600;
   color: #001e44;
@@ -361,18 +370,19 @@ body {
 
 .txt_valor {
   margin-top: 1%;
+  padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 16.5px;
   position: relative;
-  font-weight: 400;
-  color: #001e44;
+  font-weight: 500;
+  color: #FF6100;
 }
 
 .botao_veritem {
   display: block;
   position: relative;
-  margin-top: auto;
-  margin-left: auto;
+  margin-top: 30%;
+  margin-left: 35%;
   appearance: none;
   background-color: transparent;
   border: 2px solid #001024;
@@ -383,8 +393,8 @@ body {
   cursor: pointer;
   font-family: 'Raleway';
   font-size: 15px;
-  height: 40%;
-  width: 40%;
+  width: 55%;
+  height: 30%;
   outline: none;
   padding: 10px;
   text-align: center;
