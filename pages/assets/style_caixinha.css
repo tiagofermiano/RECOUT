@@ -161,10 +161,10 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   margin-bottom: 12%;
   grid-row-gap: 15px;
-  grid-column-gap: 10px;
+  grid-column-gap: 100px;
   height: 100%;
   width: 50%;
   justify-content: center;
@@ -172,8 +172,7 @@ body {
 }
 
 .box_pagamento {
-  display: flex;
-  /* height: 58% ; */
+  display: block;
   width: 500px;
   left: 60%;
 }
