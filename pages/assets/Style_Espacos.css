@@ -364,6 +364,10 @@ body {
   transform: rotateY(180deg);
 }
 
+.flip-card-back a{
+  text-decoration: none;
+}
+
 /* FIM DO CARD */
 
 .textos {
@@ -423,6 +427,7 @@ body {
   touch-action: manipulation;
   will-change: transform;
 }
+
 
 .botao:disabled {
   pointer-events: none;
