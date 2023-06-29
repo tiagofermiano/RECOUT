@@ -8,15 +8,15 @@
     <title>Pagamento</title>
 
     <link rel="stylesheet" type="text/css" href="assets/style_pagamento.css">
-    
+
 </head>
 
 <body>
     <div class="cabecalho">
 
         <a href="recout_main.html"><img class="logo"
-            src="https://i.pinimg.com/originals/bc/48/7b/bc487bdeb2ab6efb429b348a7d677354.png"
-            title="Ir para Home"></a>
+                src="https://i.pinimg.com/originals/bc/48/7b/bc487bdeb2ab6efb429b348a7d677354.png"
+                title="Ir para Home"></a>
 
         <div class="txt_espacos">
             <a class="txt_espacos" href="Recout_Espacos.html">
@@ -57,7 +57,7 @@
             Valor final
         </div>
         <div class="num_valorfinal"> R$250,00</div>
-        
+
         <div class="barra_divisoria"></div>
         <div class="txt_vocepagara">
             Você pagará</div>
@@ -75,16 +75,38 @@
 
             <div class="icones_cartao">
 
-                <img class="img_pix" title="Pix"
-                    src="https://i.pinimg.com/originals/29/24/ab/2924ab0df5bc13f7b58991e76549ead2.png">
+                <div class="pix">
+                    <img class="img_pix" title="Pix"
+                        src="https://i.pinimg.com/originals/29/24/ab/2924ab0df5bc13f7b58991e76549ead2.png">
+                    <p class="txt_pix">Pix</p>
+                    <div class="qr">
+                        <img class="img_qr" src="">
+                    </div>
+                </div>
 
-                <img class="img_addcartao" title="Adicionar cartão"
-                    src="https://i.pinimg.com/originals/19/95/57/1995577866707343fa5354055fa10aaf.png">
+                <div class="cartao">
+                    <img class="img_cartao" title="Cartão"
+                        src="https://i.pinimg.com/originals/19/95/57/1995577866707343fa5354055fa10aaf.png">
+                    <p class="txt_cartao">Cartão</p>
+                    <div class="card-container">
+                        <form card container=".card-container" card-width="500" [messages]="messages"
+                            [placeholders]="placeholders" [masks]="masks" formatting="false" debug="true">
+
+                            <input type="text" name="number" card-number />
+                            <input type="text" name="first-name" card-name />
+                            <input type="text" name="last-name" card-name />
+                            <input type="text" name="expiry" card-expiry />
+                            <input type="text" name="cvc" card-cvc />
+                        </form>
+                    </div>
+                </div>
             </div>
-
-            <button class="botao_removercartao">Remover cartão</button>
         </div>
+
     </div>
+
+
+
 
 </body>
 
