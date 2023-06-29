@@ -406,6 +406,10 @@ body {
   touch-action: manipulation; */
 }
 
+.card a{
+  text-decoration: none;
+}
+
 .botao_veritem:disabled {
   pointer-events: none;
 }
