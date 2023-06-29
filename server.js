@@ -9,10 +9,6 @@ const path = require('path')
 
 app.use(express.static('pages'));
 
-app.use('/assets/', express.static('assets')) /* parte do tiago */
-app.use('/images/', express.static('images')) /* parte do tiago */
-app.use('/icones/', express.static('icones')) /* parte do tiago */
-
 
 
 const connection = mysql.createConnection({
@@ -37,49 +33,50 @@ app.get('/', (req, res) => {
 
 
 app.post('/login', (req, res) => {
-  let username = req.body.username;
-  let password = req.body.password;
-  
-  connection.query("SELECT * FROM cliente where email = '" + username + "'" , function (err, rows, fields) {
-    console.log("Results:", rows);
-    if (!err) {
-      if (rows.length > 0) {
-        
-        if ( rows[0].senha === password) {
-            res.send('Login com Sucesso!!!');
+    let cliente = req.body.cliente;
+    let senha = req.body.senha;
+
+    connection.query("SELECT * FROM cliente where email = '" + senha + "'", function (err, rows, fields) {
+        console.log("Results:", rows);
+        if (!err) {
+            if (rows.length > 0) {
+
+                if (rows[0].senha === senha) {
+                    console.log('Login com Sucesso!!!');
+                    res.sendFile(__dirname + '/pages/recout_perfil.html')
+                } else {
+                    res.send('Senha incorreta');
+                }
+
             } else {
-             res.send('Senha incorreta');
+                res.send('Login Falhou - Email não cadastrado');
             }
-        
-      } else {
-        res.send('Login Falhou - Email não cadastrado');
-      }
-    } else {
-      console.log("Erro: Consulta não realizada", err);
-      res.send('Login failed');
-    }
-  });
+        } else {
+            console.log("Erro: Consulta não realizada", err);
+            res.send('Login failed');
+        }
+    });
 });
 
 app.post('/cadastro', (req, res) => {
-  let nome = req.body.nome;
-  let sobrenome =req.body.sobrenome;
-  let cpf =req.body.cpf;
-  let email = req.body.email;
-  let password = req.body.password;
-  
-  connection.query( "INSERT INTO `cliente`(`nome`, `sobrenome`, `cpf`, `email`,`senha`) VALUES  ('" + nome + "','" + sobrenome + "','" + cpf + "','" + email + "','" + password + "')", function (err, rows, fields) {
-    console.log("Results:", rows);
-    if (!err) {
-      console.log("Cadastro feito com sucesso!!");
-      res.sendFile(__dirname + '/pages/recout_login.html')
-    } else {
-      console.log("Erro: Consulta não realizada", err);
-      res.send('Login failed');
-    }
-  });
+    let nome = req.body.nome;
+    let numero = req.body.numero;
+    let cpf = req.body.cpf;
+    let email = req.body.email;
+    let senha = req.body.senha;
+
+    connection.query("INSERT INTO `cliente`(`nome`, `numero`, `cpf`, `email`,`senha`) VALUES  ('" + nome + "','" + numero + "','" + cpf + "','" + email + "','" + senha + "')", function (err, rows, fields) {
+        console.log("Results:", rows);
+        if (!err) {
+            console.log("Cadastro feito com sucesso!!");
+            res.sendFile(__dirname + '/pages/recout_login.html')
+        } else {
+            console.log("Erro: Consulta não realizada", err);
+            res.send('Login failed');
+        }
+    });
 });
 
 app.listen(3000, () => {
-  console.log('Servidor rodando na porta 3000!')
+    console.log('Servidor rodando na porta 3000!')
 })
