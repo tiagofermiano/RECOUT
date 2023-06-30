@@ -11,7 +11,6 @@ body {
   background-color: #001e44;
   background-image: linear-gradient(to bottom, #001024, #001e44);
   background-repeat: no-repeat;
-
 }
 
 /* CABECALHO */
@@ -175,7 +174,6 @@ body {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /* padding-inline: 20px; */
   margin: auto;
   height: 40px;
   background-color: #D9D9D9;
@@ -286,6 +284,8 @@ body {
 /* INICIO DAS FOTOS DO CATALOGO */
 
 /* GRID DE TODOS DOS BLOCOS */
+/* GRID DE TODOS DOS BLOCOS */
+/* GRID DE TODOS DOS BLOCOS */
 
 .wrapper {
   display: grid;
@@ -316,6 +316,10 @@ body {
   margin: 0;
 }
 
+/* UNIÃO DOS DOIS LADOS DO CARD */
+/* UNIÃO DOS DOIS LADOS DO CARD */
+/* UNIÃO DOS DOIS LADOS DO CARD */
+
 .flip-card-inner {
   position: relative;
   width: 250px;
@@ -331,7 +335,6 @@ body {
 
 .flip-card-front,
 .flip-card-back {
-  /* box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2); */
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -344,13 +347,16 @@ body {
   border-radius: 1rem;
 }
 
+/* FRENTE DO CARD */
+/* FRENTE DO CARD */
+/* FRENTE DO CARD */
+
 .flip-card-front {
   align-items: center;
   justify-content: space-around;
   padding: 25px;
   border-radius: 20px;
   background-color: #D9D9D9;
-  /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
   font-family: 'Raleway', sans-serif;
   width: 200px;
   height: 325px;
@@ -363,6 +369,10 @@ body {
   height: 325px;
 }
 
+/* TRASEIRA DO CARD */
+/* TRASEIRA DO CARD */
+/* TRASEIRA DO CARD */
+
 .flip-card-back {
   align-items: center;
   justify-content: space-around;
@@ -372,7 +382,6 @@ body {
   border-radius: 10px;
   background-color: #D9D9D9;
   color: #001024;
-  /* background: linear-gradient(45deg, #04051dea 0%, #1f3f50 100%); */
   font-family: 'Raleway', sans-serif;
   transform: rotateY(180deg);
 }
@@ -381,6 +390,8 @@ body {
   text-decoration: none;
 }
 
+/* FIM DO CARD */
+/* FIM DO CARD */
 /* FIM DO CARD */
 
 .textos {
@@ -391,7 +402,6 @@ body {
   color: #001024;
   font-weight: 800;
   font-size: 40px;
-  /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42); */
   text-align: center;
 }
 
@@ -414,6 +424,10 @@ body {
   text-align: center;
 }
 
+/* BOTAO PARA VER ITEM */
+/* BOTAO PARA VER ITEM */
+/* BOTAO PARA VER ITEM */
+
 .botao {
   appearance: none;
   background-color: transparent;
@@ -426,8 +440,6 @@ body {
   display: block;
   font-family: 'Raleway';
   font-size: 16px;
-  /* margin-left: 35%; */
-  /* margin-top: 10%; */
   min-height: 15%;
   min-width: 150px;
   outline: none;
@@ -441,6 +453,9 @@ body {
   will-change: transform;
 }
 
+/* ANIMAÇÃO BOTÃO */
+/* ANIMAÇÃO BOTÃO */
+/* ANIMAÇÃO BOTÃO */
 
 .botao:disabled {
   pointer-events: none;
@@ -449,16 +464,16 @@ body {
 .botao:hover {
   color: #001024;
   background-color: #FF6100;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
   transform: translateY(-2px);
   font-weight: bold
 }
 
 .botao:active {
-  /* box-shadow: none; */
   transform: translateY(0);
 }
 
+/* IMAGENS DOS BLOCOS GERAIS */
+/* IMAGENS DOS BLOCOS GERAIS */
 /* IMAGENS DOS BLOCOS GERAIS */
 
 .imgE1 {
