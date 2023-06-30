@@ -398,6 +398,9 @@ body {
     position: relative;
     margin: auto;
 }
+
+/* STYLE DO BOTÃO QUE LEVA PARA O HISTÓRICO */
+
 .popup a {
     padding: 6px 10px;
     text-decoration: none;
@@ -412,8 +415,9 @@ body {
     font-size: 20px;
     margin: auto;
     height: 60%;
-    width: 50%;
+    width: 70%;
     padding: 10px;
+    padding-top: 10px;
     outline: none;
     text-align: center;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -423,18 +427,40 @@ body {
     margin-top: 3%;
 }
 
+/* ANIMAÇÃO DO BOTÃO DO POPUP */
+
+.popup a:disabled {
+    pointer-events: none;
+}
+
+.popup a:hover {
+    color: #001024;
+    font-weight: 600;
+    background-color: #FF6100;
+    border: 3px solid #001024 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.popup a:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
 /* CHECK DO PAGAMENTO */
 
 .loading {
     width: 124px;
     height: 124px;
     margin: auto;
+    padding-bottom: 10px ;
   }
   
   .loading svg {
     display: block;
     width: 100%;
     height: 100%;
+    padding-top: 10px ;
+    padding-bottom: 20px;
   }
   
   .circle {
@@ -443,6 +469,10 @@ body {
     stroke-dasharray: 380;
     stroke-dashoffset: 380;
     animation: circle_4 2s ease-in-out forwards;
+  }
+
+  .circle-loading{
+    opacity: 50%;
   }
   
   .check {
