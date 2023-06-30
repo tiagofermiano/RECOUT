@@ -9,8 +9,6 @@ body {
   width: 100;
   height: 100vh;
   background-color: #8B8B8B;
-  /* background-image: linear-gradient(to bottom, #001024, #002658); */
-  /* margin: auto; */
   background-repeat: no-repeat;
 
 }
@@ -154,10 +152,13 @@ body {
   transform: scale(1.1);
 }
 
+/* FIM DO CABECALHO */
+/* FIM DO CABECALHO */
+/* FIM DO CABECALHO */
 
-/* FIM DO CABECALHO */
-/* FIM DO CABECALHO */
-/* FIM DO CABECALHO */
+/* GRID GERAL DOS BOXES */
+/* GRID GERAL DOS BOXES */
+/* GRID GERAL DOS BOXES */
 
 .wrapper {
   display: grid;
@@ -171,10 +172,36 @@ body {
   padding-top: 2%;
 }
 
+/* STYLE DO BOX PAGAMENTO */
+
 .box_pagamento {
+  right: 5%;
+  width: 38%;
+  color: #011E44;
+  border: solid 1px #011E44;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #011E44;
+  color: #D9D9D9;
+  position: absolute;
+  margin-top: 3%;
   display: block;
-  width: 500px;
-  left: 60%;
+}
+
+/* FORMATAÇÃO DOS ITENS DENTRO DO BOX PAGAMENTO */
+/* FORMATAÇÃO DOS ITENS DENTRO DO BOX PAGAMENTO */
+/* FORMATAÇÃO DOS ITENS DENTRO DO BOX PAGAMENTO */
+
+.total {
+  color: #FF6100;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+.quantidade_box {
+  display: flex;
 }
 
 .item_box1 {
@@ -188,7 +215,6 @@ body {
   margin-left: 6%;
   font-size: 18px;
   font-family: 'Raleway';
-
 }
 
 .nome_item_box1 {
@@ -241,6 +267,8 @@ body {
   margin-top: 1%;
 }
 
+/* BARRA DIVISÓRIA SEPARANDO O VALOR FINAL DA SOMA */
+
 .barra_divisoria {
   display: block;
   position: relative;
@@ -259,6 +287,10 @@ body {
   margin-top: 5%;
   font-size: 30px;
 }
+
+/* STYLE DO BOTÃO PARA CONTINUAR O ALUGUEL */
+/* STYLE DO BOTÃO PARA CONTINUAR O ALUGUEL */
+/* STYLE DO BOTÃO PARA CONTINUAR O ALUGUEL */
 
 .botao_continuar {
   appearance: none;
@@ -287,6 +319,10 @@ body {
   touch-action: manipulation;
   will-change: transform;
 }
+
+/* ANIMAÇÃO DO BOTÃO CONTINUAR */
+/* ANIMAÇÃO DO BOTÃO CONTINUAR */
+/* ANIMAÇÃO DO BOTÃO CONTINUAR */
 
 .botao_continuar:disabled {
   pointer-events: none;
@@ -332,8 +368,7 @@ a.link_continuar:active {
   text-decoration: none;
 }
 
-
-/* --------------------------------------------- */
+/* TITULO CAIXINHA */
 
 .header_boxcaixinha {
   border-radius: 30px 30px 30px 30px;
@@ -351,9 +386,9 @@ a.link_continuar:active {
 }
 
 
-/* INICIO GRID DE ITENS */
-/* INICIO GRID DE ITENS */
-/* INICIO GRID DE ITENS */
+/*  GRID DOS ITENS */
+/*  GRID DOS ITENS */
+/*  GRID DOS ITENS */
 
 .grid_itens {
   display: grid;
@@ -365,6 +400,8 @@ a.link_continuar:active {
   justify-content: center;
   padding-top: 2%;
 }
+
+/* STYLE DOS ITENS */
 
 .itens {
   display: grid;
@@ -383,6 +420,10 @@ a.link_continuar:active {
   transition: 0.5s ease-out;
   overflow: visible;
 }
+
+/* FORMATAÇÃO DAS INFOS DOS ITENS */
+/* FORMATAÇÃO DAS INFOS DOS ITENS */
+/* FORMATAÇÃO DAS INFOS DOS ITENS */
 
 .itens_details {
   color: #011E44;
@@ -448,11 +489,14 @@ a.link_continuar:active {
   color: #FF6100;
 }
 
+/* STYLE DOS BOTÕES */
+
 .botoes {
   display: grid;
   grid-template-columns: 1fr;
-
 }
+
+/* STYLE DO BOTÃO DE REMOVER ITEM DO CARRINHO */
 
 .remover_item {
   width: 30%;
@@ -460,7 +504,7 @@ a.link_continuar:active {
   margin-left: auto;
 }
 
-
+/* BOTÃO PARA VER O ITEM ADICIONADO */
 
 .botao_veritem {
   position: relative;
@@ -488,6 +532,9 @@ a.link_continuar:active {
   touch-action: manipulation;
 }
 
+/* ANIMAÇÃO DO BOTÃO VER ITEM */
+/* ANIMAÇÃO DO BOTÃO VER ITEM */
+
 .botao_veritem:disabled {
   pointer-events: none;
 }
@@ -495,15 +542,17 @@ a.link_continuar:active {
 .botao_veritem:hover {
   color: #001024;
   background-color: #FF6100;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
   transform: translateY(-2px);
   font-weight: bold
 }
 
 .botao_veritem:disabled:active {
-  /* box-shadow: none; */
   transform: translateY(0);
 }
+
+/* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
+/* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
+/* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
 
 .box_caixinha {
   height: auto;
@@ -523,34 +572,4 @@ a.link_continuar:active {
   display: grid;
   grid-template-columns: 1fr 4fr;
   width: 500px;
-}
-
-/* .itens_direita{
-    margin-right: 2%;
-} */
-
-.box_pagamento {
-  right: 5%;
-  width: 38%;
-  color: #011E44;
-  border: solid 1px #011E44;
-  border-radius: 30px 30px 30px 30px;
-  background-color: #011E44;
-  color: #D9D9D9;
-  position: absolute;
-  margin-top: 3%;
-  display: block;
-}
-
-.total {
-  color: #FF6100;
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  margin-left: 6%;
-  margin-top: 3%;
-}
-
-.quantidade_box {
-  display: flex;
 }

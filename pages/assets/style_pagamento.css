@@ -9,8 +9,6 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #8B8B8B;
-    /* background-image: linear-gradient(to bottom, #001024, #002658); */
-    /* margin: auto; */
     background-repeat: no-repeat;
 
 }
@@ -163,6 +161,7 @@ body {
 /* FIM CABECALHO */
 /* FIM CABECALHO */
 /* FIM CABECALHO */
+
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
 /* TEXTOS DA BARRA CINZA */
@@ -242,11 +241,9 @@ body {
     transform: scale(1.05);
 }
 
-
 /* FIM DO CABECALHO */
 /* FIM DO CABECALHO */
 /* FIM DO CABECALHO */
-
 
 .titulo_pagamento {
     border-radius: 30px 30px 30px 30px;
@@ -262,12 +259,18 @@ body {
     text-transform: uppercase;
 }
 
+/* GRID GERAL DOS BOXES */
+/* GRID GERAL DOS BOXES */
+/* GRID GERAL DOS BOXES */
+
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
     padding-bottom: 10%;
 }
+
+/* STYLE DO BOX PAGAMENTO */
 
 .box_pagamento {
     width: 50%;
@@ -280,6 +283,10 @@ body {
     margin-top: 1%;
     margin: auto;
 }
+
+/* FORMATAÇÃO DAS INFOS DO BOX PAGAMENTO */
+/* FORMATAÇÃO DAS INFOS DO BOX PAGAMENTO */
+/* FORMATAÇÃO DAS INFOS DO BOX PAGAMENTO */
 
 .valor {
     display: grid;
@@ -302,6 +309,10 @@ body {
     margin-top: 5%;
     font-size: 25px;
 }
+
+/* STYLE DO BOTÃO QUE FINALIZA O PAGAMENTO */
+/* STYLE DO BOTÃO QUE FINALIZA O PAGAMENTO */
+
 
 .botao_finalizar {
     appearance: none;
@@ -329,6 +340,10 @@ body {
     touch-action: manipulation;
 }
 
+/* ANIMAÇÃO DO BOTÃO FINALIZAR */
+/* ANIMAÇÃO DO BOTÃO FINALIZAR */
+/* ANIMAÇÃO DO BOTÃO FINALIZAR */
+
 .botao_finalizar:disabled {
     pointer-events: none;
 }
@@ -348,19 +363,24 @@ body {
 /* FIM DO BOX PAGAMENTO */
 /* FIM DO BOX PAGAMENTO */
 
-/* INICIO METODOS */
-/* INICIO METODOS */
-/* INICIO METODOS */
+/* INICIO BOX METODOS */
+/* INICIO BOX METODOS */
+/* INICIO BOX METODOS */
+
+/* DIV PAI DO BOX */
 
 .wrapper_metodos {
     display: block;
 }
 
+/* BOX PAI */
+
 .box_metodo_pagamento {
     width: 100%;
     height: 90%;
-
 }
+
+/* BLOCO DOS ITENS DO BOX */
 
 .box_icones {
     display: block;
@@ -376,6 +396,13 @@ body {
     margin-top: 2%;
 }
 
+/* STYLE DOS TEXTOS */
+
+.textos_metodo {
+    align-items: center;
+    max-height: 50px;
+}
+
 .txt_metodos {
     color: #D9D9D9;
     margin: auto;
@@ -385,7 +412,6 @@ body {
     font-size: 35px;
     font-family: 'Raleway';
 }
-
 
 .box_metodos {
     height: auto;
@@ -397,6 +423,8 @@ body {
     overflow: visible;
 }
 
+/* GRID DOS METODOS DE PAGAMENTO */
+
 .grid_metodos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -406,7 +434,6 @@ body {
     width: 90%;
     margin: auto;
     padding-bottom: 5%;
-
 }
 
 .metodo {
@@ -418,6 +445,9 @@ body {
     align-items: center;
     align-self: start;
 }
+
+
+/* FORMATAÇÃO DO METODO */
 
 .metodo_form {
     display: grid;
@@ -436,15 +466,12 @@ body {
 
 }
 
+/* STYLE DO HEADER DO METODO */
+
 .img_metodo {
     width: 85%;
     max-width: 120px;
     margin-left: 2%;
-}
-
-.textos_metodo {
-    align-items: center;
-    max-height: 50px;
 }
 
 .nome_metodo {
@@ -456,6 +483,8 @@ body {
     margin-top: 1%;
 }
 
+/* STYLE DO QR CODE DO PIX */
+
 .img_qr {
     width: 80%;
     max-width: 200px;
@@ -463,12 +492,20 @@ body {
     padding-bottom: 30px;
 }
 
+/* STYLE DO FORMULÁRO DE PREENCHIMENTO */
+/* STYLE DO FORMULÁRO DE PREENCHIMENTO */
+/* STYLE DO FORMULÁRO DE PREENCHIMENTO */
+
 .card-container {
     padding: 20px;
     width: 70%;
     margin: 10px auto;
     row-gap: 40px;
 }
+
+/* FORMATÇÃO DOS INPUTS DO FORM */
+/* FORMATÇÃO DOS INPUTS DO FORM */
+/* FORMATÇÃO DOS INPUTS DO FORM */
 
 .card-container input {
     width: 100%;
