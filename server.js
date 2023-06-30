@@ -41,9 +41,15 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
   res.sendFile(__dirname + '/pages/recout_login.html')
 })
+
 app.get('/cadastro', (req, res) => {
   res.sendFile(__dirname + '/pages/recout_cadastro.html')
 })
+
+SELECT * FROM `espacos` WHERE `categoria` = "Podcast";
+
+
+
 app.post('/login', (req, res) => {
   let email = req.body.email;
   let password = req.body.password;
