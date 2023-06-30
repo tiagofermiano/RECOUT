@@ -11,7 +11,8 @@ body {
   background-color: #002658;
   background-image: linear-gradient(to bottom, #001024, #002658);
   background-repeat: no-repeat;
-
+  height: 100vh;
+  font-family: Raleway, sans-serif;
 }
 
 /* CABECALHO */
@@ -162,78 +163,22 @@ body {
 /* FIM CABECALHO */
 /* FIM CABECALHO */
 
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+
 .logoforms {
   position: relative;
   width: 75px;
-  height: 5, 5;
-  /* left: 155px; */
+  height: 5;
   top: 2px;
   margin-top: 5%;
 }
 
-/* ------------------------- */
-/*//////////////////////////////////////////////////////////////////
-      [ RESTYLE TAG ]*/
+/*STYLE DO BOX DO INPUT*/
+/*STYLE DO BOX DO INPUT*/
+/*STYLE DO BOX DO INPUT*/
 
-
-body,
-html {
-  height: 100vh;
-  font-family: Raleway, sans-serif;
-}
-
-/*---------------------------------------------*/
-a {
-  font-family: Raleway;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-  outline: none !important;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #001e44;
-  color: -webkit-linear-gradient(left, #001e44, #FF6100);
-  color: -o-linear-gradient(left, #001e44, #FF6100);
-  color: -moz-linear-gradient(left, #001e44, #FF6100);
-  color: linear-gradient(left, #001e44, #FF6100);
-}
-
-/*---------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
-}
-
-p {
-  font-family: Raleway;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-}
-
-ul,
-li {
-  margin: 0px;
-  list-style-type: none;
-}
-
-
-/*---------------------------------------------*/
 input {
   outline: none;
   border: none;
@@ -244,76 +189,10 @@ textarea {
   border: none;
 }
 
-textarea:focus,
-input:focus {
-  border-color: transparent !important;
-}
+/* STYLE DO BOTÃO ENTRAR */
+/* STYLE DO BOTÃO ENTRAR */
+/* STYLE DO BOTÃO ENTRAR */
 
-input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-input:focus:-moz-placeholder {
-  color: transparent;
-}
-
-input:focus::-moz-placeholder {
-  color: transparent;
-}
-
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-input::-webkit-input-placeholder {
-  color: #adadad;
-}
-
-input:-moz-placeholder {
-  color: #adadad;
-}
-
-input::-moz-placeholder {
-  color: #adadad;
-}
-
-input:-ms-input-placeholder {
-  color: #adadad;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #adadad;
-}
-
-textarea:-moz-placeholder {
-  color: #adadad;
-}
-
-textarea::-moz-placeholder {
-  color: #adadad;
-}
-
-textarea:-ms-input-placeholder {
-  color: #adadad;
-}
-
-/*---------------------------------------------*/
 button {
   outline: none !important;
   border: none;
@@ -328,9 +207,10 @@ iframe {
   border: none !important;
 }
 
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA LOGIN */
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA LOGIN */
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA LOGIN */
 
-/*//////////////////////////////////////////////////////////////////
-      [ Utility ]*/
 .txt1 {
   font-family: Raleway;
   font-size: 13px;
@@ -358,15 +238,17 @@ iframe {
   position: relative;
   text-align: center;
   font-size: 13px;
-
 }
+
+/* ALTERNATIVAS DE CADASTRO */
+/* ALTERNATIVAS DE CADASTRO */
+/* ALTERNATIVAS DE CADASTRO */
 
 .alternativa2 {
   display: block;
   margin: center;
   position: relative;
   align-items: auto;
-
 }
 
 .linkedincadastro {
@@ -375,14 +257,7 @@ iframe {
   height: 60px;
   left: 59.5%;
   margin-bottom: 2%;
-
 }
-
-.linkedincadastro:hover {
-  opacity: 2.5;
-  transform: scale(1.1);
-}
-
 
 .googlecadastro {
   position: relative;
@@ -390,14 +265,7 @@ iframe {
   height: 60px;
   left: 27%;
   margin-bottom: 2%;
-
 }
-
-.googlecadastro:hover {
-  opacity: 2.5;
-  transform: scale(1.1);
-}
-
 
 .outlookcadastro {
   position: relative;
@@ -405,7 +273,18 @@ iframe {
   height: 60px;
   right: 5%;
   margin-bottom: 2%;
+}
+/* ANIMAÇÃO DAS ALTERNATIVAS DE CADASTRO */
+/* ANIMAÇÃO DAS ALTERNATIVAS DE CADASTRO*/
+/* ANIMAÇÃO DAS ALTERNATIVAS DE CADASTRO */
 
+.linkedincadastro:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+.googlecadastro:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
 }
 
 .outlookcadastro:hover {
@@ -413,12 +292,9 @@ iframe {
   transform: scale(1.1);
 }
 
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-      [ cadastro ]*/
+/* POSICIONAMENTO DA DIV DO FORM CADASTRO*/
+/* POSICIONAMENTO DA DIV DO FORM CADASTRO */
+/* POSICIONAMENTO DA DIV DO FORM CADASTRO */
 
 .limiter {
   width: 100%;
@@ -434,6 +310,10 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+
+/* STYLE DO BACKGROUND DO FORM LOGIN */
+/* STYLE DO BACKGROUND DO FORM LOGIN */
+/* STYLE DO BACKGROUND DO FORM LOGIN */
 
 .backgroundcadastro {
   width: 425px;
@@ -451,8 +331,10 @@ iframe {
   align-items: center;
 }
 
-/*------------------------------------------------------------------
-      [ Form ]*/
+/* FORMATAÇÃO DOS TEXTOS DO FORM CADASTRO */
+/* FORMATAÇÃO DOS TEXTOS DO FORM CADASTRO */
+/* FORMATAÇÃO DOS TEXTOS DO FORM CADASTRO*/
+
 
 .cadastro100-form {
   width: 100%;
@@ -486,8 +368,9 @@ iframe {
 
 }
 
-/*------------------------------------------------------------------
-      [ Input ]*/
+/* STYLE DA DIV PAI DOS INPUTS */
+/* STYLE DA DIV PAI DOS INPUTS */
+/* STYLE DA DIV PAI DOS INPUTS */
 
 .wrap-input100 {
   width: 70%;
@@ -536,6 +419,10 @@ iframe {
   margin-bottom: 100px;
   margin: 0 auto;
 }
+
+/* FORMATAÇÃO DOS INPUTS  */
+/* FORMATAÇÃO DOS INPUTS  */
+/* FORMATAÇÃO DOS INPUTS  */
 
 .input100 {
   font-family: Raleway;
@@ -620,7 +507,10 @@ iframe {
 
 }
 
-/*---------------------------------------------*/
+/* STYLES DOS INPUTS */
+/* STYLES DOS INPUTS */
+/* STYLES DOS INPUTS */
+
 .focus-input100 {
   position: absolute;
   display: block;
@@ -681,6 +571,9 @@ iframe {
   pointer-events: none;
 }
 
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NOME E SOBRENOME*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NOME E SOBRENOME*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NOME E SOBRENOME*/
 
 .focus-input100::before {
   content: "";
@@ -702,6 +595,10 @@ iframe {
   background: -moz-linear-gradient(left, #001e44, #FF6100);
   background: linear-gradient(left, #001e44, #FF6100);
 }
+
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CPF*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CPF*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CPF*/
 
 .focus-input101::before {
   content: "";
@@ -725,6 +622,10 @@ iframe {
 
 }
 
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NUMERO*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NUMERO*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT NUMERO*/
+
 .focus-input102::before {
   content: "";
   display: block;
@@ -745,6 +646,10 @@ iframe {
   background: -moz-linear-gradient(left, #001e44, #FF6100);
   background: linear-gradient(left, #001e44, #FF6100);
 }
+
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
 
 .focus-input103::before {
   content: "";
@@ -768,6 +673,10 @@ iframe {
 
 }
 
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
+
 .focus-input104::before {
   content: "";
   display: block;
@@ -788,6 +697,10 @@ iframe {
   background: -moz-linear-gradient(left, #001e44, #FF6100);
   background: linear-gradient(left, #001e44, #FF6100);
 }
+
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CONFIRMAR SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CONFIRMAR SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT CONFIRMAR SENHA*/
 
 .focus-input105::before {
   content: "";
@@ -810,6 +723,9 @@ iframe {
   background: linear-gradient(left, #001e44, #FF6100);
 }
 
+/* STYLE DO PLACEHOLDER NOME E SOBRENOME */
+/* STYLE DO PLACEHOLDER NOME E SOBRENOME */
+/* STYLE DO PLACEHOLDER NOME E SOBRENOME */
 
 .focus-input100::after {
   font-family: Raleway;
@@ -831,6 +747,10 @@ iframe {
   transition: all 0.4s;
 }
 
+/* STYLE DO PLACEHOLDER CPF */
+/* STYLE DO PLACEHOLDER CPF */
+/* STYLE DO PLACEHOLDER CPF */
+
 .focus-input101::after {
   font-family: Raleway;
   font-size: 15px;
@@ -850,6 +770,10 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+/* STYLE DO PLACEHOLDER NUMERO */
+/* STYLE DO PLACEHOLDER NUMERO */
+/* STYLE DO PLACEHOLDER NUMERO */
 
 .focus-input102::after {
   font-family: Raleway;
@@ -871,6 +795,10 @@ iframe {
   transition: all 0.4s;
 }
 
+/* STYLE DO PLACEHOLDER EMAIL */
+/* STYLE DO PLACEHOLDER EMAIL */
+/* STYLE DO PLACEHOLDER EMAIL */
+
 .focus-input103::after {
   font-family: Raleway;
   font-size: 15px;
@@ -890,6 +818,10 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+/* STYLE DO PLACEHOLDER SENHA */
+/* STYLE DO PLACEHOLDER SENHA */
+/* STYLE DO PLACEHOLDER SENHA */
 
 .focus-input104::after {
   font-family: Raleway;
@@ -911,6 +843,10 @@ iframe {
   transition: all 0.4s;
 }
 
+/* STYLE DO PLACEHOLDER CONFIRMAR SENHA */
+/* STYLE DO PLACEHOLDER CONFIRMAR SENHA */
+/* STYLE DO PLACEHOLDER CONFIRMAR SENHA */
+
 .focus-input105::after {
   font-family: Raleway;
   font-size: 15px;
@@ -930,6 +866,10 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
 
 .input100:focus+.focus-input100::after {
   top: -15px;
@@ -1037,49 +977,11 @@ iframe {
   width: 100%;
 }
 
-/* --------------- */
-.btn-show-pass {
-  font-size: 15px;
-  color: #999999;
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  right: 0;
-  padding-right: 5px;
-  cursor: pointer;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  transition: all 1s;
-}
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
 
-.btn-show-pass:hover {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-.btn-show-pass.active {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-
-
-/*------------------------------------------------------------------
-      [ Button ]*/
 .container-cadastro100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1092,6 +994,10 @@ iframe {
   margin-top: 3%;
   margin-bottom: 1%;
 }
+
+/* FORMATAÇÃO DO BOTAO ENTRAR */
+/* FORMATAÇÃO DO BOTAO ENTRAR */
+/* FORMATAÇÃO DO BOTAO ENTRAR */
 
 .wrap-cadastro100-form-btn {
   width: 70%;
@@ -1123,6 +1029,10 @@ iframe {
   transition: all 1.5s;
 }
 
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+
 .cadastro100-form-btn {
   font-family: Raleway;
   font-size: 15px;
@@ -1146,91 +1056,13 @@ iframe {
   left: 0;
 }
 
-/* --------------------------------------------------------------cadastre-se */
+/* LINK PARA LOGIN */
+/* LINK PARA LOGIN */
+/* LINK PARA LOGIN */
 
 .alternativa {
   position: relative;
   display: flex;
   top: 10px;
   left: 26%;
-}
-
-/*------------------------------------------------------------------
-      [ Responsive ]*/
-
-@media (max-width: 576px) {
-  .wrap-cadastro100 {
-    padding: 77px 15px 33px 15px;
-  }
-}
-
-
-
-/*------------------------------------------------------------------
-      [ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 2px;
-  padding: 4px 25px 4px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0px;
-  pointer-events: none;
-
-  font-family: Raleway;
-  color: #c80000;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f06a";
-  font-family: FontAwesome;
-  font-size: 16px;
-  color: #c80000;
-
-  display: block;
-  position: absolute;
-  background-color: #fff;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 5px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
 }

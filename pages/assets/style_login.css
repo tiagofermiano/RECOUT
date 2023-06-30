@@ -11,7 +11,8 @@ body {
   background-color: #002658;
   background-image: linear-gradient(to bottom, #001024, #002658);
   background-repeat: no-repeat;
-
+  height: 100vh;
+  font-family: Raleway, sans-serif;
 }
 
 /* CABECALHO */
@@ -162,78 +163,22 @@ body {
 /* FIM CABECALHO */
 /* FIM CABECALHO */
 
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+/* STYLE DA LOGO NO HEADER DO FORM LOGIN */
+
 .logoforms {
   position: relative;
   width: 75px;
-  height: 5, 5;
-  /* left: 155px; */
+  height: 5;
   top: 2px;
   margin-top: 5%;
 }
 
-/* ------------------------- */
-/*//////////////////////////////////////////////////////////////////
-      [ RESTYLE TAG ]*/
+/*STYLE DO BOX DO INPUT*/
+/*STYLE DO BOX DO INPUT*/
+/*STYLE DO BOX DO INPUT*/
 
-
-body,
-html {
-  height: 100vh;
-  font-family: Raleway, sans-serif;
-}
-
-/*---------------------------------------------*/
-a {
-  font-family: Raleway;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-  outline: none !important;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #001e44;
-  color: -webkit-linear-gradient(left, #001e44, #FF6100);
-  color: -o-linear-gradient(left, #001e44, #FF6100);
-  color: -moz-linear-gradient(left, #001e44, #FF6100);
-  color: linear-gradient(left, #001e44, #FF6100);
-}
-
-/*---------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
-}
-
-p {
-  font-family: Raleway;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-}
-
-ul,
-li {
-  margin: 0px;
-  list-style-type: none;
-}
-
-
-/*---------------------------------------------*/
 input {
   outline: none;
   border: none;
@@ -244,76 +189,11 @@ textarea {
   border: none;
 }
 
-textarea:focus,
-input:focus {
-  border-color: transparent !important;
-}
 
-input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
+/* STYLE DO BOTÃO ENTRAR */
+/* STYLE DO BOTÃO ENTRAR */
+/* STYLE DO BOTÃO ENTRAR */
 
-input:focus:-moz-placeholder {
-  color: transparent;
-}
-
-input:focus::-moz-placeholder {
-  color: transparent;
-}
-
-input:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus::-moz-placeholder {
-  color: transparent;
-}
-
-textarea:focus:-ms-input-placeholder {
-  color: transparent;
-}
-
-input::-webkit-input-placeholder {
-  color: #adadad;
-}
-
-input:-moz-placeholder {
-  color: #adadad;
-}
-
-input::-moz-placeholder {
-  color: #adadad;
-}
-
-input:-ms-input-placeholder {
-  color: #adadad;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #adadad;
-}
-
-textarea:-moz-placeholder {
-  color: #adadad;
-}
-
-textarea::-moz-placeholder {
-  color: #adadad;
-}
-
-textarea:-ms-input-placeholder {
-  color: #adadad;
-}
-
-/*---------------------------------------------*/
 button {
   outline: none !important;
   border: none;
@@ -329,8 +209,10 @@ iframe {
 }
 
 
-/*//////////////////////////////////////////////////////////////////
-      [ Utility ]*/
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA CADASTRO */
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA CADASTRO */
+/* STYLE DOS TEXTOS QUE DIRECIONAM PARA CADASTRO */
+
 .txt1 {
   font-family: Raleway;
   font-size: 13px;
@@ -358,15 +240,18 @@ iframe {
   position: relative;
   text-align: center;
   font-size: 13px;
-
 }
+
+/* ALTERNATIVAS DE LOGIN */
+/* ALTERNATIVAS DE LOGIN */
+/* ALTERNATIVAS DE LOGIN */
+
 
 .alternativa2 {
   display: block;
   margin: auto;
   position: relative;
   align-items: center;
-
 }
 
 .linkedinlogin {
@@ -375,14 +260,7 @@ iframe {
   height: 60px;
   left: 59%;
   margin-bottom: 2%;
-
 }
-
-.linkedinlogin:hover {
-  opacity: 2.5;
-  transform: scale(1.1);
-}
-
 
 .googlelogin {
   position: relative;
@@ -390,7 +268,22 @@ iframe {
   height: 60px;
   left: 31%;
   margin-bottom: 2%;
+}
+.outlooklogin {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 3.2%;
+  margin-bottom: 2%;
+}
 
+/* ANIMAÇÃO DAS ALTERNATIVAS DE LOGIN */
+/* ANIMAÇÃO DAS ALTERNATIVAS DE LOGIN */
+/* ANIMAÇÃO DAS ALTERNATIVAS DE LOGIN */
+
+.linkedinlogin:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
 }
 
 .googlelogin:hover {
@@ -398,27 +291,15 @@ iframe {
   transform: scale(1.1);
 }
 
-
-.outlooklogin {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  left: 3.2%;
-  margin-bottom: 2%;
-
-}
-
 .outlooklogin:hover {
   opacity: 2.5;
   transform: scale(1.1);
 }
 
+/* POSICIONAMENTO DA DIV DO FORM LOGIN */
+/* POSICIONAMENTO DA DIV DO FORM LOGIN */
+/* POSICIONAMENTO DA DIV DO FORM LOGIN */
 
-
-
-
-/*//////////////////////////////////////////////////////////////////
-      [ login ]*/
 
 .limiter {
   width: 100%;
@@ -430,22 +311,20 @@ iframe {
   min-height: 80vh;
   display: -webkit-box;
   display: -webkit-flex;
-  /* display: -moz-box; */
-  /* display: -ms-flexbox; */
-  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* padding: 15px; */
-  /* background: #f2f2f2; */
 }
+
+/* STYLE DO BACKGROUND DO FORM LOGIN */
+/* STYLE DO BACKGROUND DO FORM LOGIN */
+/* STYLE DO BACKGROUND DO FORM LOGIN */
 
 .wrap-login100 {
   width: 500px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  /* padding: 45px 55px 50px 65px; */
   margin-top: 15px;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -457,8 +336,9 @@ iframe {
   align-items: center;
 }
 
-/*------------------------------------------------------------------
-      [ Form ]*/
+/* FORMATAÇÃO DOS TEXTOS DO FORM LOGIN */
+/* FORMATAÇÃO DOS TEXTOS DO FORM LOGIN */
+/* FORMATAÇÃO DOS TEXTOS DO FORM LOGIN */
 
 .login100-form {
   width: 100%;
@@ -492,8 +372,9 @@ iframe {
 
 }
 
-/*------------------------------------------------------------------
-      [ Input ]*/
+/* STYLE DA DIV PAI DOS INPUTS */
+/* STYLE DA DIV PAI DOS INPUTS */
+/* STYLE DA DIV PAI DOS INPUTS */
 
 .wrap-input100 {
   width: 70%;
@@ -503,8 +384,12 @@ iframe {
   margin: 0 auto;
 }
 
+/* FORMATAÇÃO DOS INPUTS EMAIL E SENHA */
+/* FORMATAÇÃO DOS INPUTS EMAIL E SENHA */
+/* FORMATAÇÃO DOS INPUTS EMAIL E SENHA */
+
 .input100 {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 15px;
   color: #555555;
   line-height: 1.2;
@@ -518,7 +403,7 @@ iframe {
 }
 
 .input101{
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 15px;
   color: #555555;
   line-height: 1.2;
@@ -530,7 +415,10 @@ iframe {
   margin-top: 8%;
 }
 
-/*---------------------------------------------*/
+/* STYLES DOS INPUTS EMAIL E SENHA */
+/* STYLES DOS INPUTS EMAIL E SENHA */
+/* STYLES DOS INPUTS EMAIL E SENHA */
+
 .focus-input100 {
   position: absolute;
   display: block;
@@ -550,6 +438,10 @@ iframe {
   left: 0;
   pointer-events: none;
 }
+
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT EMAIL*/
 
 .focus-input100::before {
   content: "";
@@ -571,6 +463,10 @@ iframe {
   background: -moz-linear-gradient(left, #001e44, #FF6100);
   background: linear-gradient(left, #001e44, #FF6100);
 }
+
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
+/* ANIMAÇÃO DA COR DA BARRA DE TEXTO DO INPUT SENHA*/
 
 .focus-input101::before{
   content: "";
@@ -594,6 +490,11 @@ iframe {
 
 }
 
+/* STYLE DO PLACEHOLDER EMAIL */
+/* STYLE DO PLACEHOLDER EMAIL */
+/* STYLE DO PLACEHOLDER EMAIL */
+
+
 .focus-input100::after {
   font-family: Raleway;
   font-size: 15px;
@@ -614,6 +515,11 @@ iframe {
   transition: all 0.4s;
 }
 
+/* STYLE DO PLACEHOLDER SENHA */
+/* STYLE DO PLACEHOLDER SENHA */
+/* STYLE DO PLACEHOLDER SENHA */
+
+
 .focus-input101::after{
   font-family: Raleway;
   font-size: 15px;
@@ -633,6 +539,10 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
+/* ANIMAÇÃO DO PLACEHOLDER DOS INPUTS */
 
 .input100:focus+.focus-input100::after {
   top: -15px;
@@ -667,49 +577,11 @@ iframe {
   width: 100%;
 }
 
-/*---------------------------------------------*/
-.btn-show-pass {
-  font-size: 15px;
-  color: #999999;
 
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  height: 100%;
-  top: 0;
-  right: 0;
-  padding-right: 5px;
-  cursor: pointer;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  transition: all 1s;
-}
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
+/* POSIÇÃO DO BOTÃO DENTRO DO FORMS */
 
-.btn-show-pass:hover {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-.btn-show-pass.active {
-  color: #6a7dfe;
-  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  color: -o-linear-gradient(left, #21d4fd, #b721ff);
-  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  color: linear-gradient(left, #21d4fd, #b721ff);
-}
-
-
-
-/*------------------------------------------------------------------
-      [ Button ]*/
 .container-login100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -722,6 +594,10 @@ iframe {
   margin-top: 3%;
   margin-bottom: 1%;
 }
+
+/* FORMATAÇÃO DO BOTAO ENTRAR */
+/* FORMATAÇÃO DO BOTAO ENTRAR */
+/* FORMATAÇÃO DO BOTAO ENTRAR */
 
 .wrap-login100-form-btn {
   width: 70%;
@@ -753,12 +629,15 @@ iframe {
   transition: all 1.5s;
 }
 
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+/* FORMATAÇÃO DO TXT DO BOTAO DE ENTRAR */
+
 .login100-form-btn {
   font-family: Raleway;
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
-  /* text-transform: uppercase; */
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -776,7 +655,10 @@ iframe {
   left: 0;
 }
 
-/* --------------------------------------------------------------cadastre-se */
+/* LINK PARA CADASTRO */
+/* LINK PARA CADASTRO */
+/* LINK PARA CADASTRO */
+
 
 .alternativa {
   position: relative;
@@ -785,82 +667,6 @@ iframe {
   left: 26%;
 }
 
-/*------------------------------------------------------------------
-      [ Responsive ]*/
-
-@media (max-width: 576px) {
-  .wrap-login100 {
-    padding: 77px 15px 33px 15px;
-  }
-}
 
 
 
-/*------------------------------------------------------------------
-      [ Alert validate ]*/
-
-.validate-input {
-  position: relative;
-}
-
-.alert-validate::before {
-  content: attr(data-validate);
-  position: absolute;
-  max-width: 70%;
-  background-color: #fff;
-  border: 1px solid #c80000;
-  border-radius: 2px;
-  padding: 4px 25px 4px 10px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0px;
-  pointer-events: none;
-
-  font-family: Raleway;
-  color: #c80000;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-
-  visibility: hidden;
-  opacity: 0;
-
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-.alert-validate::after {
-  content: "\f06a";
-  font-family: FontAwesome;
-  font-size: 16px;
-  color: #c80000;
-
-  display: block;
-  position: absolute;
-  background-color: #fff;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 5px;
-}
-
-.alert-validate:hover:before {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
