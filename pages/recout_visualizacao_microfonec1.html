@@ -102,44 +102,12 @@
                     <li>Microfone profissional condensador de grande diafragma;</li>
                     <li>Ideal para uso como microfone principal ou de suporte em estúdios e aplicações ao vivo;</li>
                     <li>Padrão de captação cardióide para separação de fonte de áudio e eliminação de retorno;</li>
-                    <li>Transdutor de pressão gradiente com cápsula anti-choque; Ideal para utilização com instrumentos acústico</li>
+                    <li>Transdutor de pressão gradiente com cápsula anti-choque; Ideal para utilização com instrumentos acústico.</li>
                 </ul>
             </div>
         </div>
 
         <script src="carrossel.js"></script>
-
-        <script>
-            function getProductInfo() {
-                // Obtenha o ID do produto da URL
-                const urlParams = new URLSearchParams(window.location.search);
-                const productId = urlParams.get('id');
-    
-                fetch(`/getProductInfo/${productId}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const title = document.getElementsByClassName('txt_nome');
-                        const price = document.getElementsByClassName('txt_preco');
-                        const desc = document.getElementsByClassName('especificacoes');
-                        const image = document.getElementById('imagem1');
-                        const image = document.getElementById('imagem2');
-                        const image = document.getElementById('imagem3');
-                        const image = document.getElementById('imagem4');
-    
-                        title.textContent = data.info[0].modelo;
-                        desc.textContent = data.info[0].especificacoes ;
-                        price.textContent = data.info[0].valor;
-                        image.src = data.info[0].imagem1;
-                        image.src = data.info[0].imagem2;
-                        image.src = data.info[0].imagem3;
-                        image.src = data.info[0].imagem4;
-                    })
-                    .catch(error => console.error('Erro ao obter produtos:', error));
-            }
-    
-            // Chame a função getProductInfo quando a página carregar
-            window.addEventListener('load', getProductInfo);
-        </script>
 </body>
 
 </html>
