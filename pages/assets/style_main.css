@@ -3,9 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-
 }
-
 
 body{
   width: 100%;
@@ -14,6 +12,8 @@ body{
   background-image: linear-gradient(to bottom, #001024, #001e44);
   background-repeat: no-repeat;
 }  
+
+/* CABEÇALHO PARA LINK DE SUPORTE E SOBRE NÓS */
 
 .cabecalho{
 width: 100%;
@@ -48,14 +48,18 @@ font-family: 'Raleway';
 color: #FF6100;
 }
 
+/* STYLE DA IMAGEM DE NOSSA LOGO */
+
 .logo{  
   width: 440px;
   margin: auto;
-  /* display: flex;  */
-  /* background-image: url(logobranca.png);  */
   background-repeat: no-repeat  ;
   top: 0px;
 }
+
+/* GRID DOS BOTÕES QUE DIRECIONAM PARA CAIXINHA E PERFIL */
+/* GRID DOS BOTÕES QUE DIRECIONAM PARA CAIXINHA E PERFIL */
+/* GRID DOS BOTÕES QUE DIRECIONAM PARA CAIXINHA E PERFIL */
 
 .botoes{
   display: grid;
@@ -64,12 +68,13 @@ color: #FF6100;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 5%;
   grid-column-gap: 90px;
-
 }
 
 .botoes a{
   text-decoration: none;
 }
+
+/* STYLE DO BOTÃO CAIXINHA */
 
 .caixinha{
   display: grid;
@@ -93,7 +98,7 @@ color: #FF6100;
 .img_caixinha{
   margin: auto;
   width: 60%;
-  
+
 }
 
 .txt_caixinha{
@@ -103,6 +108,8 @@ color: #FF6100;
   font-weight: 600;
   margin: auto;
 }
+
+/* STYLE DO BOTÃO PERFIL */
 
 
 .perfil{
@@ -130,24 +137,24 @@ color: #FF6100;
   width:60%;
 }
 
-
-
 .txt_perfil{
   color: #FF6100;
   font-family: 'Raleway';
   font-size: 20px;
   font-weight: 600;
   margin: auto;
-  tex
 }
 
-  
+/* DIV PAI DAS IMAGENS DAS PÁGINAS */
+
 .imagens_pages{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   margin: auto;
   }
+
+/* STYLE DA IMAGEM NO FUNDO */
 
 .img {
   width:100%;
@@ -157,9 +164,7 @@ color: #FF6100;
   opacity: 50%;
 }
 
-.box{
-  margin: auto;
-}
+/* STYLE DOS BOTÕES QUE LEVAM PARA AS PÁGINAS DO SITE */
 
 .box button{
   position: absolute;
@@ -192,6 +197,10 @@ color: #FF6100;
   touch-action: manipulation;
 }
 
+.box{
+  margin: auto;
+}
+
 .box button:disabled {
   pointer-events: none;
 }
@@ -213,6 +222,8 @@ color: #FF6100;
 /* SOBRE NÓS */
 /* SOBRE NÓS */
 
+/* STYLE DA BARRA QUE SEPARA O SOBRE NÓS DO MAIN */
+
 .barra_divisoria{
   display: block;
   position: relative;
@@ -224,6 +235,8 @@ color: #FF6100;
   margin-top: 3%;
   }
 
+/* STYLE DA DIV PAI DAS EXPLICAÇÕES DOS SERVIÇOS */
+
 .explains{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -231,6 +244,8 @@ color: #FF6100;
   margin-top: 3%;
   width: 95%;
 }
+
+/* STYLE DOS CARDS DE EXPLICAÇÕES */
 
 .card{
   display: grid;
@@ -247,6 +262,7 @@ color: #FF6100;
   margin: auto;
 }
 
+/* STYLE DOS TEXTOS DAS EXPLICAÇÕES */
 
 .titulo{
   font-size: 22px;
@@ -272,6 +288,8 @@ color: #FF6100;
   margin-top: 3%;
 }
 
+/* STYLE DA DIV SOBRE NÓS */
+
 .sobre{
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -286,6 +304,8 @@ color: #FF6100;
   margin-top: 5%;
   padding-bottom: 5%;
 }
+
+/* STYLE DOS TEXTOS DO SOBRE NÓS */
 
 .textos_sobre{
   display: grid;
@@ -310,6 +330,8 @@ color: #FF6100;
   font-family: 'Raleway';
   margin-bottom: 1%;
 }
+
+/* STYLE DA IMAGEM DA EQUIPE */
 
 .img_nos{
     width: 85%;
