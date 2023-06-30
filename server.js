@@ -46,9 +46,6 @@ app.get('/cadastro', (req, res) => {
   res.sendFile(__dirname + '/pages/recout_cadastro.html')
 })
 
-SELECT * FROM `espacos` WHERE `categoria` = "Podcast";
-
-
 
 app.post('/login', (req, res) => {
   let email = req.body.email;
