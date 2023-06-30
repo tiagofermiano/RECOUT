@@ -15,7 +15,7 @@ app.use(express.static('pages'));
 const connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'recout',
 });
 
@@ -85,6 +85,6 @@ app.post('/cadastro', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000!')
+app.listen(3003, () => {
+    console.log('Servidor rodando na porta 3003!')
 })
