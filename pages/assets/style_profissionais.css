@@ -190,6 +190,7 @@ body {
   color: #FF6100;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
 .txt_geral:hover {
@@ -203,6 +204,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
 .txt_audio:hover {
@@ -216,6 +218,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
 .txt_estetica:hover {
@@ -229,6 +232,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
 .txt_edicao:hover {
@@ -242,9 +246,10 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
-.txt_:hover {
+.txt_gravacao:hover {
   opacity: 0.8;
   transform: scale(1.05);
 }

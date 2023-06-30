@@ -189,6 +189,7 @@ body {
   color: #FF6100;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  text-decoration: none;
 }
 
 .txt_geral:hover {
@@ -202,6 +203,9 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
 }
 
 .txt_podcast:hover {
@@ -215,6 +219,9 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
 }
 
 .txt_musical:hover {
@@ -228,6 +235,9 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
 }
 
 .txt_videos:hover {
@@ -241,6 +251,9 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
 }
 
 .txt_streaming:hover {
