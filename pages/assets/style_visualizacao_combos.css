@@ -292,6 +292,20 @@ body {
   font-size: 50px;
 }
 
+.localizacao {
+  color: #D9D9D9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.title_localizacao {
+  margin-left: 5%;
+}
+
+.localizacao ul {
+  margin-left: 10%;
+}
+
 /* GRID DO PREÇO COM O BOTÃO DE ALUGUEL */
 
 .prosseguir {
