@@ -314,7 +314,7 @@ body {
 /* STYLE DO BOTÃO QUE FINALIZA O PAGAMENTO */
 
 
-.botao_finalizar {
+ .botao_finalizar {
     appearance: none;
     background-color: transparent;
     border: 3px solid #FF6100;
@@ -358,6 +358,118 @@ body {
     box-shadow: none;
     transform: translateY(0);
 }
+
+/* POPUP DE FINALIZAÇÃO DE COMPRA */
+/* POPUP DE FINALIZAÇÃO DE COMPRA */
+/* POPUP DE FINALIZAÇÃO DE COMPRA */
+
+.popup-wrapper{
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.popup{
+    text-align: center;
+    width: 30%;
+    height: auto;
+    margin: 10% auto;
+    padding: 20px;
+    background: #FF6100;
+    position: relative;
+    border: solid 1px #011E44;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.popup-content{
+    text-align: center;
+    color: #D9D9D9;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.image_popup{
+    width: 30%;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+.popup a {
+    padding: 6px 10px;
+    text-decoration: none;
+    border: 3px solid #FF6100;
+    border-radius: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    color: #FF6100;
+    background-color: #001024;
+    cursor: pointer;
+    display: block;
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin: auto;
+    height: 60%;
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 3%;
+}
+
+/* CHECK DO PAGAMENTO */
+
+.loading {
+    width: 124px;
+    height: 124px;
+    margin: auto;
+  }
+  
+  .loading svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle {
+    transform: rotate(-90deg);
+    transform-origin: center;
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    animation: circle_4 2s ease-in-out forwards;
+  }
+  
+  .check {
+    stroke-dasharray: 45;
+    stroke-dashoffset: 45;
+    animation: check_4 0.2s 2s ease-in-out forwards;
+  }
+  
+  @keyframes circle_4 {
+    0% {
+      stroke-dashoffset: 380;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes check_4 {
+    0% {
+      stroke-dashoffset: 45;
+    }
+  
+    100% {
+      stroke-dashoffset: 90;
+    }
+  }
 
 /* FIM DO BOX PAGAMENTO */
 /* FIM DO BOX PAGAMENTO */
