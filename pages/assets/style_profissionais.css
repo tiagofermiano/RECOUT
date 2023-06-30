@@ -177,7 +177,6 @@ body {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  /* padding-inline: 20px; */
   margin: auto;
   height: 40px;
   background-color: #D9D9D9;
@@ -275,9 +274,9 @@ body {
   font-size: 17px;
 }
 
-/* retangulo dos profissionais */
-/* retangulo dos profissionais */
-/* retangulo dos profissionais */
+/* GRID DOS PROFISSIONAIS */
+/* GRID DOS PROFISSIONAIS */
+/* GRID DOS PROFISSIONAIS */
 
 .wrapper {
   display: grid;
@@ -292,6 +291,10 @@ body {
 
 }
 
+/* CARDS GERAIS DOS PROFISSIONAIS */
+/* CARDS GERAIS DOS PROFISSIONAIS */
+/* CARDS GERAIS DOS PROFISSIONAIS */
+
 .card {
   display: grid;
   margin: auto;
@@ -304,8 +307,9 @@ body {
   font-family: 'Raleway', sans-serif;
   transition: 0.5s ease-out;
   overflow: visible;
-  /* padding: 15px; */
 }
+
+/* IMAGEM DO PROFISSIONAL */
 
 .img_profi {
   display: block;
@@ -314,6 +318,8 @@ body {
   max-width: 150px;
   padding: 18px;
 }
+
+/* TEXTOS DOS CARDS */
 
 .textos_card {
   align-items: center;
@@ -332,6 +338,10 @@ body {
   padding-bottom: 25px;
   
 }
+
+/* STYLE DAS INFOS DOS PROFISSIONAIS */
+/* STYLE DAS INFOS DOS PROFISSIONAIS */
+/* STYLE DAS INFOS DOS PROFISSIONAIS */
 
 .grid_categoria {
   display: grid;
@@ -356,7 +366,6 @@ body {
   position: relative;
   font-weight: 600;
   color: #FF6100;
-
 }
 
 .grid_custovalor {
@@ -384,6 +393,11 @@ body {
   color: #FF6100;
 }
 
+
+/* STYLE DO BOTÃO VER PROFISSIONAL */
+/* STYLE DO BOTÃO VER PROFISSIONAL */
+/* STYLE DO BOTÃO VER PROFISSIONAL */
+
 .botao_veritem {
   display: block;
   position: relative;
@@ -406,14 +420,15 @@ body {
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  /* user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation; */
 }
 
 .card a{
   text-decoration: none;
 }
+
+/* ANIMAÇÃO DO BOTÃO VER PROFISSIONAL */
+/* ANIMAÇÃO DO BOTÃO VER PROFISSIONAL */
+/* ANIMAÇÃO DO BOTÃO VER PROFISSIONAL */
 
 .botao_veritem:disabled {
   pointer-events: none;
@@ -422,12 +437,10 @@ body {
 .botao_veritem:hover {
   color: #001024;
   background-color: #FF6100;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; */
   transform: translateY(-2px);
   font-weight: bold
 }
 
 .botao_veritem:disabled:active {
-  /* box-shadow: none; */
   transform: translateY(0);
 }
