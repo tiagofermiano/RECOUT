@@ -341,6 +341,11 @@ body {
   transform: translateY(-2px);
 }
 
+a{
+  text-decoration: none;
+}
+
+
 /* STYLE DOS TEXTOS DE ESPECIFICAÇÕES E LOCALIZAÇÃO */
 
 .titulo_especificacoes {
