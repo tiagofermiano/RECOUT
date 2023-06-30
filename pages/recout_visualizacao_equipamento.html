@@ -63,13 +63,13 @@
         <div class="imagens">
             <div class="carrossel">
 
-                <img class="img_carrossel"
+                <img class="img_carrossel" id="imagem1"
                     src="https://i.pinimg.com/originals/9a/08/90/9a0890fbb45ac752728cf8b5f6bc25c1.png" alt="Imagem 1">
-                <img class="img_carrossel"
+                <img class="img_carrossel" id="imagem2"
                     src="https://i.pinimg.com/originals/02/28/23/022823d3607014a2d08294c41cbb6b8c.png" alt="Imagem 2">
-                <img class="img_carrossel"
+                <img class="img_carrossel" id="imagem3"
                     src="https://i.pinimg.com/originals/3b/c2/bf/3bc2bfc2b9b5c1e2943375c7e1d15534.png" alt="Imagem 3">
-                <img class="img_carrossel"
+                <img class="img_carrossel" id="imagem4"
                     src="https://i.pinimg.com/originals/3c/be/51/3cbe51869cf2b20c2b4021a25f57f5e2.png" alt="Imagem 3">
 
 
@@ -113,6 +113,37 @@
 
         <script src="carrossel.js"></script>
 
+        <script>
+            function getProductInfo() {
+                // Obtenha o ID do produto da URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const productId = urlParams.get('id');
+    
+                fetch(`/getProductInfo/${productId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        const title = document.getElementsByClassName('txt_nome');
+                        const price = document.getElementsByClassName('txt_preco');
+                        const desc = document.getElementsByClassName('especificacoes');
+                        const image = document.getElementById('imagem1');
+                        const image = document.getElementById('imagem2');
+                        const image = document.getElementById('imagem3');
+                        const image = document.getElementById('imagem4');
+    
+                        title.textContent = data.info[0].modelo;
+                        desc.textContent = data.info[0].especificacoes ;
+                        price.textContent = data.info[0].valor;
+                        image.src = data.info[0].imagem1;
+                        image.src = data.info[0].imagem2;
+                        image.src = data.info[0].imagem3;
+                        image.src = data.info[0].imagem4;
+                    })
+                    .catch(error => console.error('Erro ao obter produtos:', error));
+            }
+    
+            // Chame a função getProductInfo quando a página carregar
+            window.addEventListener('load', getProductInfo);
+        </script>
 </body>
 
 </html>
