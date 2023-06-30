@@ -85,6 +85,21 @@ app.post('/cadastro', (req, res) => {
     });
 });
 
+// CONFIGURANDO OBJETOS FILTROS
+// CONFIGURANDO OBJETOS FILTROS
+
+app.get('/dados', (req, res) => {
+  connection.query('SELECT * FROM espaco WHERE id = 1', [1], (error, results) => {
+    if (error) {
+      console.error('Erro ao executar consulta: ' + error.stack);
+      return res.status(500).json({ error: 'Erro ao consultar banco de dados' });
+    }
+
+    const objeto = results[0];
+    res.json(objeto);
+  });
+});
+
 app.listen(3003, () => {
     console.log('Servidor rodando na porta 3003!')
 })
