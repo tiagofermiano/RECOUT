@@ -137,6 +137,6 @@ app.get('/dados', (req, res) => {
   });
 });
 
-app.listen(3002, () => {
-    console.log('Servidor rodando na porta 3002!')
+app.listen(3306, () => {
+    console.log('Servidor rodando na porta 3306!')
 })
