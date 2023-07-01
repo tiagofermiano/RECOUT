@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media only screen and (max-width: 768px) {
+  /* Estilos para dispositivos com largura máxima de 768px */
+}
+@media only screen and (max-width: 480px) {
+  /* Estilos para dispositivos com largura máxima de 480px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #001e44;
+  background-image: linear-gradient(to bottom, #001024, #001e44);
+  background-repeat: no-repeat;
+
+}
+
+/* CABECALHO */
+/* CABECALHO */
+/* CABECALHO */
+
+.cabecalho {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.8fr 0.8fr;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  width: 62px;
+  height: 62px;
+  top: 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+.logo:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+.txt_espacos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+  font-size: 9px;
+
+  color: #001024;
+  top: 4.5%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_espacos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+}
+
+.txt_profissionais {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  color: #001024;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_profissionais:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.txt_combos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  color: #001024;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_combos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.txt_equipamentos {
+  display: flex;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  -webkit-transition-duration: 0.4s;
+  color: #FF6100;
+  transition-duration: 0.4s;
+  top: 4.5%;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.txt_equipamentos:hover {
+  opacity: 0.5;
+  transform: scale(0.95);
+  color: #FF6100;
+
+}
+
+.conta {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-left: auto;
+}
+
+.conta:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+.caixinha {
+  display: flex;
+  position: relative;
+  margin: auto;
+  width: 45px;
+  height: 35px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.caixinha:hover {
+  opacity: 2.5;
+  transform: scale(1.1);
+}
+
+/* FIM CABECALHO */
+/* FIM CABECALHO */
+/* FIM CABECALHO */
+
+/* BARRA CINZA */
+/* BARRA CINZA */
+/* BARRA CINZA */
+
+.cabecalho2_cor {
+  width: 100%;
+  background-color: #D9D9D9;
+}
+
+.cabecalho_2 {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* padding-inline: 20px; */
+  margin: auto;
+  height: 40px;
+  background-color: #D9D9D9;
+}
+
+.txt_geral {
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  color: #001024;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.txt_geral:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.txt_podcast {
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt_podcast:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.txt_musical {
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt_musical:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.txt_videos {
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: #001024;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt_videos:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.txt_streaming {
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: #FF6100;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt_streaming:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* FIM DO CABECALHO */
+/* FIM DO CABECALHO */
+/* FIM DO CABECALHO */
+
+.titulo_equipamentos {
+  color: #D9D9D9;
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.subtitulo_equipamentos {
+  color: #D9D9D9;
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+}
+
+/* INICIO DAS FOTOS DO CATALOGO */
+/* INICIO DAS FOTOS DO CATALOGO */
+/* INICIO DAS FOTOS DO CATALOGO */
+
+/* GRID DE TODOS DOS BLOCOS */
+/* GRID DE TODOS DOS BLOCOS */
+/* GRID DE TODOS DOS BLOCOS */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  margin-bottom: 12%;
+  grid-row-gap: 60px;
+  grid-column-gap: 70px;
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+/* CARDS GERAIS DO CATALOGO */
+/* CARDS GERAIS DO CATALOGO */
+/* CARDS GERAIS DO CATALOGO */
+
+
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  padding: 25px;
+  border: 2px solid white;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details {
+  color: #011E44;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  margin-bottom: 20%;
+}
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  height: 10%;
+  border-radius: 30px 30px 30px 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #FF6100;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.preco {
+  display: flex;
+}
+
+.img_produto {
+  width: 99%;
+}
+
+/* VALOR PRODUTO */
+/* VALOR PRODUTO */
+/* VALOR PRODUTO */
+
+.txt_preco1 {
+  color: #FF6100;
+  font-size: 33px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  width: 60%;
+}
+
+/* PERÍODO DE ALUGUEL */
+/* PERÍODO DE ALUGUEL */
+/* PERÍODO DE ALUGUEL */
+
+.txt_preco2 {
+  color: #8f8f8f;
+  font-size: 20px;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  display: flex;
+}
+
+.txt_titulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  top: 0%;
+  position: relative;
+}
+
+/*ANIMAÇÃO*/
+.card:hover {
+  border-color: #FF6100;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+/* FIM DO CARD */
+/* FIM DO CARD */
+/* FIM DO CARD */
+
+
+/* IMAGENS DOS BLOCOS GERAIS */
+/* IMAGENS DOS BLOCOS GERAIS */
+/* IMAGENS DOS BLOCOS GERAIS */
+
+.imgE1 {
+  display: block;
+  width: 215px;
+  height: 230px;
+  border-radius: 10px 25px 10px 25px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+
+footer{
+  background-color:#001024;
+  color: #888888;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 1fr;
+  font-family: 'Raleway';
+  padding: 25px;
+}
+
+.footer_left{
+  margin: auto;
+}
+
+.footer_center{
+  margin: auto;
+}
+
+.footer_right{
+  margin: auto;
+}
+
+.logo_footer{
+  width: 90px;
+}
