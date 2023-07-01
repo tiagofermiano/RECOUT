@@ -186,7 +186,7 @@ body {
   position: relative;
   margin: auto;
   font-family: 'Raleway', sans-serif;
-  color: #FF6100;
+  color: #001024;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   text-decoration: none;
@@ -215,7 +215,7 @@ body {
 .txt_estetica {
   position: relative;
   margin: auto;
-  color: #001024;
+  color: #FF6100;
   font-family: 'Raleway', sans-serif;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
