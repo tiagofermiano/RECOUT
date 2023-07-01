@@ -18,43 +18,43 @@
 
         <div class="cabecalho">
 
-			<a href="recout_main.html"><img class="logo"
-				src="https://i.pinimg.com/originals/bc/48/7b/bc487bdeb2ab6efb429b348a7d677354.png"
-				title="Ir para Home"></a>
+            <a href="recout_main.html"><img class="logo"
+                    src="https://i.pinimg.com/originals/bc/48/7b/bc487bdeb2ab6efb429b348a7d677354.png"
+                    title="Ir para Home"></a>
 
-			<div class="txt_espacos">
-				<a class="txt_espacos" href="Recout_Espacos.html">
-					<h1> Espaços </h1>
-				</a>
-			</div>
-	
-			<div class="txt_profissionais">
-				<a class="txt_profissionais" href="recout_profissionais.html">
-					<h1> Profissionais </h1>
-				</a>
-			</div>
-	
-			<div class="txt_combos">
-				<a class="txt_combos" href="recout_combos.html">
-					<h1> Combos </h1>
-				</a>
-			</div>
-	
-			<div class="txt_equipamentos">
-				<a class="txt_equipamentos" href="recout_equipamentos.html">
-					<h1> Equipamentos </h1>
-				</a>
-			</div>
+            <div class="txt_espacos">
+                <a class="txt_espacos" href="Recout_Espacos.html">
+                    <h1> Espaços </h1>
+                </a>
+            </div>
 
-			<a href="recout_login.html"><img class="conta"
-					src="https://i.pinimg.com/originals/45/4a/6f/454a6f469e3ddb66a2a56b61d3bf836d.png"
-					title="Ir para perfil do usuário"></a>
+            <div class="txt_profissionais">
+                <a class="txt_profissionais" href="recout_profissionais.html">
+                    <h1> Profissionais </h1>
+                </a>
+            </div>
 
-			<a href="recout_caixinha.html"><img class="caixinha"
-					src="https://i.pinimg.com/originals/50/41/66/504166b72372d07c222979dfd9f2a710.png"
-					title="Ir para Caixinha"></a>
+            <div class="txt_combos">
+                <a class="txt_combos" href="recout_combos.html">
+                    <h1> Combos </h1>
+                </a>
+            </div>
 
-		</div>
+            <div class="txt_equipamentos">
+                <a class="txt_equipamentos" href="recout_equipamentos.html">
+                    <h1> Equipamentos </h1>
+                </a>
+            </div>
+
+            <a href="recout_login.html"><img class="conta"
+                    src="https://i.pinimg.com/originals/45/4a/6f/454a6f469e3ddb66a2a56b61d3bf836d.png"
+                    title="Ir para perfil do usuário"></a>
+
+            <a href="recout_caixinha.html"><img class="caixinha"
+                    src="https://i.pinimg.com/originals/50/41/66/504166b72372d07c222979dfd9f2a710.png"
+                    title="Ir para Caixinha"></a>
+
+        </div>
 
         <div class="itens_cima">
             <div class="itens_esquerda">
@@ -164,8 +164,7 @@
                         <img class="img_itens"
                             src="https://i.pinimg.com/originals/24/24/35/24243576ce1a0690a560840c8eaded68.png">
                         <div class="textos_itens">
-                            <p class="status_itens">Realizado</p>
-                            <p class="txt_data">Serviço do dia 11 de fevereiro</p>
+                            <p class="status_itens">Agendado</p>
                             <p class="txt_descricaoitens">Câmera CANON Eos R5 8k 45mp Com 24-105mm</p>
                             <p class="txt_preco">R$ 200,00</p>
                         </div>
@@ -183,23 +182,55 @@
                         <img class="img_itens"
                             src="https://i.pinimg.com/originals/a2/db/7c/a2db7c0b028b168d11c674c587f1c1f2.png">
                         <div class="textos_itens">
-                            <p class="status_itens">Não Realizado</p>
-                            <p class="txt_data">Serviço do dia 5 de janeiro</p>
+                            <p class="status_itens">Agendado</p>
                             <p class="txt_descricaoitens">Microfone Condensador Behringer C-1</p>
-                            <p class="txt_preco"></p>
+                            <p class="txt_preco">R$ 50,00</p>
                         </div>
                         <button class="botao_veritem">
                             Ver item
                         </button>
+                    </div>
                 </div>
-
-                
-        </div>
             </div>
         </div>
     </div>
 
+    <footer>
+        <div class="footer_left">
+            <p>Todos os direitos Reservados - RECOUT™ - 2023 © </p>
+        </div>
+        <div class="footer_center">
+            <img class="logo_footer" src="https://i.pinimg.com/originals/d1/fb/3b/d1fb3bf49bccfcb4cec16b81dd689054.png">
+        </div>
+        <div class="footer_right">
+            <adress>
+                Endereço eletrônico: https://www.recout.com.br
+            </adress>
+        </div>
+    </footer>
+
 
     <script src="nome_perfil.js"></script>
+    <script>
+        function infosperfil() {
+            fetch('/infosperfil')
+                .then(response => response.json())
+                .then(data => {
+                    fillFormFields(data);
+                })
+                .catch(error => {
+                    console.log('Erro ao obter dados pessoais:', error);
+                });
+        }
 
+        // Preenche os campos de entrada com os dados pessoais
+        function fillFormFields(data) {
+            document.querySelector('.txt_email').innerText = data.email;
+            document.querySelector('.txt_nome').innerText = data.nome;
+        }
+
+        // Chama a função para obter os dados pessoais quando a página é carregada
+        window.addEventListener('load', infosperfil);
+
+    </script>
 </body>

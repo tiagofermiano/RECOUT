@@ -288,6 +288,7 @@ body {
   width: 55%;
   justify-content: center;
   padding-top: 2%;
+  padding-bottom: 5%;
 
 }
 
@@ -445,3 +446,33 @@ body {
 .botao_veritem:disabled:active {
   transform: translateY(0);
 }
+
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+
+footer{
+  background-color:#001024;
+  color: #888888;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 1fr;
+  font-family: 'Raleway';
+  padding: 25px;
+}
+
+.footer_left{
+  margin: auto;
+}
+
+.footer_center{
+  margin: auto;
+}
+
+.footer_right{
+  margin: auto;
+}
+
+.logo_footer{
+  width: 90px;
+}
+

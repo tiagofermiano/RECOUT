@@ -112,40 +112,25 @@
                 </ul>
             </div>
         </div>
+    </div>
+
+        <footer>
+            <div class="footer_left">
+                <p>Todos os direitos Reservados - RECOUT™ - 2023 © </p>
+            </div>
+            <div class="footer_center">
+                <img class="logo_footer" src="https://i.pinimg.com/originals/d1/fb/3b/d1fb3bf49bccfcb4cec16b81dd689054.png">
+            </div>
+            <div class="footer_right">
+                <adress>
+                    Endereço eletrônico: https://www.recout.com.br
+                </adress>
+            </div>
+        </footer>
 
         <script src="carrossel.js"></script>
+        <script src="popup_equipamentos.js"></script>
 
-        <script>
-            function getProductInfo() {
-                // Obtenha o ID do produto da URL
-                const urlParams = new URLSearchParams(window.location.search);
-                const productId = urlParams.get('id');
-    
-                fetch(`/getProductInfo/${productId}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const title = document.getElementsByClassName('txt_nome');
-                        const price = document.getElementsByClassName('txt_preco');
-                        const desc = document.getElementsByClassName('especificacoes');
-                        const image = document.getElementById('imagem1');
-                        const image = document.getElementById('imagem2');
-                        const image = document.getElementById('imagem3');
-                        const image = document.getElementById('imagem4');
-    
-                        title.textContent = data.info[0].modelo;
-                        desc.textContent = data.info[0].especificacoes ;
-                        price.textContent = data.info[0].valor;
-                        image.src = data.info[0].imagem1;
-                        image.src = data.info[0].imagem2;
-                        image.src = data.info[0].imagem3;
-                        image.src = data.info[0].imagem4;
-                    })
-                    .catch(error => console.error('Erro ao obter produtos:', error));
-            }
-    
-            // Chame a função getProductInfo quando a página carregar
-            window.addEventListener('load', getProductInfo);
-        </script>
 </body>
 
 </html>

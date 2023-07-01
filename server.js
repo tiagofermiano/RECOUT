@@ -2,8 +2,17 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mysql = require('mysql2');
 const app = express()
+const oneDay = 1000 * 60 * 60 * 24;
+const sessions = require('express-session');
+
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
+app.use(sessions({
+  secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
+  saveUninitialized: true,
+  cookie: { maxAge: oneDay },
+  resave: false
+}));
 
 const path = require('path')
 
@@ -56,6 +65,10 @@ app.post('/login', (req, res) => {
     if (!err) {
       if (email === rows[0].email && password === rows[0].password) {
         console.log('Senha OK');
+        console.log(rows);
+        session = req.session;
+        session.id_user = req.body.email;
+        console.log(req.session.id_user);
         res.redirect('/');
       } else {
         console.log('Senha errada');
@@ -89,39 +102,25 @@ app.post('/cadastro', (req, res) => {
   });
 });
 
-// PUXANDO INFOS DO BANCO
-// PUXANDO INFOS DO BANCO
-// PUXANDO INFOS DO BANCO
-
-app.get('/getProductInfo/:id', (req, res) => {
-  const productId = req.params.id;
-  connection.query(`SELECT * FROM equipamento WHERE id_equipamento = ${productId}`, (err, rows, fields) => {
-    if (!err) {
-      const product = {
-        info: rows
-      };
-      console.log(product);
-      res.json(product);
-    } else {
-      console.log("Erro: Consulta não realizada", err);
-      res.status(500).json({ error: 'Erro no servidor' });
+app.get('/infosperfil', (req, res) => {
+  // Verificar se o usuário está autenticado
+  if (!req.session.id_user) {
+    res.status(401).json({ error: 'Usuário não autenticado' });
+    return;
+  }
+  const email = req.session.id_user;
+  
+  connection.query(`SELECT nome, email FROM cliente WHERE email = '${email}'`, (error, results) => {
+    if (error) {
+      console.error('Erro ao executar consulta: ' + error.stack);
+      return res.status(500).json({ error: 'Erro ao consultar banco de dados' });
     }
+    const objeto = results[0];
+    console.log(objeto);
+    res.json(objeto);
   });
 });
 
-app.get('/getProducts', (req, res) => {
-  connection.query('SELECT * FROM kp_products', (err, rows, fields) => {
-    if (!err) {
-      const product = {
-        info: rows
-      };
-      res.json(product);
-    } else {
-      console.log("Erro: Consulta não realizada", err);
-      res.status(500).json({ error: 'Erro no servidor' });
-    }
-  });
-});
 
 // CONFIGURANDO OBJETOS FILTROS
 // CONFIGURANDO OBJETOS FILTROS

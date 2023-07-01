@@ -177,7 +177,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 15px;
-  grid-column-gap: 490px;
+  grid-column-gap: 410px;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -212,7 +212,7 @@ body {
 
 .itens_direita {
   display: flex;
-  width: 300px;
+  width: 410px;
   height: 50px;
   justify-content: center;
   padding-top: 3%;
@@ -249,7 +249,7 @@ body {
 /* STYLE DA FOTO DO USUÁRIO */
 
 .img_perfil {
-  width: 17%;
+  width: 50px;
   margin-left: 12%;
 }
 
@@ -543,4 +543,33 @@ body {
 
 .botao_veritem:disabled:active {
   transform: translateY(0);
+}
+
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+/* STYLE DO FOOTER */
+
+footer{
+  background-color:#001024;
+  color: #888888;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 1fr;
+  font-family: 'Raleway';
+  padding: 25px;
+}
+
+.footer_left{
+  margin: auto;
+}
+
+.footer_center{
+  margin: auto;
+}
+
+.footer_right{
+  margin: auto;
+}
+
+.logo_footer{
+  width: 90px;
 }
