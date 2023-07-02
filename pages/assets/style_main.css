@@ -348,26 +348,29 @@ footer{
   background-color:#001024;
   color: #888888;
   display: grid;
-  grid-template-columns: 1fr 0.1fr 1fr;
+  grid-template-columns: 1fr 0.3fr 1fr;
   font-family: 'Raleway';
   padding: 25px;
 }
 
 .footer_left{
-  display: flex;
   margin: auto;
 }
 
 .footer_center{
-  display: flex;
   margin: auto;
 }
 
 .footer_right{
-  display: flex;
   margin: auto;
+  text-align: center;
 }
 
 .logo_footer{
   width: 90px;
+}
+
+.footer_right a{
+  margin: auto;
+  color: #FF6100;
 }
