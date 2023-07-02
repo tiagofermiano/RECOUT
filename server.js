@@ -102,6 +102,8 @@ app.post('/cadastro', (req, res) => {
   });
 });
 
+//PUXA AS INFORMAÇÕES DO USUÁRIO DO BANCO PARA A TELA DE PERFIL
+
 app.get('/infosperfil', (req, res) => {
   // Verificar se o usuário está autenticado
   if (!req.session.id_user) {

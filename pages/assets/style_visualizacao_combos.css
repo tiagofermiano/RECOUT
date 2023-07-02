@@ -395,6 +395,12 @@ a{
   display: block;
 }
 
+.imagens{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
 /* STYLE DOS BOTÕES DO CARROSSEL */
 /* STYLE DOS BOTÕES DO CARROSSEL */
 /* STYLE DOS BOTÕES DO CARROSSEL */
