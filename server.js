@@ -24,7 +24,7 @@ app.use(express.static('pages'));
 const connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'recout',
 });
 
@@ -137,6 +137,6 @@ app.get('/dados', (req, res) => {
   });
 });
 
-app.listen(3306, () => {
-    console.log('Servidor rodando na porta 3306!')
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000!')
 })
