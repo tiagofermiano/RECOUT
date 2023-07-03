@@ -544,6 +544,10 @@ a.link_continuar:active {
   transform: translateY(0);
 }
 
+.botoes a{
+  text-decoration: none;
+}
+
 /* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
 /* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
 /* FORMATAÇÃO DO AGRUPAMENTO DOS ITENS DA CAIXINHA */
