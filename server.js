@@ -24,7 +24,7 @@ app.use(express.static('pages'));
 const connection = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    password: '',
+    password: 'root',
     database: 'recout',
 });
 
@@ -37,14 +37,14 @@ connection.connect(function (err) {
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/pages/recout_main.html')
+  res.sendFile(__dirname + '/pages/recout_perfil.html')
 })
 
 // FUNÇÕES PARA LOGIN
 // FUNÇÕES PARA LOGIN
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/pages/recout_main.html')
+  res.sendFile(__dirname + '/pages/recout_perfil.html')
 })
 
 app.get('/login', (req, res) => {
@@ -139,6 +139,6 @@ app.get('/dados', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-    console.log('Servidor rodando na porta 3000!')
+app.listen(3002, () => {
+    console.log('Servidor rodando na porta 3002!')
 })
