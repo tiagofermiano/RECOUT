@@ -329,6 +329,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2%;
 }
 
 /* FORMATAÇÃO DOS TEXTOS DO FORM CADASTRO */
