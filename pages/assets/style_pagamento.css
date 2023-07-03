@@ -340,6 +340,10 @@ body {
     touch-action: manipulation;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* ANIMAÇÃO DO BOTÃO FINALIZAR */
 /* ANIMAÇÃO DO BOTÃO FINALIZAR */
 /* ANIMAÇÃO DO BOTÃO FINALIZAR */
