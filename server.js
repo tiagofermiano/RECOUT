@@ -36,15 +36,11 @@ connection.connect(function (err) {
   }
 });
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/pages/recout_perfil.html')
-})
-
 // FUNÇÕES PARA LOGIN
 // FUNÇÕES PARA LOGIN
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/pages/recout_perfil.html')
+  res.sendFile(__dirname + '/pages/recout_main.html')
 })
 
 app.get('/login', (req, res) => {
